@@ -524,7 +524,7 @@ footer .footer-wrapper #footerbox.active ul{display: block;}
 .listing-popup1-wrapper .popup1-button{display: flex;align-items: center;justify-content: space-between; padding: 40px 0;}
 .listing-popup1-wrapper .button1 .btn{width: 302px;height: 66px;font-size: 16px;font-weight: 500;border-radius: 125px;border-color: #D4D4D4;color: rgb(0, 0, 0); }
 .listing-popup1-wrapper .button2 .btn{width: 447px;height: 66px;background-color: #12284C;font-size: 16px;font-weight: 500;border-radius: 125px;color: rgb(255, 255, 255); }
-.listing-popup1-wrapper .popup-image{width: 779px;height: 293px;background-color:#DBDBDB;margin: 20px 0;}
+.listing-popup1-wrapper .popup-image{width: auto;height: 293px;background-color:#DBDBDB;margin: 20px 0;}
 
 
 .listing-popup1{background-color: #fff;z-index: 99;position: relative;}
@@ -710,6 +710,7 @@ footer .footer-wrapper #footerbox.active ul{display: block;}
     .listing-popup1-wrapper .popup1-button{flex-direction: column;width: 100%;}
     .listing-popup1-wrapper .popup1-button .button1,.listing-popup1-wrapper .popup1-button .button2{display: block;width: 100%;}
     .listing-popup1-wrapper .button1 .btn, .listing-popup1-wrapper .button2 .btn {width: 100%;margin-top: 20px;}
+    .listing-popup1-wrapper .popup-image {width: auto;}
 }
 
 @media (max-width:768px){

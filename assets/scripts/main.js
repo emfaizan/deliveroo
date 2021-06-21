@@ -18,6 +18,18 @@ function checkout(){
     document.getElementById('basket-overview-panel').classList.toggle('active');
 };
 
+function listpop(){
+    document.getElementById('listing-popup1').classList.toggle('active');
+};
+
+function listpop2(){
+    document.getElementById('listing-popup2').classList.toggle('active');
+};
+
+function listpop3(){
+    document.getElementById('listing-popup3').classList.toggle('active');
+};
+
 $(document).ready(function(){
 
     $(window).scroll(function(){
