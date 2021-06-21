@@ -30,6 +30,14 @@ function listpop3(){
     document.getElementById('listing-popup3').classList.toggle('active');
 };
 
+function listpop4(){
+    document.getElementById('listing-popup4').classList.toggle('active');
+};
+
+function creditpop(){
+    document.getElementById('checkout-pupup').classList.toggle('active');
+};
+
 $(document).ready(function(){
 
     $(window).scroll(function(){
