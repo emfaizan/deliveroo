@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
+       
+        <link rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.min.css">
+    
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+        
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+        <!--  MAIN JS --->
+        
+        <script src="assets/scripts/main.js"></script>
+        
+        <!-- Popper JS -->
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        
+        <title>Detail page</title>
+    </head>
+<body>
+
+      <!---  HEADER  START  -->
+
+      <header>
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="logo">
+                    <a href="index.html">
+                    <img src="assets/images/logo.svg" alt="">
+                   </a>
+                </div>
+                <div class="header-info-area">
+                    <div class="lang-wrapper">
+                        العربية
+                    </div>
+                    <div class="info d-flex align-items-center justify-content-center">
+                        <img src="assets/images/info.svg" alt="">
+                    </div>
+                    <div class="shopping-cart">
+                        <div class="picture">
+                        <img src="assets/images/shopping-cart.png" alt="">
+                        <div class="quantity">
+                            <span>34</span>
+                        </div>
+                        </div>
+                        <div class="number">
+                            BD 114.430
+                        </div>
+                    </div>
+                    <div class="burger-menu" onclick="main()">
+                        <img src="assets/images/burger-menu.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+      </header>
+
+    <div class="main-menu" id="main-menu">
+        <div class="back-overlay"></div>
+         <div class="main-menu-content">
+             <div class="navigation-top">
+                 <div class="picture-logo">
+                 <img src="assets/images/logo.svg" alt="">
+                </div>
+                 <div class="cancel">
+                     <img src="assets/images/cancel.svg" onclick="main()" alt="">
+                 </div>
+             </div>
+             <div class="menu-list">
+                <ul>
+                    <li><a href="/">Account <br> <span> olqaaa@hotmail.com</span></a></li>
+                    <li><a href="/">Order History</a></li>
+                    <li><a href="/">FAQs</a></li>
+                    <li><a href="/">Log out</a></li>
+                </ul>
+             </div>
+             <div class="header-bottom">
+                <div class="text">
+                    <h4>Bahrain</h4>
+                </div>
+                <div class="picture">
+                    <img src="assets/images/header-arrow.svg" alt="">
+                </div>
+             </div>
+         </div>
+     </div>
+
+    <!---  HEADER  END  -->
+
+    <!--  CHECKOUT WRAPPER  -->
+
+    <section class="checkout-wrapper-main">
+        <div class="container">
+            <div class="checkout-wrapper-grid">
+                <div class="row row-main">
+                    <div class="col-lg-8">
+                        <div class="otto-italian-box">
+                            <div class="title">
+                                <h2>Otto Italian Restaurant</h2>
+                                <div class="d-flex">
+                                 <img src="assets/images/clock.svg" alt=""> <p>Deliver in 20-30 minutes</p>
+                                </div>
+                            </div>
+                            <div class="checkout-address-box">
+                                <div class="tophead">
+                                    <h2>When</h2>
+                                </div>
+
+                                <label class="flex-area checkout-time">
+                                    <div class="input">
+                                        <img src="assets/images/border-blue.svg" class="border-b" alt="">
+                                        <span class="cutom-radio">
+                                            <input type="radio" name="when">
+                                        </span>
+                                    </div>
+                                    <div class="text">
+                                        <h4>Now</h4>
+                                        <p>Arriving in 45-60 min</p>
+                                    </div>
+                                </label>
+                                <label class="flex-area">
+                                    <div class="input">
+                                        <img src="assets/images/border-grey.svg" class="border-g" alt="">
+                                        <input type="radio" name="when">
+                                    </div>
+                                    <div class="text">
+                                        <h4>Schedule</h4>
+                                    </div>
+                                </label>
+
+                                <div class="delivery-address">
+                                        <div class="tophead">
+                                            <h2>Delivery Address</h2>
+                                        </div>
+                                    <div class="row">
+                                        <div class="col-lg-6 mb-4">
+                                            <input type="text" name="" id="" placeholder="Alanood" class="form-control">
+                                        </div>
+                                        <div class="col-lg-6 mb-4">
+                                            <input type="text" name="" id="" placeholder="Alshaikha" class="form-control">
+                                        </div>
+                                        <div class="col-lg-6 mb-4">
+                                            <input type="text" name="" id="" placeholder="Alshaikha" class="form-control">
+                                        </div>
+                                        <div class="col-lg-6 mb-4">
+                                            <select id="Select Area" class="form-control">
+                                                <option value="volvo">Select Area</option>
+                                                <option value="volvo">Select Area</option>
+                                                <option value="volvo">Select Area</option>
+                                                <option value="volvo">Select Area</option>
+                                            </select>                                       
+                                        </div>
+                                        <div class="col-lg-6 mb-4">
+                                            <input type="text" name="" id="" placeholder="Alshaikha" class="form-control"> 
+                                        </div>
+                                        <div class="col-lg-6 mb-4">
+                                            <input type="text" name="" id="" placeholder="Alshaikha" class="form-control">
+                                        </div>
+                                        <div class="col-lg-6 mb-4">
+                                            <input type="text" name="" id="" placeholder="Alshaikha" class="form-control">
+                                        </div>
+                                        <div class="col-lg-6 mb-4">
+                                            <input type="text" name="" id="" placeholder="Alshaikha" class="form-control">
+                                        </div>
+                                        <div class="col-12">
+                                            <input type="text" name="" id="" placeholder="Alshaikha" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                    <div class="payment-method">
+                                        <div class="tophead">
+                                            <h2>Payment Method</h2>
+                                        </div>
+                                        <div class="flex-area">
+                                            <div class="picture">
+                                                <img src="assets/images/border-blue.svg" alt="">
+                                            </div>
+                                            <h4>Cash</h4>
+                                        </div>
+                                        <div class="flex-area">
+                                            <div class="picture">
+                                                <img src="assets/images/border-grey.svg" alt="">
+                                            </div>
+                                            <h4>Credit Card</h4>
+                                        </div>
+                                        <div class="flex-area">
+                                            <div class="picture">
+                                                <img src="assets/images/border-grey.svg" alt="">
+                                            </div>
+                                            <h4>Debit Card</h4>
+                                        </div>
+                                    </div>
+                                    <div class="credit-card">
+                                        <div class="tophead">
+                                            <h2>Credit Card</h2>
+                                        </div>
+                                    <div class="row">
+                                        <div class="col-lg-6 mb-4">
+                                            <input type="text" name="" id="" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-6 mb-4">
+                                            <input type="text" name="" id="" class="form-control" value="444242342342424242">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="row">
+                                                <div class="col-lg-6">
+                                                    <input type="text" name="" id="" placeholder="MM / YY" class="form-control">
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <div class="form-group">
+                                                    <div class="input">
+                                                        <input type="text" name="" id="" placeholder="CVV" class="form-control">
+                                                        <img src="assets/images/Icons.svg" alt="">
+                                                    </div>
+                                                    <div class="d-flex">
+                                                        <p>Powered by</p>
+                                                         <div>   
+                                                         <img src="assets/images/gcc.png"  alt="">
+                                                        </div>
+                                                    </div>
+                                                   </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="term-condition">
+                                        <p>By making this purchase you agree to our <b> Terms & Conditions.</b></p>
+                                    </div>
+                                    <div class="save-btn">
+                                        <a href="/">SAVE</a>
+                                    </div>
+                                    <div class="confirm-place-order">
+                                        <a href="/">CONFIRM & PLACE ORDER</a>
+                                    </div>
+                                    <div class="payment-checkout d-flex justify-content-center">
+                                        <img src="assets/images/payemt-check.png" alt="">
+                                    </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="basket-box">
+                           <div class="title">
+                                <h2>Basket</h2>
+                            </div>
+                            <div class="top-area">
+                            <div class="flex-area">
+                            <div class="number">
+                                <h4>2x</h4>
+                            </div>
+                            <div class="info">
+                                <h4>Cheesburger</h4>
+                                <p>Diet Coke <br> Glaceau Smart Water <br> Coca-Cola Zero Sugar <br> Ketchup on the Side</p>
+                            </div>
+                            <div class="price">
+                                <h5>BD 35.200</h5>
+                            </div>
+                            </div>
+                            <div class="flex-area">
+                                <div class="number">
+                                    <h4>2x</h4>
+                                </div>
+                                <div class="info">
+                                    <h4>Little Bacon Burger</h4>
+                                    <p>In a Bowl</p>
+                                </div>
+                                <div class="price">
+                                    <h5>BD 35.200</h5>
+                                </div>
+                            </div>
+                           </div>
+                           <div class="subtotal-area">
+                               <div class="flex-area">
+                                   <h5>Subtotal</h5>
+                                   <h5>BD 1.200</h5>
+                               </div>
+                               <div class="flex-area">
+                                <div class="head">
+                                <h5>Delivery fee</h5>
+                                <img src="assets/images/tag-grey.svg" alt=""><span>Your delivery's free for 14 more days!</span>
+                                </div>
+                                <h5>BD 5.300</h5>
+                              </div>
+                              <div class="flex-area">
+                                <h5>Service Fee</h5>
+                                <h5>BD 0.490</h5>
+                            </div>
+                            <h4 class="blue-head">How do your fees work?</h4>
+                            <div class="flex-area">
+                                <h5>Rider Trip</h5>
+                                <h5>BD 0.000</h5>
+                            </div>
+                           </div>
+                           <div class="total-area">
+                               <span class="d-inline-block">
+                                Total
+                               </span>
+                               <span class="d-inline-block">
+                                BD 44.101
+                               </span>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--  CHECKOUT WRAPPER  -->
+
+   <!--- FOOTER --->
+
+   <footer>
+    <div class="container">
+        <div class="footer-wrapper">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="footer-box">
+                        <div class="footer-logo">
+                            <img src="assets/images/footer-logo.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="footer-topheading">
+                        <h2>Ahlan is a mobile food delivery marketplace available in 13 countries.</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="footer-box">
+                                <h4>Sitemap</h4>
+                                 <ul>
+                                     <li><a href="/">Find a Restaurant</a></li>
+                                     <li><a href="/">Download App</a></li>
+                                     <li><a href="/">About Ahlan</a></li>
+                                     <li><a href="/">Ahlan for Restaurants</a></li>
+                                     <li><a href="/">Blog</a></li>
+                                 </ul>
+                                 
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="footer-box">
+                                <h4>General</h4>
+                                 <ul>
+                                     <li><a href="/">Support</a></li>
+                                     <li><a href="/">Cancellation Policy</a></li>
+                                     <li><a href="/">Careers & Culture</a></li>
+                                     <li><a href="/">Media Inquiries</a></li>
+                                     <li><a href="/">Contact Dineout</a></li>
+                                 </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="footer-box">
+                                <h4 class="d-lg-none d-block">Contact us</h4>
+                                 <div class="social-icons">
+                                     <ul>
+                                      <li><a href="/"><img src="assets/images/twitter.svg" alt=""></a></li>   
+                                      <li><a href="/"><img src="assets/images/instagram.svg" alt=""></a></li>
+                                      <li><a href="/"> <img src="assets/images/facebook.png" alt=""></a></li>
+                                    </ul>
+                                 </div>
+                                 <ul>
+                                     <h5>Contact us</h5>
+                                     <li><a href="/"><img src="assets/images/payment-arrow.svg" alt=""></a></li>
+                                 </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="payment-options d-flex justify-content-center d-lg-none d-block">
+                        <img src="assets/images/payment-footer.svg" alt="">
+                    </div>
+                    <div class="gototop-btn d-lg-none d-block">
+                        <button id="gototop"> <img src="assets/images/gotop.svg" alt=""> </button>
+                      </div>
+                      <div class="line">
+
+                      </div>
+                    <div class="copyrights">
+                        <p>© Copyright 2020. AHLAN RESTAURANT All Right Reserved</p>
+                        <p>Powered By</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<!--- FOOTER --->
+  
+
+</body>
+</html>
+
+
