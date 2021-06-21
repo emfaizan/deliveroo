@@ -26,6 +26,12 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         
         <title>Detail page</title>
+
+        <style>
+            .option.custom-radio input {opacity:0; position:absolute; top:-1000%; left:-1000%; visibility:hidden;}
+            .option.custom-radio label {min-height:23px;background-image:url('/assets/images/border-grey.svg'); background-repeat:no-repeat; padding-left:50px;}
+            .option.custom-radio input:checked ~ label {background-image:url('/assets/images/border-blue.svg');}
+        </style>
     </head>
 <body>
 
@@ -108,7 +114,8 @@
                             <div class="title">
                                 <h2>Otto Italian Restaurant</h2>
                                 <div class="d-flex">
-                                 <img src="assets/images/clock.svg" alt=""> <p>Deliver in 20-30 minutes</p>
+                                    <img src="assets/images/clock.svg" alt="">
+                                    <p>Deliver in 20-30 minutes</p>
                                 </div>
                             </div>
                             <div class="checkout-address-box">
@@ -116,26 +123,30 @@
                                 <div class="tophead">
                                     <h2>When</h2>
                                 </div>
-                                <div class="flex-area">
-                                    <div class="picture">
-                                        <img src="assets/images/border-blue.svg" class="border-b" alt="">
-                                    </div>
-                                    <div class="text">
-                                        <h4>Now</h4>
-                                        <p>Arriving in 45-60 min</p>
-                                    </div>
+
+                                <div class="option custom-radio">
+                                    <input type="radio" name="when" id="now">
+                                    <label class="flex-area" for="now">
+                                        <div class="text">
+                                            <h4>Now</h4>
+                                            <p>Arriving in 45-60 min</p>
+                                        </div>
+                                    </label>
                                 </div>
-                                <div class="flex-area">
-                                    <div class="picture">
-                                        <img src="assets/images/border-grey.svg" class="border-g" alt="">
-                                    </div>
-                                    <div class="text">
-                                        <h4>Schedule</h4>
-                                    </div>
+
+                                <div class="option custom-radio">
+                                    <input type="radio" name="when" id="schedule">
+                                    <label class="flex-area" for="schedule">
+                                        <div class="text">
+                                            <h4>Schedule</h4>
+                                        </div>
+                                    </label>
                                 </div>
+
+
                                 <div class="row mt-4">
                                     <div class="col-lg-6">
-                                        <select name="" id="">
+                                        <select name="" id="" class="form-control">
                                             <option value="">Select Date</option>
                                             <option value="">Select Date</option>
                                             <option value="">Select Date</option>
@@ -144,7 +155,7 @@
                                         </select>
                                     </div>
                                     <div class="col-lg-6">
-                                        <select name="" id="">
+                                        <select name="" id="" class="form-control">
                                             <option value="">Now</option>
                                             <option value="">Now</option>
                                             <option value="">Now</option>
@@ -174,29 +185,44 @@
                                     </div>
                                 </div>
                             </div>
-                                    <div class="payment-method">
-                                        <div class="tophead">
-                                            <h2>Payment Method</h2>
-                                        </div>
-                                        <div class="flex-area">
-                                            <div class="picture">
-                                                <img src="assets/images/border-blue.svg" alt="">
-                                            </div>
+
+
+                            <div class="payment-method">
+                                <div class="tophead">
+                                    <h2>Payment Method</h2>
+                                </div>
+
+                                <div class="option custom-radio">
+                                    <input type="radio" name="when" id="cash">
+                                    <label class="flex-area" for="cash">
+                                        <div class="text">
                                             <h4>Cash</h4>
                                         </div>
-                                        <div class="flex-area">
-                                            <div class="picture">
-                                                <img src="assets/images/border-grey.svg" alt="">
-                                            </div>
+                                    </label>
+                                </div>
+
+                                
+                                <div class="option custom-radio">
+                                    <input type="radio" name="when" id="ccard">
+                                    <label class="flex-area" for="ccard">
+                                        <div class="text">
                                             <h4>Credit Card</h4>
                                         </div>
-                                        <div class="flex-area">
-                                            <div class="picture">
-                                                <img src="assets/images/border-grey.svg" alt="">
-                                            </div>
+                                    </label>
+                                </div>
+
+                                
+                                <div class="option custom-radio">
+                                    <input type="radio" name="when" id="debit">
+                                    <label class="flex-area" for="debit">
+                                        <div class="text">
                                             <h4>Debit Card</h4>
                                         </div>
-                                    </div>
+                                    </label>
+                                </div>
+                            </div>
+
+
                                     <div class="credit-card">
                                         <div class="tophead">
                                             <h2>Verify</h2>
