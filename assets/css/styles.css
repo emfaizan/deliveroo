@@ -209,7 +209,6 @@ footer .footer-wrapper .gototop-btn{border-bottom: 1px solid #273D50;}
 
 .main-acoount-tabs .dinein-verification-box .details h4{color: #4C4C4C;font-size: 17px;font-weight: 600;}
 .main-acoount-tabs .dinein-verification-box .pin-box .box{border: 1px solid #E2E2E2;border-radius: 4px;width: 74px;height: 63px;margin-right: 18px;text-align: center;line-height: 63px;font-weight: bold;}
-.main-acoount-tabs .dinein-verification-box .pin-box{}
 
 footer .footer-wrapper #footerbox.active ul{display: block;}
 
@@ -503,6 +502,97 @@ footer .footer-wrapper #footerbox.active ul{display: block;}
 .basket-overview-panel .basket-overview-panel-con .bottom-box-basket .go-check{border-radius:30px;height:46px;line-height:46px;text-align:center;display: block;background: #12284C;width: 100%;color: #fff;font-size: 12px;font-weight: 600;letter-spacing: 0.72px;}
 .basket-overview-panel .basket-overview-panel-con .bottom-box-basket .back{border-radius:30px;height:46px;line-height:46px;text-align:center;display: block;border: 2px solid #D4D4D4;width: 100%;color: #000000;font-size: 12px;font-weight: 600;letter-spacing: 0.72px;margin-top: 15px;}
 
+
+/*   POPUPS SECTION   */
+
+/* Steamed Pork & Vegetable Dumpling START */
+
+.listing-popup1-wrapper{background: rgb(253, 253, 253);border:1px solid rgb(231, 229, 229);width: 830px;padding: 34px 27px;position: relative;}
+.listing-popup1-wrapper .popup1-cross-icon{position: absolute;right: 0px;top:15px;}
+.listing-popup1-wrapper h2 { font-size: 30px;font-weight:600;color: #12284C;padding-top: 20px;}
+.listing-popup1-wrapper .prag-bottom{font-size: 19px;color: #747474;font-weight: 500;padding-bottom: 15px;border-bottom: 1px solid #E5E5E5;padding-top: 10px;}  
+.listing-popup1-wrapper .Optional-head h2{font-size: 26px;font-weight:600;color: #12284C;padding-top: 45px;}
+.listing-popup1-wrapper .Optional-head p {font-size: 19px;color: #747474;line-height:25px;font-weight: 400;}
+.listing-popup1-wrapper .checkbox-content h2{font-size: 26px;color: #000000;}
+.listing-popup1-wrapper .form-check{padding-bottom: 0px;margin-top: 20px;}
+.listing-popup1-wrapper .form-check .form-check-label{font-size: 20px;color: #747474;font-weight: 500;}
+.listing-popup1-wrapper .checkbox-area{display: flex;align-items: center;justify-content: space-between;margin-bottom: -12px;}
+.listing-popup1-wrapper .form-check-label{font-size: 14px;color: #12284C;}
+.listing-popup1-wrapper .checkbox{padding-left: 15px;}
+.listing-popup1-wrapper .price p{color: #747474;}
+.listing-popup1-wrapper .address p{font-size: 18px;line-height: 20px;padding-left: 15px;}
+.listing-popup1-wrapper .popup1-button{display: flex;align-items: center;justify-content: space-between; padding: 40px 0;}
+.listing-popup1-wrapper .button1 .btn{width: 302px;height: 66px;font-size: 16px;font-weight: 500;border-radius: 125px;border-color: #D4D4D4;color: rgb(0, 0, 0); }
+.listing-popup1-wrapper .button2 .btn{width: 447px;height: 66px;background-color: #12284C;font-size: 16px;font-weight: 500;border-radius: 125px;color: rgb(255, 255, 255); }
+.listing-popup1-wrapper .popup-image{width: 779px;height: 293px;background-color:#DBDBDB;margin: 20px 0;}
+
+
+.listing-popup1{background-color: #fff;z-index: 99;position: relative;}
+.listing-popup1 .back-overlay {width: 100%;height: 100vh;background-color: rgba(0,0,0,0.5);position: fixed;top: 0;left: 0;display: none;}
+#listing-popup1.active .back-overlay {display: block;}
+#listing-popup1.active .listing-popup1-wrapper {transition: .3s ease-in-out;transform: translate(-50%,-50%) scale(1);}
+.listing-popup1 .listing-popup1-wrapper {max-height: calc(100% + 2px);overflow-y: auto;overflow-x: hidden;overscroll-behavior:contain;background: #fff;position: fixed;top: 50%;left: 50%;transform: translate(-50%,-50%);transform: translate(-50%,-50%) scale(0);z-index: 1;}
+
+
+.listing-popup2{background-color: #fff;z-index: 99;position: relative;}
+.listing-popup2 .back-overlay {width: 100%;height: 100vh;background-color: rgba(0,0,0,0.5);position: fixed;top: 0;left: 0;display: none;}
+#listing-popup2.active .back-overlay {display: block;}
+#listing-popup2.active .listing-popup1-wrapper {transition: .3s ease-in-out;transform: translate(-50%,-50%) scale(1);}
+.listing-popup2 .listing-popup1-wrapper {max-height: calc(100% + 2px);overflow-y: auto;overflow-x: hidden;overscroll-behavior:contain;background: #fff;position: fixed;top: 50%;left: 50%;transform: translate(-50%,-50%);transform: translate(-50%,-50%) scale(0);z-index: 1;}
+
+
+.listing-popup3 .addup-option{display: flex;align-items: center;justify-content: center;padding: 40px;border-bottom: 1px solid #E5E5E5;}
+.listing-popup3 .addup-option .addup{padding-right: 65px;}
+.listing-popup3{background-color: #fff;z-index: 99;position: relative;}
+.listing-popup3 .back-overlay {width: 100%;height: 100vh;background-color: rgba(0,0,0,0.5);position: fixed;top: 0;left: 0;display: none;}
+#listing-popup3.active .back-overlay {display: block;}
+#listing-popup3.active .listing-popup1-wrapper {transition: .3s ease-in-out;transform: translate(-50%,-50%) scale(1);}
+.listing-popup3 .listing-popup1-wrapper {max-height: calc(100% + 2px);overflow-y: auto;overflow-x: hidden;overscroll-behavior:contain;background: #fff;position: fixed;top: 50%;left: 50%;transform: translate(-50%,-50%);transform: translate(-50%,-50%) scale(0);z-index: 1;}
+
+/* for popup3  */
+/* .addup-option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    border-bottom: 1px solid #E5E5E5;
+}
+.addup{
+    padding-right: 65px;
+    
+}
+.addup h3{
+    font-size: 42px;
+    color: black;
+}
+.close-button{
+    text-align: center;
+}
+.close-button .btn{
+    margin: 40px 0;
+    width: 447px;
+    height: 59px;
+    background-color: #12284C;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 50px;
+    color: white; 
+}
+.Optional-head h6{
+    font-size: 23px;
+    color: #747474;
+}
+.info-blog{
+    display: flex;  
+}
+.info-text p{
+    font-size: 20px;
+    color: #12284C;
+    padding-left: 10px;
+} */
+
+
+
 /*   MEDIA QUERIES  */
 
 
@@ -615,6 +705,11 @@ footer .footer-wrapper #footerbox.active ul{display: block;}
     .main-acoount-tabs {margin-top:0;}
     .main-acoount-tabs .account-content {border:0; padding:30px 0 50px;}
     .main-acoount-tabs .account-tabs-nav {border:1px solid #E5E5E5;}
+
+    .listing-popup1-wrapper {max-width: 100%;}
+    .listing-popup1-wrapper .popup1-button{flex-direction: column;width: 100%;}
+    .listing-popup1-wrapper .popup1-button .button1,.listing-popup1-wrapper .popup1-button .button2{display: block;width: 100%;}
+    .listing-popup1-wrapper .button1 .btn, .listing-popup1-wrapper .button2 .btn {width: 100%;margin-top: 20px;}
 }
 
 @media (max-width:768px){
@@ -727,9 +822,7 @@ footer .footer-wrapper #footerbox.active ul{display: block;}
 
     .main-listing .listing-wrapper .top-area-head .picture-head .span-grey {font-size: 12px;}
     .main-listing .listing-wrapper .top-area-head .picture-head .span-blue {font-size: 16px;}
-    .main-listing .listing-wrapper .product-grid-wrapper .image-wrapper .free-delivery a {
-    letter-spacing: 0.035rem;
-}
+    .main-listing .listing-wrapper .product-grid-wrapper .image-wrapper .free-delivery a {letter-spacing: 0.035rem;}
     .main-listing .listing-wrapper .product-grid-wrapper .image-wrapper .time-duration {height: 40px;width: 70px;}
     .main-listing .listing-wrapper .product-grid-wrapper .image-wrapper .time-duration .time {font-size:11px;}
     .main-listing .listing-wrapper .product-grid-wrapper .image-wrapper .time-duration .min {font-size: 11px;}
@@ -791,6 +884,15 @@ footer .footer-wrapper #footerbox.active ul{display: block;}
 
     .checkout-wrapper-main .checkout-wrapper-grid .checkout-address-box .save-btn a {height: 40px;line-height: 40px;font-size: 12px;}
 
+    .listing-popup1-wrapper h2 {font-size: 16px;}
+    .listing-popup1-wrapper h2 br{display: none;}
+    .listing-popup1-wrapper {padding: 25px 12px;}
+    .listing-popup1-wrapper .prag-bottom {font-size: 13px;}
+    .listing-popup1-wrapper .Optional-head h2 {font-size: 18px;padding-top: 32px;}
+    .listing-popup1-wrapper .Optional-head p {font-size: 13px;}
+    .listing-popup1-wrapper .form-check .form-check-label {font-size: 13px;}
+    .listing-popup1-wrapper .popup1-cross-icon{top: 5px;}
+    .listing-popup1-wrapper .popup1-cross-icon img{width: 30px;}
 }
 
 
