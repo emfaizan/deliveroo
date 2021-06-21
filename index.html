@@ -1,727 +1,578 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/styles.css">
-       
-        <link rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.min.css">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+   
+    <link rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
     
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
-        
-        <!-- jQuery library -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!--  MAIN JS --->
     
-        <!--  MAIN JS --->
-        
-        <script src="assets/scripts/main.js"></script>
-        
-        <!-- Popper JS -->
-        
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="assets/scripts/main.js"></script>
     
-        <!-- Latest compiled JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-        
-        <title>Detail page</title>
-    </head>
+    <!-- Popper JS -->
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <title>Product List Page</title>
+</head>
 <body>
 
-      <!---  HEADER  START  -->
+    <!---  HEADER  START  -->
 
-      <header>
-        <div class="container">
-            <div class="header-wrapper">
-                <div class="logo">
-                    <a href="index.html">
-                    <img src="assets/images/logo.svg" alt="">
-                   </a>
+   <header>
+    <div class="container">
+        <div class="header-wrapper">
+            <div class="logo">
+                <a href="index.html">
+                <img src="assets/images/logo.svg" alt="">
+               </a>
+            </div>
+            <div class="header-info-area">
+                <div class="lang-wrapper">
+                    العربية
                 </div>
-                <div class="header-info-area">
-                    <div class="lang-wrapper">
-                        العربية
+                <div class="info d-flex align-items-center justify-content-center">
+                    <img src="assets/images/info.svg" alt="">
+                </div>
+                <div class="shopping-cart">
+                    <div class="picture">
+                    <img src="assets/images/shopping-cart.png" alt="">
+                    <div class="quantity">
+                        <span>34</span>
                     </div>
-                    <div class="info d-flex align-items-center justify-content-center">
-                        <img src="assets/images/info.svg" alt="">
                     </div>
-                    <div class="shopping-cart">
-                        <div class="picture">
-                        <img src="assets/images/shopping-cart.png" alt="">
-                        <div class="quantity">
-                            <span>34</span>
-                        </div>
-                        </div>
-                        <div class="number">
-                            BD 114.430
-                        </div>
+                    <div class="number">
+                        BD 114.430
                     </div>
-                    <div class="burger-menu" onclick="main()">
-                        <img src="assets/images/burger-menu.svg" alt="">
-                    </div>
+                </div>
+                <div class="burger-menu" onclick="main()">
+                    <img src="assets/images/burger-menu.svg" alt="">
                 </div>
             </div>
         </div>
-      </header>
+    </div>
+  </header>
 
-    <div class="main-menu" id="main-menu">
-        <div class="back-overlay"></div>
-         <div class="main-menu-content">
-             <div class="navigation-top">
-                 <div class="picture-logo">
-                 <img src="assets/images/logo.svg" alt="">
-                </div>
-                 <div class="cancel">
-                     <img src="assets/images/cancel.svg" onclick="main()" alt="">
-                 </div>
-             </div>
-             <div class="menu-list">
-                <ul>
-                    <li><a href="/">Account <br> <span> olqaaa@hotmail.com</span></a></li>
-                    <li><a href="/">Order History</a></li>
-                    <li><a href="/">FAQs</a></li>
-                    <li><a href="/">Log out</a></li>
-                </ul>
-             </div>
-             <div class="header-bottom">
-                <div class="text">
-                    <h4>Bahrain</h4>
-                </div>
-                <div class="picture">
-                    <img src="assets/images/header-arrow.svg" alt="">
-                </div>
+   <div class="main-menu" id="main-menu">
+    <div class="back-overlay"></div>
+     <div class="main-menu-content">
+         <div class="navigation-top">
+             <div class="picture-logo">
+             <img src="assets/images/logo.svg" alt="">
+            </div>
+             <div class="cancel">
+                 <img src="assets/images/cancel.svg" onclick="main()" alt="">
              </div>
          </div>
-     </div>
-
-    <!---  HEADER  END  -->
-
-    <!---  DEATILS GRID  --->
-
-    <section class="details-grid">
-        <div class="container">
-            <div class="details-grid-wrapper">
-                <div class="details">
-                     <div class="title d-flex justify-content-between">
-                    <h2>Otto Italian Restaurants</h2>
-                    <div class="open d-sm-none d-block">
-                        <a href="" class="d-block">OPEN</a>
-                    </div>
-                    </div>
-                    <div class="reviews d-flex align-items-center">
-                    <div class="stars">
-                        <img src="assets/images/stars.svg" alt="">
-                    </div>
-                    <span> 4.7 (53+ Reviews)</span>
-                   </div>
-                   <div class="flex-area d-sm-none d-flex justify-content-between">
-                    <div class="very-good d-flex align-items-center">
-                        <div class="picture">
-                            <img src="assets/images/smile.svg" alt="">
-                        </div>
-                        <h4>Very Good</h4>
-                   </div>
-                   <div class="payment-option">
-                       <img src="assets/images/payment-detail.png" alt="">
-                   </div>
-                   </div>
-                   <div class="info">
-                       <p>
-                            <span>Salads</span>
-                            <span>Breakfast</span>
-                            <span>Sandwiches</span>
-                            <span>Healthy</span>
-                            <span>Vegan</span>
-                            <span>Friendly Vegetarian</span>
-                            <span>Vegetarian</span>
-                            <span>Open until 19:00</span>
-                            <span>Free delivery</span>
-                            <span>0.04 miles away</span>
-                            <span>Trafalgar Square, London, WC2N5DS. <a href="/">View map</a></span>
-                        </p>
-                       <p>Many desktop publishing packages and web page editors now use Lorem Ipsum <br> as their default model text, and a search for 'lorem ipsum' will uncover </p>
-                   </div>
-                   <div class="restaurent-info d-flex">
-                       <div class="picture">
-                      <img src="assets/images/border-info.svg" alt="">
-                     </div>
-                     <div class="meta">
-                         <h4 onclick="listpop4()">Restaurant info</h4>
-                         <h5>Map, allergens and hygiene rating</h5>
-                     </div>
-                   </div>
-                </div>
-               <div class="other-info d-sm-flex d-none">
-                   <div class="open">
-                       <a href="" class="d-block">OPEN</a>
-                   </div>
-                   <div class="very-good d-flex align-items-center">
-                        <div class="picture">
-                            <img src="assets/images/smile.svg" alt="">
-                        </div>
-                        <h4>Very Good</h4>
-                   </div>
-                   <div class="payment-option">
-                       <img src="assets/images/payment-detail.png" alt="">
-                   </div>
-               </div>
-              </div>
-        </div>
-    </section>
-
-    <!---  DEATILS GRID  --->
-
-      <!-- Steamed Pork & Vegetable Dumpling START -->
-
-     <div class="listing-popup1" id="listing-popup1">
-    <div class="back-overlay">
-
-    </div>
-    <div class="container">
-                <div class="listing-popup1-wrapper">
-                        <div class="popup1-cross-icon">
-                            <img src="assets/images/popup-close.svg" alt="" onclick="listpop()">
-                        </div>
-                        <h2>Steamed Pork & Vegetable Dumpling <br>
-                            (8pc) </h2>
-                        <p class="prag-bottom">Romaine, bacon  , chicken, parmesan cheese, crouton, red cabbage, Caesar
-                            dressing</p>
-                            <div class="Optional-head">
-                            <h2>Without a Bun</h2>
-                            <p>Optional</p>
-                            </div>
-                        <div class="checkbox-content">
-                            <div class="checkbox-blog">
-                                <div class="form-check">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1">In a Bowl </label>
-                                  </div>
-                                  <div class="form-check">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1">Lettuce Wrap</label>
-                                  </div>
-                            </div>
-                        </div>
-                        <div class="Optional-head">
-                            <h2>Add Fries</h2>
-                            <p>Want hot fries? We all do! Switch your oven to 180 degrees now and when your
-                                order arrives, pop them in for 5 minutes and presto, hot Five Guys fries right out
-                                of YOUR oven! Our fries are cooked in pure, tasty peanut oil.</p>
-                        </div>
-                        <div class="checkbox-content">
-                            <div class="checkbox-area">
-                                <div class="form-check">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1">Little Five Guys Style</label>
-                                  </div>
-                                  <div class="price"><p>+ $15.500</p></div>
-                            </div>
-                            <div class="checkbox-area">
-                                <div class="form-check">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1">Regular Five Guys Style</label>
-                                  </div>
-                                  <div class="price"><p>+ $15.500</p></div>
-                            </div>
-                            <div class="checkbox-area">
-                                <div class="form-check">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1">Large Five Guys Style</label>
-                                  </div>
-                                  <div class="price"><p>+ $15.500</p></div>
-                            </div>
-                        </div>
-                            <div class="Optional-head">
-                                <h2>Add Fries</h2>
-                            </div>
-                        <div class="checkbox-content">
-                            <div class="checkbox-area">
-                                <div class="form-check">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1">Coca-Cola Original Taste</label>
-                                  </div>
-                                  <div class="price"><p>+ $15.500</p></div>
-                            </div>
-                            <div class="checkbox-area">
-                                <div class="form-check">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1">Diet Coke</label>
-                                  </div>
-                                  <div class="price"><p>+ $15.500</p></div>
-                            </div>
-                            <div class="checkbox-area">
-                                <div class="form-check">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1">Coca-Cola Zero Sugar</label>
-                                  </div>
-                                  <div class="price"><p>+ $15.500</p></div>
-                            </div>
-                            <div class="checkbox-area">
-                                <div class="form-check">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1">Sprite</label>
-                                  </div>
-                                  <div class="price"><p>+ $15.500</p></div>
-                            </div>
-                            <div class="checkbox-area">
-                                <div class="form-check">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1">Fanta Orange</label>
-                                  </div>
-                                  <div class="price"><p>+ $15.500</p></div>
-                            </div>
-                            <div class="checkbox-area">
-                                <div class="form-check">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1">Dr Pepper</label>
-                                  </div>
-                                  <div class="price"><p>+ $15.500</p></div>
-                            </div>
-                            <div class="checkbox-area">
-                                <div class="form-check">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1">Gaceau Smart Water</label>
-                                  </div>
-                                  <div class="price"><p>+ $15.500</p></div>
-                            </div>
-                        </div>
-                   
-                            <div class="popup1-button">
-                            <div class="button1">
-                                <button type="submit" class="btn">CANCEL</button>
-                            </div>
-                            <div class="button2">
-                               <button type="submit" class="btn">ADD TO CART</button>
-                            </div>
-                            </div>
-                </div>
-    </div>
-     </div>
-
-    <div class="listing-popup2" id="listing-popup2">
-    <div class="back-overlay">
-
-    </div>
-    <div class="container">
-                <div class="listing-popup1-wrapper">
-                        <div class="popup1-cross-icon">
-                            <img src="assets/images/popup-close.svg" alt="" onclick="listpop2()">
-                        </div>
-                        <h2>Steamed Pork & Vegetable Dumpling <br>
-                            (8pc) </h2>
-                            <div class="popup-image"><img src="#" alt=""></div>
-                        <p class="prag-bottom">Romaine, bacon  , chicken, parmesan cheese, crouton, red cabbage, Caesar
-                            dressing</p>
-                            <div class="Optional-head">
-                            <h2>Without a Bun</h2>
-                            <p>Optional</p>
-                            </div>
-                        <div class="checkbox-content">
-                            <div class="checkbox-blog">
-                                <div class="form-check">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1">In a Bowl </label>
-                                  </div>
-                                  <div class="form-check">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1">Lettuce Wrap</label>
-                                  </div>
-                            </div>
-                        </div>
-                        <div class="Optional-head">
-                            <h2>Add Fries</h2>
-                            <p>Want hot fries? We all do! Switch your oven to 180 degrees now and when your
-                                order arrives, pop them in for 5 minutes and presto, hot Five Guys fries right out
-                                of YOUR oven! Our fries are cooked in pure, tasty peanut oil.</p>
-                        </div>
-                        <div class="checkbox-content">
-                            <div class="checkbox-area">
-                                <div class="form-check">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1">Little Five Guys Style</label>
-                                  </div>
-                                  <div class="price"><p>+ $15.500</p></div>
-                            </div>
-                            <div class="checkbox-area">
-                                <div class="form-check">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1">Regular Five Guys Style</label>
-                                  </div>
-                                  <div class="price"><p>+ $15.500</p></div>
-                            </div>
-                            <div class="checkbox-area">
-                                <div class="form-check">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1">Large Five Guys Style</label>
-                                  </div>
-                                  <div class="price"><p>+ $15.500</p></div>
-                            </div>
-                        </div>
-                            <div class="Optional-head">
-                                <h2>Add Fries</h2>
-                            </div>
-                        <div class="checkbox-content">
-                            <div class="checkbox-area">
-                                <div class="form-check">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1">Coca-Cola Original Taste</label>
-                                  </div>
-                                  <div class="price"><p>+ $15.500</p></div>
-                            </div>
-                            <div class="checkbox-area">
-                                <div class="form-check">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1">Diet Coke</label>
-                                  </div>
-                                  <div class="price"><p>+ $15.500</p></div>
-                            </div>
-                            <div class="checkbox-area">
-                                <div class="form-check">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1">Coca-Cola Zero Sugar</label>
-                                  </div>
-                                  <div class="price"><p>+ $15.500</p></div>
-                            </div>
-                            <div class="checkbox-area">
-                                <div class="form-check">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1">Sprite</label>
-                                  </div>
-                                  <div class="price"><p>+ $15.500</p></div>
-                            </div>
-                            <div class="checkbox-area">
-                                <div class="form-check">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1">Fanta Orange</label>
-                                  </div>
-                                  <div class="price"><p>+ $15.500</p></div>
-                            </div>
-                            <div class="checkbox-area">
-                                <div class="form-check">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1">Dr Pepper</label>
-                                  </div>
-                                  <div class="price"><p>+ $15.500</p></div>
-                            </div>
-                            <div class="checkbox-area">
-                                <div class="form-check">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1">Gaceau Smart Water</label>
-                                  </div>
-                                  <div class="price"><p>+ $15.500</p></div>
-                            </div>
-                        </div>
-                   
-                            <div class="popup1-button">
-                            <div class="button1">
-                                <button type="submit" class="btn">CANCEL</button>
-                            </div>
-                            <div class="button2">
-                               <button type="submit" class="btn">ADD TO CART</button>
-                            </div>
-                            </div>
-                </div>
-    </div>
-    </div>
-
-    <div class="listing-popup3" id="listing-popup3">
-        <div class="back-overlay">
-
-        </div>
-        <div class="container">
-                    <div class="listing-popup1-wrapper">
-                        <div class="popup1-header">
-                            <h2>Steamed Pork & Vegetable Dumpling
-                                (8pc) </h2>
-                                <div class="popup-image"><img src="#" alt=""></div>
-                                <div class="Optional-head">
-                                <h2>Add</h2>
-                                </div>
-                            <div class="checkbox-content">
-                                <div class="checkbox-area">
-                                    <div class="form-check">
-                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                        <label class="form-check-label" for="exampleCheck1">Extra Chilli Sauce</label>
-                                      </div>
-                                      <div class="price"><p>+ $15.500</p></div>
-                                </div>
-                          </div>
-                          <div class="addup-option">
-                                    <div class="addup"><img src="assets/images/increment.svg" alt=""></div>
-                                    <div class="addup"><h3>1</h3></div>
-                                    <div class="addup"><img src="assets/images/decrement.svg" alt=""></div>
-                          </div>
-                           </div>
-                                <div class="popup1-button">
-                                <div class="button1">
-                                    <button type="submit" class="btn" onclick="listpop3()">CANCEL</button>
-                                </div>
-                                <div class="button2">
-                                   <button type="submit" class="btn">ADD TO CART</button>
-                                </div>
-                                </div>
-                    </div>                
+         <div class="menu-list">
+            <ul>
+                <li><a href="/my-account.html">Account <br> <span> olqaaa@hotmail.com</span></a></li>
+                <li><a href="/">Order History</a></li>
+                <li><a href="/">FAQs</a></li>
+                <li><a href="/login.html">Log out</a></li>
+            </ul>
+         </div>
+         <div class="header-bottom">
+            <div class="text">
+                <h4>Bahrain</h4>
             </div>
+            <div class="picture">
+                <img src="assets/images/header-arrow.svg" alt="">
+            </div>
+         </div>
+     </div>
     </div>
 
-    
-    <div class="listing-popup4" id="listing-popup4">
-        <div class="back-overlay">
-        </div>
-        <div class="container">
-                    <div class="listing-popup1-wrapper">
-                        <div class="popup01-header">
-                            <div class="popup01-cross-icon"><img src="assets/images/Component41–17.svg" alt=""></div>
-                            <div class="title">
-                            <h2>Restaurant Info</h2>
-                            <img src="assets/images/cancel.svg" alt="" onclick="listpop4()">
-                           </div>
-                                <div class="Optional-head">
-                                <h2>Hygience Rating</h2>
-                                <p>Romaine, bacon, chicken, parmesan cheese, crouton, red cabbage, Caesar
-                                    dressing</p>
-                                </div>
-                            <div class="info-blog">
-                                <div class="info-icon"><img src="assets/images/info.svg" alt="" class="mr-2"></div>
-                                <div class="info-text"><p>View Hygience rating</p></div>
-                            </div>
-                            <div class="Optional-head">
-                                <h2>Help with allergens</h2>
-                                <h6>Question? Call the Restaurants</h6>
-                                <p>Ask the restaurants about their ingredient and cooking methods.</p>
-                            </div>
-                            <div class="info-blog">
-                                <div class="info-icon"><img src="assets/images/phone.svg" alt=""></div>
-                                <div class="info-text"><p>Call us now at +973 987 65432</p></div>
-                            </div>
-                                <div class="Optional-head">
-                                    <h2>Restaurants Notes</h2>
-                                    <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.<br>
-                                    Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-                                </div>                 
-                                   <div class="close-button d-flex justify-content-center">
-                                   <button type="submit" class="btn">CLOSE</button>
+<!---  HEADER  END  -->
+
+ <!-- MAIN LISTING PAGE  --->
+
+   <section class="main-listing">
+      <div class="container">
+          <div class="listing-wrapper">
+              <div class="row">
+                  <div class="col-lg-3">
+                      <div class="listing-categories">
+                          <div class="top-area-head">
+                              <div class="picture-head">
+                                  <img src="assets/images/listing-img-truck.svg" alt="">
+                                  <div>
+                                  <span class="d-block span-grey">Now</span>
+                                  <span class="d-block d-flex span-blue">Manama <img src="assets/images/arrow-1.svg" class="ml-2" alt=""> </span>
+                                 </div>
+                              </div>
+
+                              <div class="change">
+                                  <h4>Change</h4>
+
+                                    <a href="javascript:void(0)" id="open-filter">
+                                        <img src="assets/images/toggle.svg" alt="">
+                                    </a>
+                              </div>
+                          </div>
+
+                          <ul class="nav nav-tabs">
+                            <li><a href="#delivery" class="active">Delivery</a></li>
+                            <li><a href="#pickup">Pickup</a></li>
+                            <li><a href="#table-service">Table Servive</a></li>
+                          </ul>
+
+                          <div id="accordion" class="filters-accordian">
+                                <div class="head" style="display:none;">
+                                    <div class="middle">
+                                        <span>Filters</span>
                                     </div>
-                        </div>                
+                                    <div class="right">
+                                        <a href="javascript:void(0)" id="close-filter"><img src="assets/images/cancel.svg" alt=""></a>
+                                    </div>
+                                </div>
+                            <div class="card">
+                              <div class="card-header" id="headingOne">
+                                <h2 class="mb-0 collapsed">
+                                    Sort
+                                </h2>
+                              </div>
+                          
+                              <div id="collapseOne" class="collapse">
+                                <div class="card-body">
+                                  <ul>
+                                      <li><input type="checkbox" name="" id=""> <a href="/">Min Order</a></li>
+                                      <li><input type="checkbox" name="" id=""> <a href="/">Open Restaurant</a></li>
+                                      <li><input type="checkbox" name="" id=""> <a href="/">Recommended</a></li>
+                                      <li><input type="checkbox" name="" id=""> <a href="/">Delivery Time</a></li>
+                                      <li><input type="checkbox" name="" id=""> <a href="/">Top rated</a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="card">
+                              <div class="card-header" id="headingTwo">
+                                <h2 class="mb-0 collapsed">Cuisines</h2>
+                              </div>
+                              <div id="collapseTwo" class="collapse">
+                                <div class="card-body">
+                                    <ul>
+                                        <li><input type="checkbox" name="" id=""> <a href="/">Hygience rating: 5 (11)</a></li>
+                                        <li><input type="checkbox" name="" id=""> <a href="/">Hygience rating: 5 (11)</a></li>
+                                        <li><input type="checkbox" name="" id=""> <a href="/">Hygience rating: 5 (11)</a></li>
+                                        <li><input type="checkbox" name="" id=""> <a href="/">Hygience rating: 5 (11)</a></li>
+                                    </ul>        
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="card">
+                              <div class="card-header" id="headingThree">
+                                <h2 class="mb-0 collapsed">Offers</h2>
+                              </div>
+                              <div id="collapseThree" class="collapse">
+                                <div class="card-body">
+                                    <ul> 
+                                        <li><input type="checkbox" name="" id=""> <a href="/"> All offers (8)</a></li>
+                                        <li><input type="checkbox" name="" id=""> <a href="/">Up to 50% off (1) </a></li>
+                                        <li><input type="checkbox" name="" id=""> <a href="/">Restaurant picks (0)</a></li>
+                                        <li><input type="checkbox" name="" id=""> <a href="/">Order more, save more</a></li>
+                                        <li><input type="checkbox" name="" id=""> <a href="/">Flash deals (1)</a></li>
+                                        <li><input type="checkbox" name="" id=""> <a href="/">30% Off (0)</a></li>
+                                        <li><input type="checkbox" name="" id=""> <a href="/">Free Item (0)</a></li>
+                                        <li><input type="checkbox" name="" id=""> <a href="/">Recommended</a></li>
+                                    </ul>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingFour">
+                                  <h2 class="mb-0 collapsed">Price Range</h2>
+                                </div>
+                                <div id="collapseFour" class="collapse">
+                                  <div class="card-body">
+                                      <ul>
+                                          <li><input type="checkbox" name="" id=""> <a href="/"> All offers (8)</a></li>
+                                          <li><input type="checkbox" name="" id=""> <a href="/">Up to 50% off (1) </a></li>
+                                          <li><input type="checkbox" name="" id=""> <a href="/">Restaurant picks (0)</a></li>
+                                          <li><input type="checkbox" name="" id=""> <a href="/">Order more, save more</a></li>
+                                          <li><input type="checkbox" name="" id=""> <a href="/">Flash deals (1)</a></li>
+                                          <li><input type="checkbox" name="" id=""> <a href="/">30% Off (0)</a></li>
+                                          <li><input type="checkbox" name="" id=""> <a href="/">Free Item (0)</a></li>
+                                      </ul>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="card">
+                                <div class="card-header" id="headingFive">
+                                  <h2 class="mb-0 collapsed">Categories</h2>
+                                </div>
+                                <div id="collapseFive" class="collapse">
+                                  <div class="card-body">
+                                      <ul>
+                                          <li><input type="checkbox" name="" id=""> <a href="/"> All offers (8)</a></li>
+                                          <li><input type="checkbox" name="" id=""> <a href="/">Up to 50% off (1) </a></li>
+                                          <li><input type="checkbox" name="" id=""> <a href="/">Restaurant picks (0)</a></li>
+                                          <li><input type="checkbox" name="" id=""> <a href="/">Order more, save more</a></li>
+                                          <li><input type="checkbox" name="" id=""> <a href="/">Flash deals (1)</a></li>
+                                          <li><input type="checkbox" name="" id=""> <a href="/">30% Off (0)</a></li>
+                                          <li><input type="checkbox" name="" id=""> <a href="/">Free Item (0)</a></li>
+                                      </ul>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                 <div class="col-lg-9">
+                    <div class="products-grid">
+                        <div class="title">
+                             <h2>Delivery to Manama</h2>
+                         </div>
+                         <div class="actions">
+                             <a href="/">Comfort Food <img src="assets/images/btm-cancel.svg" alt=""></a>
+                         </div>
+                         <div class="product-grid-wrapper">
+                            <h4>21 Restaurant</h4>
+                            <div class="row">
+                                <div class="col-lg-4 col-sm-6 col-12">
+                                    <div class="product-box">
+                                        <div class="image-wrapper">
+                                            <a href="/product-detail.html" class="image">
+                                                <img src="./assets/images/grey-back-img-listing.png" alt="">
+                                            </a>
+                                            <div class="free-delivery">
+                                                <a href="/">FREE DELIVERY</a>
+                                            </div>
+                                            <div class="time-duration">
+                                                <span class="time d-block">15- 20</span>
+                                                <span class="min d-block">min</span>
+                                            </div>
+                                        </div>
+                                        <div class="details">
+                                            <h3>Al Abraaj</h3>
+                                            <ul>
+                                                <li><a href="/">Italian</a></li>
+                                                <li><a href="/">Vegan</a></li>
+                                                <li><a href="/">Vegetarian</a></li>
+                                            </ul>
+                                            <ul>
+                                                <li><a href="/">Dine In</a></li>
+                                                <li><a href="/">Delivery</a></li>
+                                                <li><a href="/">Pickup</a></li>
+                                            </ul>
+                                            <div class="credit">
+                                                <a href="/">
+                                                    <img src="assets/images/tag.svg" alt=""> Ahlan Credit: 10%
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 col-12">
+                                    <div class="product-box">
+                                        <div class="image-wrapper">
+                                            <a href="/product-detail.html" class="image">
+                                                <img src="assets/images/grey-back-img-listing.png" alt="">
+                                            </a>
+                                            <div class="free-delivery">
+                                                <a href="/">FREE DELIVERY</a>
+                                            </div>
+                                            <div class="time-duration">
+                                                <span class="time d-block">15- 20</span>
+                                                <span class="min d-block">min</span>
+                                            </div>
+                                        </div>
+                                        <div class="details">
+                                            <h3>Al Abraaj</h3>
+                                            <ul>
+                                                <li><a href="/">Italian</a></li>
+                                                <li><a href="/">Vegan</a></li>
+                                                <li><a href="/">Vegetarian</a></li>
+                                            </ul>
+                                            <ul>
+                                                <li><a href="/">Dine In</a></li>
+                                                <li><a href="/">Delivery</a></li>
+                                                <li><a href="/">Pickup</a></li>
+                                            </ul>
+                                            <div class="credit">
+                                                <a href="/">
+                                                    <img src="assets/images/tag.svg" alt=""> Ahlan Credit: 10%
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 col-12">
+                                    <div class="product-box">
+                                        <div class="image-wrapper">
+                                            <a href="/product-detail.html" class="image">
+                                                <img src="assets/images/grey-back-img-listing.png" alt="">
+                                            </a>
+                                            <div class="free-delivery">
+                                                <a href="/">FREE DELIVERY</a>
+                                            </div>
+                                            <div class="time-duration">
+                                                <span class="time d-block">15- 20</span>
+                                                <span class="min d-block">min</span>
+                                            </div>
+                                        </div>
+                                        <div class="details">
+                                            <h3>Al Abraaj</h3>
+                                            <ul>
+                                                <li><a href="/">Italian</a></li>
+                                                <li><a href="/">Vegan</a></li>
+                                                <li><a href="/">Vegetarian</a></li>
+                                            </ul>
+                                            <ul>
+                                                <li><a href="/">Dine In</a></li>
+                                                <li><a href="/">Delivery</a></li>
+                                                <li><a href="/">Pickup</a></li>
+                                            </ul>
+                                            <div class="credit">
+                                                <a href="/">
+                                                    <img src="assets/images/tag.svg" alt=""> Ahlan Credit: 10%
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 col-12">
+                                    <div class="product-box">
+                                        <div class="image-wrapper">
+                                            <a href="/product-detail.html" class="image">
+                                                <img src="assets/images/grey-back-img-listing.png" alt="">
+                                            </a>
+                                            <div class="free-delivery">
+                                                <a href="/">FREE DELIVERY</a>
+                                            </div>
+                                            <div class="time-duration">
+                                                <span class="time d-block">15- 20</span>
+                                                <span class="min d-block">min</span>
+                                            </div>
+                                        </div>
+                                        <div class="details">
+                                            <h3>Al Abraaj</h3>
+                                            <ul>
+                                                <li><a href="/">Italian</a></li>
+                                                <li><a href="/">Vegan</a></li>
+                                                <li><a href="/">Vegetarian</a></li>
+                                            </ul>
+                                            <ul>
+                                                <li><a href="/">Dine In</a></li>
+                                                <li><a href="/">Delivery</a></li>
+                                                <li><a href="/">Pickup</a></li>
+                                            </ul>
+                                            <div class="credit">
+                                                <a href="/">
+                                                    <img src="assets/images/tag.svg" alt=""> Ahlan Credit: 10%
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 col-12">
+                                    <div class="product-box">
+                                        <div class="image-wrapper">
+                                            <a href="/product-detail.html" class="image">
+                                                <img src="assets/images/grey-back-img-listing.png" alt="">
+                                            </a>
+                                            <div class="free-delivery">
+                                                <a href="/">FREE DELIVERY</a>
+                                            </div>
+                                            <div class="time-duration">
+                                                <span class="time d-block">15- 20</span>
+                                                <span class="min d-block">min</span>
+                                            </div>
+                                        </div>
+                                        <div class="details">
+                                            <h3>Al Abraaj</h3>
+                                            <ul>
+                                                <li><a href="/">Italian</a></li>
+                                                <li><a href="/">Vegan</a></li>
+                                                <li><a href="/">Vegetarian</a></li>
+                                            </ul>
+                                            <ul>
+                                                <li><a href="/">Dine In</a></li>
+                                                <li><a href="/">Delivery</a></li>
+                                                <li><a href="/">Pickup</a></li>
+                                            </ul>
+                                            <div class="credit">
+                                                <a href="/">
+                                                    <img src="assets/images/tag.svg" alt=""> Ahlan Credit: 10%
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 col-12">
+                                    <div class="product-box">
+                                        <div class="image-wrapper">
+                                            <a href="/product-detail.html" class="image">
+                                                <img src="assets/images/grey-back-img-listing.png" alt="">
+                                            </a>
+                                            <div class="free-delivery">
+                                                <a href="/">FREE DELIVERY</a>
+                                            </div>
+                                            <div class="time-duration">
+                                                <span class="time d-block">15- 20</span>
+                                                <span class="min d-block">min</span>
+                                            </div>
+                                        </div>
+                                        <div class="details">
+                                            <h3>Al Abraaj</h3>
+                                            <ul>
+                                                <li><a href="/">Italian</a></li>
+                                                <li><a href="/">Vegan</a></li>
+                                                <li><a href="/">Vegetarian</a></li>
+                                            </ul>
+                                            <ul>
+                                                <li><a href="/">Dine In</a></li>
+                                                <li><a href="/">Delivery</a></li>
+                                                <li><a href="/">Pickup</a></li>
+                                            </ul>
+                                            <div class="credit">
+                                                <a href="/">
+                                                    <img src="assets/images/tag.svg" alt=""> Ahlan Credit: 10%
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 col-12">
+                                    <div class="product-box">
+                                        <div class="image-wrapper">
+                                            <a href="/product-detail.html" class="image">
+                                                <img src="assets/images/grey-back-img-listing.png" alt="">
+                                            </a>
+                                            <div class="free-delivery">
+                                                <a href="/">FREE DELIVERY</a>
+                                            </div>
+                                            <div class="time-duration">
+                                                <span class="time d-block">15- 20</span>
+                                                <span class="min d-block">min</span>
+                                            </div>
+                                        </div>
+                                        <div class="details">
+                                            <h3>Al Abraaj</h3>
+                                            <ul>
+                                                <li><a href="/">Italian</a></li>
+                                                <li><a href="/">Vegan</a></li>
+                                                <li><a href="/">Vegetarian</a></li>
+                                            </ul>
+                                            <ul>
+                                                <li><a href="/">Dine In</a></li>
+                                                <li><a href="/">Delivery</a></li>
+                                                <li><a href="/">Pickup</a></li>
+                                            </ul>
+                                            <div class="credit">
+                                                <a href="/">
+                                                    <img src="assets/images/tag.svg" alt=""> Ahlan Credit: 10%
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 col-12">
+                                    <div class="product-box">
+                                        <div class="image-wrapper">
+                                            <a href="/product-detail.html" class="image">
+                                                <img src="assets/images/grey-back-img-listing.png" alt="">
+                                            </a>
+                                            <div class="free-delivery">
+                                                <a href="/">FREE DELIVERY</a>
+                                            </div>
+                                            <div class="time-duration">
+                                                <span class="time d-block">15- 20</span>
+                                                <span class="min d-block">min</span>
+                                            </div>
+                                        </div>
+                                        <div class="details">
+                                            <h3>Al Abraaj</h3>
+                                            <ul>
+                                                <li><a href="/">Italian</a></li>
+                                                <li><a href="/">Vegan</a></li>
+                                                <li><a href="/">Vegetarian</a></li>
+                                            </ul>
+                                            <ul>
+                                                <li><a href="/">Dine In</a></li>
+                                                <li><a href="/">Delivery</a></li>
+                                                <li><a href="/">Pickup</a></li>
+                                            </ul>
+                                            <div class="credit">
+                                                <a href="/">
+                                                    <img src="assets/images/tag.svg" alt=""> Ahlan Credit: 10%
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 col-12">
+                                    <div class="product-box">
+                                        <div class="image-wrapper">
+                                            <a href="/product-detail.html" class="image">
+                                                <img src="assets/images/grey-back-img-listing.png" alt="">
+                                            </a>
+                                            <div class="free-delivery">
+                                                <a href="/">FREE DELIVERY</a>
+                                            </div>
+                                            <div class="time-duration">
+                                                <span class="time d-block">15- 20</span>
+                                                <span class="min d-block">min</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="details">
+                                            <h3>Al Abraaj</h3>
+                                            <ul>
+                                                <li><a href="/">Italian</a></li>
+                                                <li><a href="/">Vegan</a></li>
+                                                <li><a href="/">Vegetarian</a></li>
+                                            </ul>
+                                            <ul>
+                                                <li><a href="/">Dine In</a></li>
+                                                <li><a href="/">Delivery</a></li>
+                                                <li><a href="/">Pickup</a></li>
+                                            </ul>
+                                            <div class="credit">
+                                                <a href="/">
+                                                    <img src="assets/images/tag.svg" alt=""> Ahlan Credit: 10%
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                         </div>
+                     </div>
+
+                     
+                    <div class="paging-wrapper text-center">
+                        <div class="paging">
+                            <a href="/">1</a>
+                            <a href="/">2</a>
+                            <a href="/">3</a>
+                            <a href="/"><img src="assets/images/arrow-3.svg" alt=""></a>
+                        </div>
                     </div>
-        </div>
-         </div>
 
-   <!-- Steamed Pork & Vegetable Dumpling End -->
+                 </div>
+              </div>
+          </div>
+      </div>
+   </section>
 
-    <!---    MORE   --->
+   <!-- MAIN ISTING PAGE  --->
 
-    <div class="more-section">
-        <div class="container">
-        <div class="dropdown d-flex justify-content-end">
-        <button class="btn btn-secondary" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-         More <img src="assets/images/dropdown.svg" width="10px"  alt="">
-        </button>
-         <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-           <button class="dropdown-item" type="button">Burgers</button>
-          <button class="dropdown-item" type="button">Salad </button>
-          <button class="dropdown-item" type="button">Drinks</button>
-          <button class="dropdown-item" type="button">Sandwiches, Salads</button>
-          <button class="dropdown-item" type="button">Baguettes & Wraps</button>
-          <button class="dropdown-item" type="button">Coffee & Hot Drinks</button>
-          <button class="dropdown-item" type="button">Iced Coffee & Smoothies</button>
-          <button class="dropdown-item" type="button">Pret's Hot </button>
-          <button class="dropdown-item" type="button">Treats & Snacks</button>
-        </div>
-        </div>
-    </div>
-    </div>
-
-    <!---    MORE   --->
-
-    <!---FOOD MENU'S --->
-
-
-    <section class="main-food-section">
-        <div class="container">
-        <div class="burger-section">
-            <div class="burger-top-heading">
-                    <h2>Burgers</h2>
-                    <p>All the restaurants you like - all in one app!</p>
-            </div>
-            <div class="burger-grid">
-                    <div class="row">
-                        <div class="col-xl-4 col-md-6 col-12">
-                            <div class="detail-item" onclick="listpop()">
-                                <div class="details">
-                                    <h4>Hamburger</h4>
-                                    <p>Two fresh high-quality beef patties hot off the grill, on a sof...</p>
-                                    <span class="price">BHD 8.500</span>
-                                </div>
-                                <div class="picture">
-                                    <img src="http://placehold.it/117x117" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-md-6 col-12">
-                            <div class="detail-item" onclick="listpop()">
-                                <div class="details">
-                                    <h4>Hamburger</h4>
-                                    <p>Two fresh high-quality beef patties hot off the grill, on a sof...</p>
-                                    <span class="price">BHD 8.500</span>
-                                </div>
-                                <div class="picture">
-                                    <img src="http://placehold.it/117x117" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-md-6 col-12">
-                            <div class="detail-item" onclick="listpop2()">
-                                <div class="details">
-                                    <h4>Hamburger</h4>
-                                    <p>Two fresh high-quality beef patties hot off the grill, on a sof...</p>
-                                    <span class="price">BHD 8.500</span>
-                                </div>
-                                <div class="picture">
-                                    <img src="http://placehold.it/117x117" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-md-6 col-12">
-                            <div class="detail-item" onclick="listpop3()">
-                                <div class="details">
-                                    <h4>Hamburger</h4>
-                                    <p>Two fresh high-quality beef patties hot off the grill, on a sof...</p>
-                                    <span class="price">BHD 8.500</span>
-                                </div>
-                                <div class="picture">
-                                    <img src="http://placehold.it/117x117" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-md-6 col-12">
-                            <div class="detail-item" onclick="listpop()">
-                                <div class="details">
-                                    <h4>Hamburger</h4>
-                                    <p>Two fresh high-quality beef patties hot off the grill, on a sof...</p>
-                                    <span class="price">BHD 8.500</span>
-                                </div>
-                                <div class="picture">
-                                    <img src="http://placehold.it/117x117" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-md-6 col-12">
-                            <div class="detail-item" onclick="listpop()">
-                                <div class="details">
-                                    <h4>Hamburger</h4>
-                                    <p>Two fresh high-quality beef patties hot off the grill, on a sof...</p>
-                                    <span class="price">BHD 8.500</span>
-                                </div>
-                                <div class="picture">
-                                    <img src="http://placehold.it/117x117" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="salad-section">
-                <div class="salad-top-heading">
-                    <h2>Salad</h2>
-                    <p>All the restaurants you like - all in one app!</p>
-                </div>
-                <div class="salads-grid">
-                    <div class="row">
-                        <div class="col-xl-4 col-md-6 col-12">
-                            <div class="detail-item" onclick="listpop()">
-                                <div class="details">
-                                    <h4>Hamburger</h4>
-                                    <p>Two fresh high-quality beef patties hot off the grill, on a sof...</p>
-                                    <span class="price">BHD 8.500</span>
-                                </div>
-                                <div class="picture">
-                                    <img src="http://placehold.it/117x117" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-md-6 col-12">
-                            <div class="detail-item" onclick="listpop()">
-                                <div class="details">
-                                    <h4>Hamburger</h4>
-                                    <p>Two fresh high-quality beef patties hot off the grill, on a sof...</p>
-                                    <span class="price">BHD 8.500</span>
-                                </div>
-                                <div class="picture">
-                                    <img src="http://placehold.it/117x117" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-md-6 col-12">
-                            <div class="detail-item" onclick="listpop()">
-                                <div class="details">
-                                    <h4>Hamburger</h4>
-                                    <p>Two fresh high-quality beef patties hot off the grill, on a sof...</p>
-                                    <span class="price">BHD 8.500</span>
-                                </div>
-                                <div class="picture">
-                                    <img src="http://placehold.it/117x117" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="drinks-section">
-                <div class="drinks-top-heading">
-                    <h2>Salad</h2>
-                    <p>All the restaurants you like - all in one app!</p>
-                </div>
-                <div class="salads-grid">
-                    <div class="row">
-                        <div class="col-xl-4 col-md-6 col-12">
-                            <div class="detail-item" onclick="listpop()">
-                                <div class="details">
-                                    <h4>Hamburger</h4>
-                                    <p>Two fresh high-quality beef patties hot off the grill, on a sof...</p>
-                                    <span class="price">BHD 8.500</span>
-                                </div>
-                                <div class="picture">
-                                    <img src="http://placehold.it/117x117" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-md-6 col-12">
-                            <div class="detail-item" onclick="listpop()">
-                                <div class="details">
-                                    <h4>Hamburger</h4>
-                                    <p>Two fresh high-quality beef patties hot off the grill, on a sof...</p>
-                                    <span class="price">BHD 8.500</span>
-                                </div>
-                                <div class="picture">
-                                    <img src="http://placehold.it/117x117" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-md-6 col-12">
-                            <div class="detail-item" onclick="listpop()">
-                                <div class="details">
-                                    <h4>Hamburger</h4>
-                                    <p>Two fresh high-quality beef patties hot off the grill, on a sof...</p>
-                                    <span class="price">BHD 8.500</span>
-                                </div>
-                                <div class="picture">
-                                    <img src="http://placehold.it/117x117" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="refresh d-flex justify-content-center">
-                <img src="assets/images/refresh.svg" alt="">
-            </div>
-        </div>
-    </section>
-       
-    <!---FOOD MENU'S --->
 
     <!--- PAYMENT SECTION  --->
 
@@ -766,90 +617,90 @@
 
     <!--- PAYMENT SECTION  --->
 
-    <!--- FOOTER --->
 
-    <footer>
-        <div class="container">
-            <div class="footer-wrapper">
-                <div class="row">
-                    <div class="col-lg-3">
-                        <div class="footer-box">
-                            <div class="footer-logo">
-                                <img src="assets/images/footer-logo.svg" alt="">
+   <!--- FOOTER --->
+
+   <footer>
+    <div class="container">
+        <div class="footer-wrapper">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="footer-box">
+                        <div class="footer-logo">
+                            <img src="assets/images/footer-logo.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="footer-topheading">
+                        <h2>Ahlan is a mobile food delivery marketplace available in 13 countries.</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="footer-box">
+                                <h4>Sitemap</h4>
+                                 <ul>
+                                     <li><a href="/">Find a Restaurant</a></li>
+                                     <li><a href="/">Download App</a></li>
+                                     <li><a href="/">About Ahlan</a></li>
+                                     <li><a href="/">Ahlan for Restaurants</a></li>
+                                     <li><a href="/">Blog</a></li>
+                                 </ul>
+                                 
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="footer-box">
+                                <h4>General</h4>
+                                 <ul>
+                                     <li><a href="/">Support</a></li>
+                                     <li><a href="/">Cancellation Policy</a></li>
+                                     <li><a href="/">Careers & Culture</a></li>
+                                     <li><a href="/">Media Inquiries</a></li>
+                                     <li><a href="/">Contact Dineout</a></li>
+                                 </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="footer-box">
+                                <h4 class="d-lg-none d-block">Contact us</h4>
+                                 <div class="social-icons">
+                                     <ul>
+                                      <li><a href="/"><img src="assets/images/twitter.svg" alt=""></a></li>   
+                                      <li><a href="/"><img src="assets/images/instagram.svg" alt=""></a></li>
+                                      <li><a href="/"> <img src="assets/images/facebook.png" alt=""></a></li>
+                                    </ul>
+                                 </div>
+                                 <ul>
+                                     <h5>Contact us</h5>
+                                     <li><a href="/"><img src="assets/images/payment-arrow.svg" alt=""></a></li>
+                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-9">
-                        <div class="footer-topheading">
-                            <h2>Ahlan is a mobile food delivery marketplace available in 13 countries.</h2>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <div class="footer-box">
-                                    <h4>Sitemap</h4>
-                                     <ul>
-                                         <li><a href="/">Find a Restaurant</a></li>
-                                         <li><a href="/">Download App</a></li>
-                                         <li><a href="/">About Ahlan</a></li>
-                                         <li><a href="/">Ahlan for Restaurants</a></li>
-                                         <li><a href="/">Blog</a></li>
-                                     </ul>
-                                     
-                                </div>
-                            </div>
-                            <div class="col-lg-3">
-                                <div class="footer-box">
-                                    <h4>General</h4>
-                                     <ul>
-                                         <li><a href="/">Support</a></li>
-                                         <li><a href="/">Cancellation Policy</a></li>
-                                         <li><a href="/">Careers & Culture</a></li>
-                                         <li><a href="/">Media Inquiries</a></li>
-                                         <li><a href="/">Contact Dineout</a></li>
-                                     </ul>
-                                </div>
-                            </div>
-                            <div class="col-lg-5">
-                                <div class="footer-box">
-                                    <h4 class="d-lg-none d-block">Contact us</h4>
-                                     <div class="social-icons">
-                                         <ul>
-                                          <li><a href="/"><img src="assets/images/twitter.svg" alt=""></a></li>   
-                                          <li><a href="/"><img src="assets/images/instagram.svg" alt=""></a></li>
-                                          <li><a href="/"> <img src="assets/images/facebook.png" alt=""></a></li>
-                                        </ul>
-                                     </div>
-                                     <ul>
-                                         <h5>Contact us</h5>
-                                         <li><a href="/"><img src="assets/images/payment-arrow.svg" alt=""></a></li>
-                                     </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="payment-options d-flex justify-content-center d-lg-none d-block">
-                            <img src="assets/images/payment-footer.svg" alt="">
-                        </div>
-                        <div class="gototop-btn d-lg-none d-block">
-                            <button id="gototop"> <img src="assets/images/gotop.svg" alt=""> </button>
-                          </div>
-                          <div class="line">
-    
-                          </div>
-                        <div class="copyrights">
-                            <p>© Copyright 2020. AHLAN RESTAURANT All Right Reserved</p>
-                            <p>Powered By</p>
-                        </div>
+                    <div class="payment-options d-flex justify-content-center d-lg-none d-block">
+                        <img src="assets/images/payment-footer.svg" alt="">
+                    </div>
+                    <div class="gototop-btn d-lg-none d-block">
+                        <button id="gototop"> <img src="assets/images/gotop.svg" alt=""> </button>
+                      </div>
+                      <div class="line">
+
+                      </div>
+                    <div class="copyrights">
+                        <p>© Copyright 2020. AHLAN RESTAURANT All Right Reserved</p>
+                        <p>Powered By</p>
                     </div>
                 </div>
             </div>
         </div>
-    </footer>
-    
-    
-    <!--- FOOTER --->
-  
+    </div>
+</footer>
 
+
+<!--- FOOTER --->
+
+
+    
 </body>
 </html>
-
-
