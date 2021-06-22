@@ -103,566 +103,572 @@
     <!-- MAIN LISTING PAGE  --->
 
     <section class="main-listing">
-        <div class="container">
-            <div class="listing-wrapper">
-                <div class="row">
-                    <div class="col-lg-3">
-                        <div class="listing-categories">
-                            <div class="top-area-head">
-                                <div class="picture-head">
-                                    <img src="assets/images/listing-img-truck.svg" alt="">
-                                    <div>
-                                        <span class="d-block span-grey">Now</span>
-                                        <span class="d-block d-flex span-blue">Manama <img src="assets/images/arrow-1.svg" class="ml-2" alt=""> </span>
-                                    </div>
-                                </div>
-
-                                <div class="change">
-                                    <h4>Change</h4>
-
-                                    <a href="javascript:void(0)" id="open-filter">
-                                        <img src="assets/images/toggle.svg" alt="">
-                                    </a>
-                                </div>
+        <div class="listing-wrapper">
+            <div class="sidebar">
+                <div class="listing-categories">
+                    <div class="top-area-head">
+                        <div class="picture-head">
+                            <img src="assets/images/listing-img-truck.svg" alt="">
+                            <div>
+                                <span class="d-block span-grey">Now</span>
+                                <span class="d-block d-flex span-blue">Manama <img src="assets/images/arrow-1.svg" class="ml-2" alt=""> </span>
                             </div>
+                        </div>
 
-                            <ul class="nav nav-tabs">
-                                <li><a href="#delivery" class="active">Delivery</a></li>
-                                <li><a href="#pickup">Pickup</a></li>
-                                <li><a href="#table-service">Table Servive</a></li>
-                            </ul>
+                        <div class="change">
+                            <h4>Change</h4>
 
-                            <div id="accordion" class="filters-accordian">
-                                <div class="head" style="display:none;">
-                                    <div class="middle">
-                                        <span>Filters</span>
-                                    </div>
-                                    <div class="right">
-                                        <a href="javascript:void(0)" id="close-filter"><img src="assets/images/cancel.svg" alt=""></a>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <div class="card-header" id="headingOne">
-                                        <h2 class="mb-0 collapsed">
-                                            Sort
-                                        </h2>
-                                    </div>
-
-                                    <div id="collapseOne" class="collapse">
-                                        <div class="card-body">
-                                            <ul>
-                                                <li class="filter-checkbox">
-                                                    <input type="checkbox" name="" id="chk1">
-                                                    <label for="chk1">Min Order</label>
-                                                </li>
-                                                <li class="filter-checkbox">
-                                                    <input type="checkbox" name="" id="chk2"> 
-                                                     <label for="chk2"> Open Restaurant</label>
-                                                </li>
-                                                <li class="filter-checkbox">
-                                                    <input type="checkbox" name="" id="chk3">
-                                                     <label for="chk3"> Recommended</label>
-                                                 </li>
-                                                <li class="filter-checkbox">
-                                                    <input type="checkbox" name="" id="chk4">
-                                                     <label for="chk4">Delivery Time</label>
-                                                </li>
-                                                <li class="filter-checkbox">
-                                                    <input type="checkbox" name="" id="chk5"> 
-                                                     <label for="chk5"> Top rated</label>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <div class="card-header" id="headingTwo">
-                                        <h2 class="mb-0 collapsed">Cuisines</h2>
-                                    </div>
-                                    <div id="collapseTwo" class="collapse">
-                                        <div class="card-body">
-                                            <ul>
-                                                <li class="filter-checkbox">
-                                                    <input type="checkbox" name="" id="chk6">
-                                                     <label for="chk6"> Hygience rating: 5 (11)</label>
-                                                </li>
-                                                <li class="filter-checkbox">
-                                                    <input type="checkbox" name="" id="chk7"> 
-                                                     <label for="chk7"> Hygience rating: 5 (11)</label>
-                                                </li>
-                                                <li class="filter-checkbox">
-                                                    <input type="checkbox" name="" id="chk8"> 
-                                                     <label for="chk8"> Hygience rating: 5 (11)</label>
-                                                </li>
-                                                <li class="filter-checkbox">
-                                                    <input type="checkbox" name="" id="chk9"> 
-                                                     <label for="chk9"> Hygience rating: 5 (11)</label>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="card">
-                                    <div class="card-header" id="headingThree">
-                                        <h2 class="mb-0 collapsed">Offers</h2>
-                                    </div>
-                                    <div id="collapseThree" class="collapse">
-                                        <div class="card-body">
-                                            <ul>
-                                                <li class="filter-checkbox">
-                                                    <input type="checkbox" name="" id="chk10"> 
-                                                     <label for="chk10"> All offers (8)</label>
-                                                </li>
-                                                <li class="filter-checkbox">
-                                                    <input type="checkbox" name="" id="chk11"> 
-                                                     <label for="chk11"> Up to 50% off (1) </label>
-                                                </li>
-                                                <li class="filter-checkbox">
-                                                    <input type="checkbox" name="" id="chk12"> 
-                                                     <label for="chk12"> Restaurant picks (0)</label>
-                                                </li>
-                                                <li class="filter-checkbox">
-                                                    <input type="checkbox" name="" id="chk13"> 
-                                                     <label for="chk13"> Order more, save more</label>
-                                                </li>
-                                                <li class="filter-checkbox">
-                                                    <input type="checkbox" name="" id="chk14"> 
-                                                    <label for="chk14">Flash deals (1)</label> 
-                                                </li>
-                                                <li class="filter-checkbox">
-                                                    <input type="checkbox" name="" id="chk15"> 
-                                                    <label for="chk15"> 30% Off (0)</label>
-                                                </li>
-                                                <li class="filter-checkbox">
-                                                    <input type="checkbox" name="" id="chk16"> 
-                                                     <label for="chk16"> Free Item (0)</label>
-                                                </li>
-                                                <li class="filter-checkbox">
-                                                    <input type="checkbox" name="" id="chk17">
-                                                     <label for="chk17"> Recommended</label>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <div class="card-header" id="headingFour">
-                                        <h2 class="mb-0 collapsed">Price Range</h2>
-                                    </div>
-                                    <div id="collapseFour" class="collapse">
-                                        <div class="card-body">
-                                            <ul>
-                                                <li class="filter-checkbox">
-                                                    <input type="checkbox" name="" id="chk18"> 
-                                                     <label for="chk18"> All offers (8)</label>
-                                                </li>
-                                                <li class="filter-checkbox">
-                                                    <input type="checkbox" name="" id="chk19"> 
-                                                     <label for="chk19"> Up to 50% off (1) </label>
-                                                </li>
-                                                <li class="filter-checkbox">
-                                                    <input type="checkbox" name="" id="chk20"> 
-                                                     <label for="chk20"> Restaurant picks (0)</label>
-                                                </li>
-                                                <li class="filter-checkbox">
-                                                    <input type="checkbox" name="" id="chk21"> 
-                                                     <label for="chk21"> Order more, save more</label>
-                                                </li>
-                                                <li class="filter-checkbox">
-                                                    <input type="checkbox" name="" id="chk22"> 
-                                                    <label for="chk22">Flash deals (1)</label> 
-                                                </li>
-                                                <li class="filter-checkbox">
-                                                    <input type="checkbox" name="" id="chk23"> 
-                                                    <label for="chk23"> 30% Off (0)</label>
-                                                </li>
-                                                <li class="filter-checkbox">
-                                                    <input type="checkbox" name="" id="chk24"> 
-                                                     <label for="chk24"> Free Item (0)</label>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="card">
-                                    <div class="card-header" id="headingFive">
-                                        <h2 class="mb-0 collapsed">Categories</h2>
-                                    </div>
-                                    <div id="collapseFive" class="collapse">
-                                        <div class="card-body">
-                                            <ul>
-                                                <li class="filter-checkbox">
-                                                    <input type="checkbox" name="" id="chk25"> 
-                                                     <label for="chk25"> All offers (8)</label>
-                                                </li>
-                                                <li class="filter-checkbox">
-                                                    <input type="checkbox" name="" id="chk26"> 
-                                                     <label for="chk26"> Up to 50% off (1) </label>
-                                                </li>
-                                                <li class="filter-checkbox">
-                                                    <input type="checkbox" name="" id="chk27"> 
-                                                     <label for="chk27"> Restaurant picks (0)</label>
-                                                </li>
-                                                <li class="filter-checkbox">
-                                                    <input type="checkbox" name="" id="chk28"> 
-                                                     <label for="chk28"> Order more, save more</label>
-                                                </li>
-                                                <li class="filter-checkbox">
-                                                    <input type="checkbox" name="" id="chk29"> 
-                                                    <label for="chk29">Flash deals (1)</label> 
-                                                </li>
-                                                <li class="filter-checkbox">
-                                                    <input type="checkbox" name="" id="chk30"> 
-                                                    <label for="chk30"> 30% Off (0)</label>
-                                                </li>
-                                                <li class="filter-checkbox">
-                                                    <input type="checkbox" name="" id="chk31"> 
-                                                     <label for="chk31"> Free Item (0)</label>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            <a href="javascript:void(0)" id="open-filter">
+                                <img src="assets/images/toggle.svg" alt="">
+                            </a>
                         </div>
                     </div>
 
-                    <div class="col-lg-9">
-                        <div class="products-grid">
-                            <div class="title">
-                                <h2>Delivery to Manama</h2>
-                            </div>
-                            <div class="actions">
-                                <a href="/">Comfort Food <img src="assets/images/btm-cancel.svg" alt=""></a>
-                            </div>
-                            <div class="product-grid-wrapper">
-                                <h4>21 Restaurant</h4>
-                                <div class="row">
-                                    <div class="col-lg-4 col-sm-6 col-12">
-                                        <div class="product-box">
-                                            <div class="image-wrapper">
-                                                <a href="product-detail.html" class="image">
-                                                    <img src="assets/images/image.jpeg" alt="">
-                                                </a>
-                                                <div class="free-delivery">
-                                                    <a href="/">FREE DELIVERY</a>
-                                                </div>
-                                                <div class="time-duration">
-                                                    <span class="time d-block">15- 20</span>
-                                                    <span class="min d-block">min</span>
-                                                </div>
-                                            </div>
-                                            <div class="details">
-                                                <h3>Al Abraaj</h3>
-                                                <ul>
-                                                    <li><a href="/">Italian</a></li>
-                                                    <li><a href="/">Vegan</a></li>
-                                                    <li><a href="/">Vegetarian</a></li>
-                                                </ul>
-                                                <ul>
-                                                    <li><a href="/">Dine In</a></li>
-                                                    <li><a href="/">Delivery</a></li>
-                                                    <li><a href="/">Pickup</a></li>
-                                                </ul>
-                                                <div class="credit">
-                                                    <a href="/">
-                                                        <img src="assets/images/tag.svg" alt=""> Ahlan Credit: 10%
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-sm-6 col-12">
-                                        <div class="product-box">
-                                            <div class="image-wrapper">
-                                                <a href="product-detail.html" class="image">
-                                                    <img src="assets/images/image-2.jpeg" alt="">
-                                                </a>
-                                                <div class="free-delivery">
-                                                    <a href="/">FREE DELIVERY</a>
-                                                </div>
-                                                <div class="time-duration">
-                                                    <span class="time d-block">15- 20</span>
-                                                    <span class="min d-block">min</span>
-                                                </div>
-                                            </div>
-                                            <div class="details">
-                                                <h3>Al Abraaj</h3>
-                                                <ul>
-                                                    <li><a href="/">Italian</a></li>
-                                                    <li><a href="/">Vegan</a></li>
-                                                    <li><a href="/">Vegetarian</a></li>
-                                                </ul>
-                                                <ul>
-                                                    <li><a href="/">Dine In</a></li>
-                                                    <li><a href="/">Delivery</a></li>
-                                                    <li><a href="/">Pickup</a></li>
-                                                </ul>
-                                                <div class="credit">
-                                                    <a href="/">
-                                                        <img src="assets/images/tag.svg" alt=""> Ahlan Credit: 10%
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-sm-6 col-12">
-                                        <div class="product-box">
-                                            <div class="image-wrapper">
-                                                <a href="product-detail.html" class="image">
-                                                    <img src="assets/images/image-3.jpeg" alt="">
-                                                </a>
-                                                <div class="free-delivery">
-                                                    <a href="/">FREE DELIVERY</a>
-                                                </div>
-                                                <div class="time-duration">
-                                                    <span class="time d-block">15- 20</span>
-                                                    <span class="min d-block">min</span>
-                                                </div>
-                                            </div>
-                                            <div class="details">
-                                                <h3>Al Abraaj</h3>
-                                                <ul>
-                                                    <li><a href="/">Italian</a></li>
-                                                    <li><a href="/">Vegan</a></li>
-                                                    <li><a href="/">Vegetarian</a></li>
-                                                </ul>
-                                                <ul>
-                                                    <li><a href="/">Dine In</a></li>
-                                                    <li><a href="/">Delivery</a></li>
-                                                    <li><a href="/">Pickup</a></li>
-                                                </ul>
-                                                <div class="credit">
-                                                    <a href="/">
-                                                        <img src="assets/images/tag.svg" alt=""> Ahlan Credit: 10%
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-sm-6 col-12">
-                                        <div class="product-box">
-                                            <div class="image-wrapper">
-                                                <a href="product-detail.html" class="image">
-                                                    <img src="assets/images/image.jpeg" alt="">
-                                                </a>
-                                                <div class="free-delivery">
-                                                    <a href="/">FREE DELIVERY</a>
-                                                </div>
-                                                <div class="time-duration">
-                                                    <span class="time d-block">15- 20</span>
-                                                    <span class="min d-block">min</span>
-                                                </div>
-                                            </div>
-                                            <div class="details">
-                                                <h3>Al Abraaj</h3>
-                                                <ul>
-                                                    <li><a href="/">Italian</a></li>
-                                                    <li><a href="/">Vegan</a></li>
-                                                    <li><a href="/">Vegetarian</a></li>
-                                                </ul>
-                                                <ul>
-                                                    <li><a href="/">Dine In</a></li>
-                                                    <li><a href="/">Delivery</a></li>
-                                                    <li><a href="/">Pickup</a></li>
-                                                </ul>
-                                                <div class="credit">
-                                                    <a href="/">
-                                                        <img src="assets/images/tag.svg" alt=""> Ahlan Credit: 10%
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-sm-6 col-12">
-                                        <div class="product-box">
-                                            <div class="image-wrapper">
-                                                <a href="product-detail.html" class="image">
-                                                    <img src="assets/images/image.jpeg" alt="">
-                                                </a>
-                                                <div class="free-delivery">
-                                                    <a href="/">FREE DELIVERY</a>
-                                                </div>
-                                                <div class="time-duration">
-                                                    <span class="time d-block">15- 20</span>
-                                                    <span class="min d-block">min</span>
-                                                </div>
-                                            </div>
-                                            <div class="details">
-                                                <h3>Al Abraaj</h3>
-                                                <ul>
-                                                    <li><a href="/">Italian</a></li>
-                                                    <li><a href="/">Vegan</a></li>
-                                                    <li><a href="/">Vegetarian</a></li>
-                                                </ul>
-                                                <ul>
-                                                    <li><a href="/">Dine In</a></li>
-                                                    <li><a href="/">Delivery</a></li>
-                                                    <li><a href="/">Pickup</a></li>
-                                                </ul>
-                                                <div class="credit">
-                                                    <a href="/">
-                                                        <img src="assets/images/tag.svg" alt=""> Ahlan Credit: 10%
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-sm-6 col-12">
-                                        <div class="product-box">
-                                            <div class="image-wrapper">
-                                                <a href="product-detail.html" class="image">
-                                                    <img src="assets/images/image.jpeg" alt="">
-                                                </a>
-                                                <div class="free-delivery">
-                                                    <a href="/">FREE DELIVERY</a>
-                                                </div>
-                                                <div class="time-duration">
-                                                    <span class="time d-block">15- 20</span>
-                                                    <span class="min d-block">min</span>
-                                                </div>
-                                            </div>
-                                            <div class="details">
-                                                <h3>Al Abraaj</h3>
-                                                <ul>
-                                                    <li><a href="/">Italian</a></li>
-                                                    <li><a href="/">Vegan</a></li>
-                                                    <li><a href="/">Vegetarian</a></li>
-                                                </ul>
-                                                <ul>
-                                                    <li><a href="/">Dine In</a></li>
-                                                    <li><a href="/">Delivery</a></li>
-                                                    <li><a href="/">Pickup</a></li>
-                                                </ul>
-                                                <div class="credit">
-                                                    <a href="/">
-                                                        <img src="assets/images/tag.svg" alt=""> Ahlan Credit: 10%
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-sm-6 col-12">
-                                        <div class="product-box">
-                                            <div class="image-wrapper">
-                                                <a href="product-detail.html" class="image">
-                                                    <img src="assets/images/image.jpeg" alt="">
-                                                </a>
-                                                <div class="free-delivery">
-                                                    <a href="/">FREE DELIVERY</a>
-                                                </div>
-                                                <div class="time-duration">
-                                                    <span class="time d-block">15- 20</span>
-                                                    <span class="min d-block">min</span>
-                                                </div>
-                                            </div>
-                                            <div class="details">
-                                                <h3>Al Abraaj</h3>
-                                                <ul>
-                                                    <li><a href="/">Italian</a></li>
-                                                    <li><a href="/">Vegan</a></li>
-                                                    <li><a href="/">Vegetarian</a></li>
-                                                </ul>
-                                                <ul>
-                                                    <li><a href="/">Dine In</a></li>
-                                                    <li><a href="/">Delivery</a></li>
-                                                    <li><a href="/">Pickup</a></li>
-                                                </ul>
-                                                <div class="credit">
-                                                    <a href="/">
-                                                        <img src="assets/images/tag.svg" alt=""> Ahlan Credit: 10%
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-sm-6 col-12">
-                                        <div class="product-box">
-                                            <div class="image-wrapper">
-                                                <a href="product-detail.html" class="image">
-                                                    <img src="assets/images/image.jpeg" alt="">
-                                                </a>
-                                                <div class="free-delivery">
-                                                    <a href="/">FREE DELIVERY</a>
-                                                </div>
-                                                <div class="time-duration">
-                                                    <span class="time d-block">15- 20</span>
-                                                    <span class="min d-block">min</span>
-                                                </div>
-                                            </div>
-                                            <div class="details">
-                                                <h3>Al Abraaj</h3>
-                                                <ul>
-                                                    <li><a href="/">Italian</a></li>
-                                                    <li><a href="/">Vegan</a></li>
-                                                    <li><a href="/">Vegetarian</a></li>
-                                                </ul>
-                                                <ul>
-                                                    <li><a href="/">Dine In</a></li>
-                                                    <li><a href="/">Delivery</a></li>
-                                                    <li><a href="/">Pickup</a></li>
-                                                </ul>
-                                                <div class="credit">
-                                                    <a href="/">
-                                                        <img src="assets/images/tag.svg" alt=""> Ahlan Credit: 10%
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-sm-6 col-12">
-                                        <div class="product-box">
-                                            <div class="image-wrapper">
-                                                <a href="product-detail.html" class="image">
-                                                    <img src="assets/images/image.jpeg" alt="">
-                                                </a>
-                                                <div class="free-delivery">
-                                                    <a href="/">FREE DELIVERY</a>
-                                                </div>
-                                                <div class="time-duration">
-                                                    <span class="time d-block">15- 20</span>
-                                                    <span class="min d-block">min</span>
-                                                </div>
-                                            </div>
+                    <ul class="order-type">
+                        <li class="filter-radio">
+                            <input type="radio" name="type" id="radio0"/>
+                            <label for="radio0">Delivery</label>
+                        </li>
+                        <li class="filter-radio">
+                            <input type="radio" name="type" id="radio1"/>
+                            <label for="radio1">Pickup</label>
+                        </li>
+                        <li class="filter-radio">
+                            <input type="radio" name="type" id="radio2"/>
+                            <label for="radio2">Table Service</label>
+                        </li>
+                    </ul>
 
-                                            <div class="details">
-                                                <h3>Al Abraaj</h3>
-                                                <ul>
-                                                    <li><a href="/">Italian</a></li>
-                                                    <li><a href="/">Vegan</a></li>
-                                                    <li><a href="/">Vegetarian</a></li>
-                                                </ul>
-                                                <ul>
-                                                    <li><a href="/">Dine In</a></li>
-                                                    <li><a href="/">Delivery</a></li>
-                                                    <li><a href="/">Pickup</a></li>
-                                                </ul>
-                                                <div class="credit">
-                                                    <a href="/">
-                                                        <img src="assets/images/tag.svg" alt=""> Ahlan Credit: 10%
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                    <div id="accordion" class="filters-accordian">
+                        <div class="head" style="display:none;">
+                            <div class="middle">
+                                <span>Filters</span>
+                            </div>
+                            <div class="right">
+                                <a href="javascript:void(0)" id="close-filter"><img src="assets/images/cancel.svg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <h2 class="mb-0 collapsed">
+                                    Sort
+                                </h2>
+                            </div>
+
+                            <div id="collapseOne" class="collapse">
+                                <div class="card-body">
+                                    <ul>
+                                        <li class="filter-checkbox">
+                                            <input type="checkbox" name="" id="chk1">
+                                            <label for="chk1">Min Order</label>
+                                        </li>
+                                        <li class="filter-checkbox">
+                                            <input type="checkbox" name="" id="chk2"> 
+                                                <label for="chk2"> Open Restaurant</label>
+                                        </li>
+                                        <li class="filter-checkbox">
+                                            <input type="checkbox" name="" id="chk3">
+                                                <label for="chk3"> Recommended</label>
+                                            </li>
+                                        <li class="filter-checkbox">
+                                            <input type="checkbox" name="" id="chk4">
+                                                <label for="chk4">Delivery Time</label>
+                                        </li>
+                                        <li class="filter-checkbox">
+                                            <input type="checkbox" name="" id="chk5"> 
+                                                <label for="chk5"> Top rated</label>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card active">
+                            <div class="card-header" id="headingTwo">
+                                <h2 class="mb-0 collapsed">Cuisines</h2>
+                            </div>
+                            <div id="collapseTwo" class="collapse">
+                                <div class="card-body">
+                                    <ul>
+                                        <li class="filter-checkbox">
+                                            <input type="checkbox" name="" id="chk6">
+                                                <label for="chk6"> Hygience rating: 5 (11)</label>
+                                        </li>
+                                        <li class="filter-checkbox">
+                                            <input type="checkbox" name="" id="chk7"> 
+                                                <label for="chk7"> Hygience rating: 5 (11)</label>
+                                        </li>
+                                        <li class="filter-checkbox">
+                                            <input type="checkbox" name="" id="chk8"> 
+                                                <label for="chk8"> Hygience rating: 5 (11)</label>
+                                        </li>
+                                        <li class="filter-checkbox">
+                                            <input type="checkbox" name="" id="chk9"> 
+                                                <label for="chk9"> Hygience rating: 5 (11)</label>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
 
-
-                        <div class="paging-wrapper text-center">
-                            <div class="paging">
-                                <a href="/">1</a>
-                                <a href="/">2</a>
-                                <a href="/">3</a>
-                                <a href="/"><img src="assets/images/arrow-3.svg" alt=""></a>
+                        <div class="card active">
+                            <div class="card-header" id="headingThree">
+                                <h2 class="mb-0 collapsed">Offers</h2>
+                            </div>
+                            <div id="collapseThree" class="collapse">
+                                <div class="card-body">
+                                    <ul>
+                                        <li class="filter-checkbox">
+                                            <input type="checkbox" name="" id="chk10"> 
+                                                <label for="chk10"> All offers (8)</label>
+                                        </li>
+                                        <li class="filter-checkbox">
+                                            <input type="checkbox" name="" id="chk11"> 
+                                                <label for="chk11"> Up to 50% off (1) </label>
+                                        </li>
+                                        <li class="filter-checkbox">
+                                            <input type="checkbox" name="" id="chk12"> 
+                                                <label for="chk12"> Restaurant picks (0)</label>
+                                        </li>
+                                        <li class="filter-checkbox">
+                                            <input type="checkbox" name="" id="chk13"> 
+                                                <label for="chk13"> Order more, save more</label>
+                                        </li>
+                                        <li class="filter-checkbox">
+                                            <input type="checkbox" name="" id="chk14"> 
+                                            <label for="chk14">Flash deals (1)</label> 
+                                        </li>
+                                        <li class="filter-checkbox">
+                                            <input type="checkbox" name="" id="chk15"> 
+                                            <label for="chk15"> 30% Off (0)</label>
+                                        </li>
+                                        <li class="filter-checkbox">
+                                            <input type="checkbox" name="" id="chk16"> 
+                                                <label for="chk16"> Free Item (0)</label>
+                                        </li>
+                                        <li class="filter-checkbox">
+                                            <input type="checkbox" name="" id="chk17">
+                                                <label for="chk17"> Recommended</label>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card active">
+                            <div class="card-header" id="headingFour">
+                                <h2 class="mb-0 collapsed">Price Range</h2>
+                            </div>
+                            <div id="collapseFour" class="collapse">
+                                <div class="card-body">
+                                    <ul>
+                                        <li class="filter-checkbox">
+                                            <input type="checkbox" name="" id="chk18"> 
+                                                <label for="chk18"> All offers (8)</label>
+                                        </li>
+                                        <li class="filter-checkbox">
+                                            <input type="checkbox" name="" id="chk19"> 
+                                                <label for="chk19"> Up to 50% off (1) </label>
+                                        </li>
+                                        <li class="filter-checkbox">
+                                            <input type="checkbox" name="" id="chk20"> 
+                                                <label for="chk20"> Restaurant picks (0)</label>
+                                        </li>
+                                        <li class="filter-checkbox">
+                                            <input type="checkbox" name="" id="chk21"> 
+                                                <label for="chk21"> Order more, save more</label>
+                                        </li>
+                                        <li class="filter-checkbox">
+                                            <input type="checkbox" name="" id="chk22"> 
+                                            <label for="chk22">Flash deals (1)</label> 
+                                        </li>
+                                        <li class="filter-checkbox">
+                                            <input type="checkbox" name="" id="chk23"> 
+                                            <label for="chk23"> 30% Off (0)</label>
+                                        </li>
+                                        <li class="filter-checkbox">
+                                            <input type="checkbox" name="" id="chk24"> 
+                                                <label for="chk24"> Free Item (0)</label>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
 
+                        <div class="card active">
+                            <div class="card-header" id="headingFive">
+                                <h2 class="mb-0 collapsed">Categories</h2>
+                            </div>
+                            <div id="collapseFive" class="collapse">
+                                <div class="card-body">
+                                    <ul>
+                                        <li class="filter-checkbox">
+                                            <input type="checkbox" name="" id="chk25"> 
+                                                <label for="chk25"> All offers (8)</label>
+                                        </li>
+                                        <li class="filter-checkbox">
+                                            <input type="checkbox" name="" id="chk26"> 
+                                                <label for="chk26"> Up to 50% off (1) </label>
+                                        </li>
+                                        <li class="filter-checkbox">
+                                            <input type="checkbox" name="" id="chk27"> 
+                                                <label for="chk27"> Restaurant picks (0)</label>
+                                        </li>
+                                        <li class="filter-checkbox">
+                                            <input type="checkbox" name="" id="chk28"> 
+                                                <label for="chk28"> Order more, save more</label>
+                                        </li>
+                                        <li class="filter-checkbox">
+                                            <input type="checkbox" name="" id="chk29"> 
+                                            <label for="chk29">Flash deals (1)</label> 
+                                        </li>
+                                        <li class="filter-checkbox">
+                                            <input type="checkbox" name="" id="chk30"> 
+                                            <label for="chk30"> 30% Off (0)</label>
+                                        </li>
+                                        <li class="filter-checkbox">
+                                            <input type="checkbox" name="" id="chk31"> 
+                                                <label for="chk31"> Free Item (0)</label>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+            </div>
+
+
+            <div class="middle">
+                <div class="products-grid">
+                    <div class="title">
+                        <h2>Delivery to Manama</h2>
+                    </div>
+                    <div class="actions">
+                        <a href="/">Comfort Food <img src="assets/images/btm-cancel.svg" alt=""></a>
+                    </div>
+                    <div class="product-grid-wrapper">
+                        <h4>21 Restaurant</h4>
+                        <div class="row">
+                            <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                                <div class="product-box">
+                                    <div class="image-wrapper">
+                                        <a href="product-detail.html" class="image">
+                                            <img src="assets/images/image.jpeg" alt="">
+                                        </a>
+                                        <div class="free-delivery">
+                                            <a href="/">FREE DELIVERY</a>
+                                        </div>
+                                        <div class="time-duration">
+                                            <span class="time d-block">15- 20</span>
+                                            <span class="min d-block">min</span>
+                                        </div>
+                                    </div>
+                                    <div class="details">
+                                        <h3>Al Abraaj</h3>
+                                        <ul>
+                                            <li><a href="/">Italian</a></li>
+                                            <li><a href="/">Vegan</a></li>
+                                            <li><a href="/">Vegetarian</a></li>
+                                        </ul>
+                                        <ul>
+                                            <li><a href="/">Dine In</a></li>
+                                            <li><a href="/">Delivery</a></li>
+                                            <li><a href="/">Pickup</a></li>
+                                        </ul>
+                                        <div class="credit">
+                                            <a href="/">
+                                                <img src="assets/images/tag.svg" alt=""> Ahlan Credit: 10%
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                                <div class="product-box">
+                                    <div class="image-wrapper">
+                                        <a href="product-detail.html" class="image">
+                                            <img src="assets/images/image-2.jpeg" alt="">
+                                        </a>
+                                        <div class="free-delivery">
+                                            <a href="/">FREE DELIVERY</a>
+                                        </div>
+                                        <div class="time-duration">
+                                            <span class="time d-block">15- 20</span>
+                                            <span class="min d-block">min</span>
+                                        </div>
+                                    </div>
+                                    <div class="details">
+                                        <h3>Al Abraaj</h3>
+                                        <ul>
+                                            <li><a href="/">Italian</a></li>
+                                            <li><a href="/">Vegan</a></li>
+                                            <li><a href="/">Vegetarian</a></li>
+                                        </ul>
+                                        <ul>
+                                            <li><a href="/">Dine In</a></li>
+                                            <li><a href="/">Delivery</a></li>
+                                            <li><a href="/">Pickup</a></li>
+                                        </ul>
+                                        <div class="credit">
+                                            <a href="/">
+                                                <img src="assets/images/tag.svg" alt=""> Ahlan Credit: 10%
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                                <div class="product-box">
+                                    <div class="image-wrapper">
+                                        <a href="product-detail.html" class="image">
+                                            <img src="assets/images/image-3.jpeg" alt="">
+                                        </a>
+                                        <div class="free-delivery">
+                                            <a href="/">FREE DELIVERY</a>
+                                        </div>
+                                        <div class="time-duration">
+                                            <span class="time d-block">15- 20</span>
+                                            <span class="min d-block">min</span>
+                                        </div>
+                                    </div>
+                                    <div class="details">
+                                        <h3>Al Abraaj</h3>
+                                        <ul>
+                                            <li><a href="/">Italian</a></li>
+                                            <li><a href="/">Vegan</a></li>
+                                            <li><a href="/">Vegetarian</a></li>
+                                        </ul>
+                                        <ul>
+                                            <li><a href="/">Dine In</a></li>
+                                            <li><a href="/">Delivery</a></li>
+                                            <li><a href="/">Pickup</a></li>
+                                        </ul>
+                                        <div class="credit">
+                                            <a href="/">
+                                                <img src="assets/images/tag.svg" alt=""> Ahlan Credit: 10%
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                                <div class="product-box">
+                                    <div class="image-wrapper">
+                                        <a href="product-detail.html" class="image">
+                                            <img src="assets/images/image.jpeg" alt="">
+                                        </a>
+                                        <div class="free-delivery">
+                                            <a href="/">FREE DELIVERY</a>
+                                        </div>
+                                        <div class="time-duration">
+                                            <span class="time d-block">15- 20</span>
+                                            <span class="min d-block">min</span>
+                                        </div>
+                                    </div>
+                                    <div class="details">
+                                        <h3>Al Abraaj</h3>
+                                        <ul>
+                                            <li><a href="/">Italian</a></li>
+                                            <li><a href="/">Vegan</a></li>
+                                            <li><a href="/">Vegetarian</a></li>
+                                        </ul>
+                                        <ul>
+                                            <li><a href="/">Dine In</a></li>
+                                            <li><a href="/">Delivery</a></li>
+                                            <li><a href="/">Pickup</a></li>
+                                        </ul>
+                                        <div class="credit">
+                                            <a href="/">
+                                                <img src="assets/images/tag.svg" alt=""> Ahlan Credit: 10%
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                                <div class="product-box">
+                                    <div class="image-wrapper">
+                                        <a href="product-detail.html" class="image">
+                                            <img src="assets/images/image.jpeg" alt="">
+                                        </a>
+                                        <div class="free-delivery">
+                                            <a href="/">FREE DELIVERY</a>
+                                        </div>
+                                        <div class="time-duration">
+                                            <span class="time d-block">15- 20</span>
+                                            <span class="min d-block">min</span>
+                                        </div>
+                                    </div>
+                                    <div class="details">
+                                        <h3>Al Abraaj</h3>
+                                        <ul>
+                                            <li><a href="/">Italian</a></li>
+                                            <li><a href="/">Vegan</a></li>
+                                            <li><a href="/">Vegetarian</a></li>
+                                        </ul>
+                                        <ul>
+                                            <li><a href="/">Dine In</a></li>
+                                            <li><a href="/">Delivery</a></li>
+                                            <li><a href="/">Pickup</a></li>
+                                        </ul>
+                                        <div class="credit">
+                                            <a href="/">
+                                                <img src="assets/images/tag.svg" alt=""> Ahlan Credit: 10%
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                                <div class="product-box">
+                                    <div class="image-wrapper">
+                                        <a href="product-detail.html" class="image">
+                                            <img src="assets/images/image.jpeg" alt="">
+                                        </a>
+                                        <div class="free-delivery">
+                                            <a href="/">FREE DELIVERY</a>
+                                        </div>
+                                        <div class="time-duration">
+                                            <span class="time d-block">15- 20</span>
+                                            <span class="min d-block">min</span>
+                                        </div>
+                                    </div>
+                                    <div class="details">
+                                        <h3>Al Abraaj</h3>
+                                        <ul>
+                                            <li><a href="/">Italian</a></li>
+                                            <li><a href="/">Vegan</a></li>
+                                            <li><a href="/">Vegetarian</a></li>
+                                        </ul>
+                                        <ul>
+                                            <li><a href="/">Dine In</a></li>
+                                            <li><a href="/">Delivery</a></li>
+                                            <li><a href="/">Pickup</a></li>
+                                        </ul>
+                                        <div class="credit">
+                                            <a href="/">
+                                                <img src="assets/images/tag.svg" alt=""> Ahlan Credit: 10%
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                                <div class="product-box">
+                                    <div class="image-wrapper">
+                                        <a href="product-detail.html" class="image">
+                                            <img src="assets/images/image.jpeg" alt="">
+                                        </a>
+                                        <div class="free-delivery">
+                                            <a href="/">FREE DELIVERY</a>
+                                        </div>
+                                        <div class="time-duration">
+                                            <span class="time d-block">15- 20</span>
+                                            <span class="min d-block">min</span>
+                                        </div>
+                                    </div>
+                                    <div class="details">
+                                        <h3>Al Abraaj</h3>
+                                        <ul>
+                                            <li><a href="/">Italian</a></li>
+                                            <li><a href="/">Vegan</a></li>
+                                            <li><a href="/">Vegetarian</a></li>
+                                        </ul>
+                                        <ul>
+                                            <li><a href="/">Dine In</a></li>
+                                            <li><a href="/">Delivery</a></li>
+                                            <li><a href="/">Pickup</a></li>
+                                        </ul>
+                                        <div class="credit">
+                                            <a href="/">
+                                                <img src="assets/images/tag.svg" alt=""> Ahlan Credit: 10%
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                                <div class="product-box">
+                                    <div class="image-wrapper">
+                                        <a href="product-detail.html" class="image">
+                                            <img src="assets/images/image.jpeg" alt="">
+                                        </a>
+                                        <div class="free-delivery">
+                                            <a href="/">FREE DELIVERY</a>
+                                        </div>
+                                        <div class="time-duration">
+                                            <span class="time d-block">15- 20</span>
+                                            <span class="min d-block">min</span>
+                                        </div>
+                                    </div>
+                                    <div class="details">
+                                        <h3>Al Abraaj</h3>
+                                        <ul>
+                                            <li><a href="/">Italian</a></li>
+                                            <li><a href="/">Vegan</a></li>
+                                            <li><a href="/">Vegetarian</a></li>
+                                        </ul>
+                                        <ul>
+                                            <li><a href="/">Dine In</a></li>
+                                            <li><a href="/">Delivery</a></li>
+                                            <li><a href="/">Pickup</a></li>
+                                        </ul>
+                                        <div class="credit">
+                                            <a href="/">
+                                                <img src="assets/images/tag.svg" alt=""> Ahlan Credit: 10%
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                                <div class="product-box">
+                                    <div class="image-wrapper">
+                                        <a href="product-detail.html" class="image">
+                                            <img src="assets/images/image.jpeg" alt="">
+                                        </a>
+                                        <div class="free-delivery">
+                                            <a href="/">FREE DELIVERY</a>
+                                        </div>
+                                        <div class="time-duration">
+                                            <span class="time d-block">15- 20</span>
+                                            <span class="min d-block">min</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="details">
+                                        <h3>Al Abraaj</h3>
+                                        <ul>
+                                            <li><a href="/">Italian</a></li>
+                                            <li><a href="/">Vegan</a></li>
+                                            <li><a href="/">Vegetarian</a></li>
+                                        </ul>
+                                        <ul>
+                                            <li><a href="/">Dine In</a></li>
+                                            <li><a href="/">Delivery</a></li>
+                                            <li><a href="/">Pickup</a></li>
+                                        </ul>
+                                        <div class="credit">
+                                            <a href="/">
+                                                <img src="assets/images/tag.svg" alt=""> Ahlan Credit: 10%
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="paging-wrapper text-center">
+                    <div class="paging">
+                        <a href="/">1</a>
+                        <a href="/">2</a>
+                        <a href="/">3</a>
+                        <a href="/"><img src="assets/images/arrow-3.svg" alt=""></a>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
