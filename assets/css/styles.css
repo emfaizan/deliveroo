@@ -303,7 +303,7 @@ footer .footer-wrapper #footerbox.active ul{display: block;}
 .main-listing .listing-wrapper .listing-categories .card-body li:nth-child(1) a {margin: 0;}
 
 
-.main-listing .listing-wrapper .listing-categories .filter-checkbox label {color: #000000;font-size: 14px;display: inline-block;font-weight: 500;margin: 0;padding: 8px 0 8px 30px;position: relative;}
+.main-listing .listing-wrapper .listing-categories .filter-checkbox label {color: #000000;cursor:pointer;font-size: 14px;display: inline-block;font-weight: 500;margin: 0;padding: 8px 0 8px 30px;position: relative;}
 .main-listing .listing-wrapper .listing-categories .filter-checkbox label:before {content: '';border: 3px solid #dadada;width: 20px;height: 20px;display: block;border-radius: 3px;position: absolute;left: 0;top: 50%;transform: translateY(-50%);-webkit-transform: translateY(-50%);}
 .main-listing .listing-wrapper .listing-categories .filter-checkbox input {opacity: 0;visibility: hidden;top: -1000px;left: -10000px;position: absolute;}
 .main-listing .listing-wrapper .listing-categories .filter-checkbox input:checked+label:after {content: '';height: 6px;border-radius: 2px;width: 11px;border-bottom: 3px solid #2dbbdb;border-left: 3px solid #2dbbdb;transform: translateY(-50%) rotate(-45deg);-webkit-transform: translateY(-50%) rotate(-45deg);display: block;position: absolute;top: 46%;left: 5px;}
