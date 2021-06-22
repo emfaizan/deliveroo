@@ -319,7 +319,7 @@ footer .footer-wrapper #footerbox.active ul{display: block;}
 .main-listing .listing-wrapper .product-grid-wrapper .image-wrapper .time-duration .min{font-size: 12px;font-weight: 600;letter-spacing: 0.23px;color: #747474;}
 .main-listing .listing-wrapper .product-grid-wrapper .details h3{margin-bottom:5px;font-size: 14px;letter-spacing: 0.34px;color: #222222;font-weight: bold;padding-top: 5px;}
 .main-listing .listing-wrapper .product-grid-wrapper .details ul{display: flex;margin-bottom: 0;}
-.main-listing .listing-wrapper .product-grid-wrapper .details ul li a{letter-spacing: 0.28px;color: #828484;font-size: 14px;}
+.main-listing .listing-wrapper .product-grid-wrapper .details ul li a{letter-spacing: 0.28px;color: #828484;font-size: 13px;}
 .main-listing .listing-wrapper .product-grid-wrapper .details ul li a:hover {color:#12284c}
 .main-listing .listing-wrapper .product-grid-wrapper .details ul li a:after{content:'';height: 4px;width: 4px;margin: 3px 8px 3px;display: inline-block;background: #ddd;border-radius: 50%;}
 .main-listing .listing-wrapper .product-grid-wrapper .details ul li:last-child a:after {display:none;}
