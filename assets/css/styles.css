@@ -284,11 +284,16 @@ footer .footer-wrapper #footerbox.active ul { display: block; }
 .border-area-more { border-bottom: 1px solid rgb(229, 229, 229); }
 
 
-.go-to-checkout-box { border: 2px solid rgb(229, 229, 229); background-color: rgb(255, 255, 255); margin-top: -88px; padding: 16px; position: sticky;top:0; z-index: 2; background-color: #fff;border-radius: 0 0 2px 2px;box-shadow: 0px 22px 24px 0px rgb(46 51 51 / 7%);}
+.go-to-checkout-box {background-color: rgb(255, 255, 255); margin-top: -88px; padding: 16px; position: sticky;top:0; z-index: 2; background-color: #fff;border-radius: 0 0 2px 2px;box-shadow: 0px 22px 24px 0px rgb(46 51 51 / 7%);}
 .go-to-checkout-box .actions a {font-size:14px;font-weight: bold; background-color: rgb(18, 40, 76); width: 100%; height: 56px; text-align: center; line-height: 56px; color: rgb(255, 255, 255); font-weight: 600; letter-spacing: 0.1rem; display: inline-block; border-radius: 4px; margin-bottom: 16px; }
+.go-to-checkout-box .congrats{display: flex;align-items: center;}
+.go-to-checkout-box .congrats-main .line{height: 4px;width: 100%;background: rgb(107, 172, 38);border-radius: 125px;margin-top: 6px;margin-bottom: 12px;}
+.go-to-checkout-box .congrats-main p{margin-bottom: 0;font-size: 13px;padding-left:6px;}
 .go-to-checkout-box .actions a:hover { text-decoration: none; }
 .go-to-checkout-box .border-area{border-bottom: 1px solid #e5e5e5;}
+.go-to-checkout-box .flex-area .increment #number{color: #828585;padding: 0 10px;}
 .go-to-checkout-box .flex-area { display: flex; justify-content: space-between;}
+.go-to-checkout-box .flex-area .increment > div{cursor: pointer;}
 .go-to-checkout-box .flex-area .increment .number { padding: 0px 10px; font-size: 18px; color: rgb(0, 0, 0); margin-top: -2px; }
 .go-to-checkout-box .info h4 { color: rgb(76, 76, 76); font-size: 15px; font-weight: 600; }
 .go-to-checkout-box .info p { color: rgb(76, 76, 76); font-size: 14px; }
@@ -408,7 +413,7 @@ footer .footer-wrapper #footerbox.active ul { display: block; }
 .restaurent-dishes .filter-content .clear-all a { width: 170px; height: 45px; line-height: 45px; display: inline-block; font-size: 12px; font-weight: 600; color: rgb(0, 0, 0); border-radius: 30px; border: 1px solid rgb(212, 212, 212); text-align: center; margin-right: 20px; }
 .restaurent-dishes .filter-content .apply a { width: 170px; height: 45px; line-height: 45px; display: inline-block; font-size: 12px; font-weight: 600; color: rgb(255, 255, 255); border-radius: 30px; background: rgb(18, 40, 76); text-align: center; }
 .restaurent-dishes .filter-content .filter-bottom-actions { display: flex; padding: 25px 0px; justify-content: center; }
-.click-to-checkout-box .actions a { background-color: rgb(18, 40, 76); width: 100%; text-align: center; line-height: 56px; color: rgb(255, 255, 255); border-radius: 30px; display: flex; justify-content: space-between; font-size: 13px; font-weight: 600; padding: 0px 13px; }
+.click-to-checkout-box .actions a { background-color: rgb(18, 40, 76); width: 100%; text-align: center; line-height: 56px; color: rgb(255, 255, 255); border-radius: 4px; display: flex; justify-content: space-between; font-size: 13px; font-weight: 600; padding: 0px 13px; }
 .click-to-checkout-box .flex-area { display: flex; }
 .click-to-checkout-box { box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 50px; background-color: rgb(255, 255, 255); position: fixed; bottom: 0px; left: 0px; right: 0px; z-index: 1; height: 135px; display: flex; align-items: flex-end; padding: 16px 16px 10px; }
 .click-to-checkout-box .flex-area p { font-size: 13px; color: rgb(0, 0, 0); padding-left: 6px; margin: 0px; }
@@ -695,7 +700,7 @@ footer .footer-wrapper #footerbox.active ul { display: block; }
   .details-grid .details-grid-wrapper .info p span::before { top: 5px; }
   .details-grid .details-grid-wrapper .restaurent-info img { width: 17px; }
   .details-grid .details .meta h4 { font-size: 13px; }
-  .details-grid .details .meta h5 { font-size: 11px; margin-top: 5px; }
+  .details-grid .details .meta h5 { font-size: 11px;}
   .more-section .dropdown .btn { font-size: 13px; }
   .more-section .dropdown .dropdown-menu { width: 220px; }
   .more-section .dropdown .dropdown-menu button { font-size: 12px; }

@@ -404,35 +404,28 @@
                </div>
                <div class="col-xl-4 col-12 d-lg-block d-none">
                 <div class="go-to-checkout-box">
+                    <div class="congrats-main">
+                    <div class="congrats">
+                        <div>
+                            <img src="assets/images/tick-orange.svg" alt="">
+                        </div>
+                        <p>Congrats! You got <b> free delivery</b></p>
+                    </div>
+                    <div class="line">
+            
+                    </div>
+                </div>
                     <div class="actions">
                         <a href="/checkout-2.html">Go To Checkout</a>
                     </div>
-                    <div class="flex-area">
-                    <div class="increment d-flex">
-                        <div>
-                       <img src="assets/images/minus.svg" alt="">
-                       </div>
-                        <span class="number">1</span>
-                        <div>
-                        <img src="assets/images/minus.svg" alt="">
-                      </div>
-                    </div>
-                    <div class="info">
-                        <h4>Cheesburger</h4>
-                        <p>Diet Coke Glaceau Smart Water Coca-Cola Zero Sugar</p>
-                    </div>
-                    <div class="price">
-                        <h5>BD 35.200</h5>
-                    </div>
-                   </div>
                    <div class="flex-area border-area">
                     <div class="increment d-flex">
-                        <div>
+                        <div onclick="decrement()">
                        <img src="assets/images/minus.svg" alt="">
                        </div>
-                        <span class="number">1</span>
-                        <div>
-                        <img src="assets/images/minus.svg" alt="">
+                        <span id="number">1</span>
+                        <div onclick="increment()">
+                        <img src="assets/images/positive.svg" alt="">
                       </div>
                     </div>
                     <div class="info">
