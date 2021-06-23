@@ -10,7 +10,8 @@
 
     <link rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.min.css">
 
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -34,32 +35,34 @@
     <!---  HEADER  START  -->
 
     <header>
-        <div class="header-wrapper">
-            <div class="logo">
-                <a href="index.html">
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="logo">
+                    <a href="index.html">
                     <img src="assets/images/logo.svg" alt="">
-                </a>
-            </div>
-            <div class="header-info-area">
-                <div class="lang-wrapper">
-                    العربية
+                   </a>
                 </div>
-                <div class="info d-flex align-items-center justify-content-center">
-                    <img src="assets/images/info.svg" alt="">
-                </div>
-                <div class="shopping-cart">
-                    <div class="picture">
+                <div class="header-info-area">
+                    <div class="lang-wrapper">
+                        العربية
+                    </div>
+                    <div class="info d-flex align-items-center justify-content-center">
+                        <img src="assets/images/info.svg" alt="">
+                    </div>
+                    <div class="shopping-cart">
+                        <div class="picture">
                         <img src="assets/images/shopping-cart.png" alt="">
                         <div class="quantity">
                             <span>34</span>
                         </div>
+                        </div>
+                        <div class="number">
+                            BD 114.430
+                        </div>
                     </div>
-                    <div class="number">
-                        BD 114.430
+                    <div class="burger-menu" onclick="main()">
+                        <img src="assets/images/burger-menu.svg" alt="">
                     </div>
-                </div>
-                <div class="burger-menu" onclick="main()">
-                    <img src="assets/images/burger-menu.svg" alt="">
                 </div>
             </div>
         </div>
