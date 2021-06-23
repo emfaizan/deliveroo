@@ -63,9 +63,13 @@ $(document).ready(function(){
 
     $(document).on('click', ".filters-accordian .card-header", function(){
         if($(window).width() > 992){
-            $(this).next('div').toggle();
+            $(this).parent('.card').toggleClass('active');
         }
         else {
+            if($(this).attr('id') == "categoriesFilter"){
+                return false;
+            }
+
             if($('.filters-accordian').hasClass('section-active')){
                 $('.filters-accordian .card').show();
                 $(this).parent('.card').removeClass("opened");
