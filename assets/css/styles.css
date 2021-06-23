@@ -225,7 +225,7 @@ footer .footer-wrapper #footerbox.active ul { display: block; }
 .listing-wrapper .listing-categories #accordion .card.active .collapse { display: block !important; }
 .listing-wrapper .listing-categories .card-header h2 { font-size: 16px; padding: 25px 0px; color: rgb(76, 76, 76); font-weight: bold; }
 .listing-wrapper .listing-categories .card-header h2::after { content: ""; background-image: url("../images/arrow-2.svg"); background-repeat: no-repeat; width: 14px; height: 14px; position: absolute; right: 0px; background-position: center center; }
-.listing-wrapper .listing-categories .card-header h2.collapsed::after { transform: rotate(180deg); }
+.listing-wrapper .listing-categories .card-header h2.collapsed::after { transform: rotate(180deg); -webkit-transform: rotate(180deg); }
 .listing-wrapper .listing-categories .order-type { padding: 20px 0px; border-bottom: 1px solid rgb(238, 238, 238); margin: 0px !important; }
 .listing-wrapper .listing-categories #accordion .card-body { padding: 0px; }
 .listing-wrapper .listing-categories .card-body li:nth-child(1) a { margin: 0px; }
@@ -386,7 +386,7 @@ footer .footer-wrapper #footerbox.active ul { display: block; }
 .resturent-filters { background-color: rgb(255, 255, 255); z-index: 99; position: relative; }
 .resturent-filters .back-overlay { width: 100%; height: 100vh; background-color: rgba(0, 0, 0, 0.5); position: fixed; top: 0px; left: 0px; display: none; }
 .resturent-filters.active .back-overlay { display: block; }
-.resturent-filters.active .filter-content { transition: all 0.3s ease-in-out 0s; transform: translate(-50%, -50%) scale(1); }
+.resturent-filters.active .filter-content { transition: all 0.3s ease-in-out 0s; transform: translate(-50%, -50%) scale(1); -webkit-transform: translate(-50%, -50%) scale(1); }
 .resturent-filters .filter-content { max-height: calc(100% + 2px); overflow: hidden auto; overscroll-behavior: contain; background: rgb(255, 255, 255); max-width: 560px; width: 100%; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%) scale(0); z-index: 1; }
 .resturent-filters .filter-content .filter-tophead { display: flex; justify-content: center; position: relative; padding: 25px 0px; border-bottom: 1px solid rgb(229, 229, 229); }
 .resturent-filters .filter-content .filter-tophead h3 { color: rgb(76, 76, 76); font-weight: bold; font-size: 16px; }
@@ -541,7 +541,11 @@ footer .footer-wrapper #footerbox.active ul { display: block; }
   .listing-wrapper .listing-categories #accordion .card.active .collapse.show,
   .listing-wrapper .listing-categories #accordion .card.open .collapse {display:block !important;}
 
-  .filter-checkbox label {padding: 12px 30px 12px 0px;position: relative;font-size: 16px;}
+  .listing-wrapper .listing-categories .card-header h2 {padding: 14px 0;}
+  .listing-wrapper .listing-categories .card-header h2.collapsed::after {}
+
+  .filter-checkbox {margin: 0 -15px;border-bottom:1px solid #dee2e6;padding: 0 16px;}
+  .filter-checkbox label {padding: 12px 30px 12px 0px;position: relative;font-size: 16px;color: #2e3333;}
   .filter-checkbox label::before {left: auto; right:0;}
   .filter-checkbox input:checked + label::after {left: auto; right:5px; }
 
