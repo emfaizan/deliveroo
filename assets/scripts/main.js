@@ -84,4 +84,17 @@ $(document).ready(function(){
         }
     });
 });
+    
+var data=1;
+document.getElementById("number").innerText=data;
+function decrement(){
+    data=data-1;
+    document.getElementById("number").innerText=data;
+}
+function increment(){
+    data=data+1;
+    document.getElementById("number").innerText=data;
+}
+
+
 
