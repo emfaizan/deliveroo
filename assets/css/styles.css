@@ -38,30 +38,40 @@ header .header-info-area .number { margin-left: 10px; letter-spacing: 0.2px; col
 
 .container {max-width:2000px;padding-left:64px; padding-right:64px;}
 
-.details-grid { border-bottom: 1px solid rgb(229, 229, 229); }
-.details-grid .details h2 { font-size: 32px; color: rgb(18, 40, 76); font-weight: bold; }
-.details-grid .details .reviews { margin-bottom: 30px; }
-.details-grid .details .reviews span { font-size: 18px; letter-spacing: 0.36px; color: rgb(116, 116, 116); display: inline-block; margin-top: 5px; margin-left: 10px; }
-.details-grid .details .info p { color: rgb(116, 116, 116); font-size: 17px; line-height: 26px; }
-.details-grid .details .meta h4 { font-size: 18px; color: rgb(18, 40, 76); font-weight: 600; margin-bottom: 6px; cursor: pointer; }
-.details-grid .details .restaurent-info .picture { margin-right: 13px; margin-top: 6px; }
-.details-grid .details .meta h5 { font-size: 16px; color: rgb(18, 40, 76); font-weight: 500; }
-.details-grid .details-grid-wrapper { display: flex; padding: 50px 0px; justify-content: space-between; }
+.details-grid { border-bottom: 1px solid rgb(229, 229, 229);padding: 24px 0;}
+.details-grid .breadcrumb{padding: 0;background-color: transparent;font-size: 14px;margin: 0;}
+.details-grid .breadcrumb a{display: inline-block;color: #00b8a9;padding-left: 5px;font-size: 14px;}
+.details-grid .breadcrumb span{color: #828585;display: inline-block;padding-left: 5px;}
+.details-grid .details h2 { font-size: 27px; color: rgb(18, 40, 76); font-weight: bold; letter-spacing: -.02em;padding-top: 16px;}
+.details-grid .details .reviews { margin-bottom: 14px; }
+.details-grid .details .reviews span { font-size: 14px; letter-spacing: 0.36px; color: rgb(116, 116, 116); display: inline-block; margin-top: 5px; margin-left: 10px;font-family: 'Open Sans', sans-serif;}
+.details-grid .details .info p { color: rgb(116, 116, 116); font-size: 14px; line-height: 19px; }
+.details-grid .details .meta h4 { font-size: 16px; color: rgb(18, 40, 76); font-weight: 600; margin-bottom: 6px; cursor: pointer; margin: 0;line-height: 22px;}
+.details-grid .details .restaurent-info .picture { margin-right: 13px; margin-top: 6px;}
+.details-grid .details .restaurent-info .picture img{width: 20px;}
+.details-grid .details .meta h5 { font-size: 14px; color: #00b8a9; font-weight: 500; }
+.details-grid .details-grid-wrapper { display: flex;justify-content: space-between; }
 .details-grid .details-grid-wrapper .details { max-width: 800px; }
-.details-grid .details-grid-wrapper .other-info { align-items: flex-end; display: flex; flex-direction: column; justify-content: flex-end; text-align: right; }
-.details-grid .details-grid-wrapper .info p { margin-bottom: 0px; }
-.details-grid .details-grid-wrapper .info p span { position: relative; font-size: 17px; }
+.details-grid .details-grid-wrapper .stars img{width: 80px;}
+.details-grid .details-grid-wrapper .order-web {margin-top:14px;width: 100%;padding: 8px 16px 8px 0;border-radius: 3px;background-color: #9c006d;color: white;}
+.details-grid .details-grid-wrapper .order-web .flex-area{display: flex;align-items: center;}
+.details-grid .details-grid-wrapper .order-web h4{font-size: 16px;font-weight: 800;margin: 0;padding-left: 14px;}
+.details-grid .details-grid-wrapper .order-web p{font-size: 14px;margin: 0;padding-left: 14px;}
+.details-grid .details-grid-wrapper .order-web img{width: 62px;}
+.details-grid .details-grid-wrapper .other-info {font-size:16px; align-items: flex-end; display: flex; flex-direction: column; justify-content: flex-end; text-align: right; }
+.details-grid .details-grid-wrapper .info p { margin-bottom: 0px;padding: 4px 0; }
+.details-grid .details-grid-wrapper .info p span { position: relative; font-size: 14px; }
 .details-grid .details-grid-wrapper .info p span::after { content: ""; height: 4px; width: 4px; margin: 3px 5px 3px 7px; display: inline-block; background: rgb(136, 136, 136); border-radius: 50%; }
 .details-grid .details-grid-wrapper .info p span:last-child::after { display: none; }
 .details-grid .details-grid-wrapper .info p a { display: inline-block; color: rgb(116, 116, 116); font-weight: bold; }
 .details-grid .details-grid-wrapper .info p:nth-child(3) { margin-top: 30px; }
-.details-grid .details-grid-wrapper .restaurent-info { margin-top: 30px; }
-.details-grid .details-grid-wrapper .open a { display: inline-block; font-size: 19px; letter-spacing: 0.76px; color: rgb(110, 146, 41); font-weight: 600; }
-.details-grid .details-grid-wrapper .very-good h4 { color: rgb(18, 40, 76); font-weight: 500; font-size: 19px; margin: 0px; }
+.details-grid .details-grid-wrapper .restaurent-info { margin-top: 16px; }
+.details-grid .details-grid-wrapper .open a {font-size: 16px; display: inline-block;letter-spacing: 0.76px; color: rgb(110, 146, 41); font-weight: 600; }
+.details-grid .details-grid-wrapper .very-good h4 { color: rgb(18, 40, 76); font-weight: 500; font-size: 16px; margin: 0px; }
 .details-grid .details-grid-wrapper .very-good { margin-top: 70px; margin-bottom: 22px; justify-content: flex-end; }
 .details-grid .details-grid-wrapper .very-good .picture img { width: 18px; margin-right: 4px; }
 .more-section { padding: 12px 0px; }
-.more-section .dropdown .btn { background-color: transparent; font-weight: 600; color: rgb(18, 40, 76); font-size: 20px; border: none; box-shadow: none !important; }
+.more-section .dropdown .btn { background-color: transparent; font-weight: 600; color: #00b8a9; font-size: 16px; border: none; box-shadow: none !important; }
 .more-section .dropdown .btn img { transform: rotate(180deg); }
 .more-section .dropdown.show .btn img { transform: rotate(0deg); }
 .more-section .dropdown .btn:hover { background: rgb(255, 255, 255) !important; }
@@ -72,16 +82,21 @@ header .header-info-area .number { margin-left: 10px; letter-spacing: 0.2px; col
 .food-items .food-items-row li a { color: rgb(18, 40, 76); font-size: 19px; display: inline-block; font-weight: 400; }
 .food-items .food-items-row li .active { font-weight: 600; border: 1px solid rgb(18, 40, 76); border-radius: 30px; padding: 8px 15px; }
 .main-food-section { background: rgb(242, 242, 242); padding-bottom: 60px; padding-top: 30px; }
-.main-food-section h2 { font-size: 31px; font-weight: bold; color: rgb(18, 40, 76); padding-top: 40px; }
-.main-food-section p { font-size: 17px; font-weight: 400; color: rgb(116, 116, 116); }
+.main-food-section h2 { font-size: 28px; font-weight: bold; color: rgb(18, 40, 76); padding-top: 40px; }
+.main-food-section p { font-size: 16px; font-weight: 400; color: rgb(116, 116, 116);}
 .main-food-section .burger-top-heading p { margin-bottom: 30px; }
-.main-food-section .detail-item { display: flex; border: 2px solid rgb(229, 229, 229); padding: 24px; background-color: rgb(255, 255, 255); margin-bottom: 30px; align-items: center; justify-content: space-between; }
+.main-food-section .detail-item {transition: 0.2s ease-in-out; display: flex;padding: 16px; background-color: rgb(255, 255, 255); margin-bottom: 16px; align-items: center; justify-content: space-between; }
+.main-food-section .detail-item:hover{cursor: pointer;box-shadow: 0px 22px 24px 0px rgb(0 0 0 / 8%);}
 .main-food-section .detail-item .details { padding-right: 10px; }
-.main-food-section .detail-item .details h4 { font-size: 20px; color: rgb(0, 0, 0); font-weight: 600; }
-.main-food-section .detail-item .details p { font-size: 15px; color: rgb(72, 72, 72); font-weight: 300; margin: 0px 0px 12px; padding-right: 15px; }
-.main-food-section .detail-item .details .price { font-size: 20px; color: rgb(18, 40, 76); font-weight: 600; font-family: "open sans"; }
+.main-food-section .detail-item .details h4 { font-size: 16px; color: rgb(0, 0, 0); font-weight: 600; }
+.main-food-section .detail-item .details p { padding-top:0;font-size: 14px; color: rgb(72, 72, 72); font-weight: 300; margin: 0px 0px 12px; padding-right: 15px; }
+.main-food-section .detail-item .details .price { font-size: 16px; color: #12284C; font-weight: 400; font-family: 'Open Sans', sans-serif; }
+.main-food-section .row .col-xl-6{padding-left: 10px;padding-right: 10px;}
 .main-food-section .detail-item .picture img { border-radius: 4px; height: 116px; width: 116px; object-fit: cover; object-position: center center; }
 .main-food-section .refresh img { width: 45px; }
+.main-food-section .basket-box{margin-top:-88px;background-color: #fff;border-radius: 0 0 2px 2px;box-shadow: 0px 22px 24px 0px rgb(46 51 51 / 7%);padding: 16px;position: sticky;top: 0;}
+.main-food-section .basket-box .actions a{text-align:center;display: inline-block;color: #abadad;background: #e2e5e5;min-height: 48px;padding: 17px 24px;border-radius: 4px;font-weight: 600;font-family: plex-sans,sans-serif;font-size: 16px;width: 100%;}
+.main-food-section .basket-box .detail{padding: 32px 0 64px;text-align: center;}
 .benefits { padding: 65px 0px; }
 .benefits .benefits-box { display: flex; align-items: center; }
 .benefits .benefits-box h4 { color: rgb(76, 76, 76); font-size: 18px; font-weight: 400; margin-left: 15px; margin-bottom: 0px; }
@@ -266,31 +281,32 @@ footer .footer-wrapper #footerbox.active ul { display: block; }
 .border-area-more { border-bottom: 1px solid rgb(229, 229, 229); }
 
 
-.go-to-checkout-box { border: 2px solid rgb(229, 229, 229); background-color: rgb(255, 255, 255); margin-top: -69px; padding: 20px 24px 0px; position: sticky; z-index: 2; }
-.go-to-checkout-box .actions a { background-color: rgb(18, 40, 76); width: 100%; height: 56px; text-align: center; line-height: 56px; color: rgb(255, 255, 255); font-weight: 600; letter-spacing: 0.1rem; display: inline-block; border-radius: 30px; margin-bottom: 40px; }
+.go-to-checkout-box { border: 2px solid rgb(229, 229, 229); background-color: rgb(255, 255, 255); margin-top: -88px; padding: 16px; position: sticky;top:0; z-index: 2; background-color: #fff;border-radius: 0 0 2px 2px;box-shadow: 0px 22px 24px 0px rgb(46 51 51 / 7%);}
+.go-to-checkout-box .actions a {font-size:14px;font-weight: bold; background-color: rgb(18, 40, 76); width: 100%; height: 56px; text-align: center; line-height: 56px; color: rgb(255, 255, 255); font-weight: 600; letter-spacing: 0.1rem; display: inline-block; border-radius: 4px; margin-bottom: 16px; }
 .go-to-checkout-box .actions a:hover { text-decoration: none; }
-.go-to-checkout-box .flex-area { display: flex; justify-content: space-between; margin: 0px 0px 20px; }
+.go-to-checkout-box .border-area{border-bottom: 1px solid #e5e5e5;}
+.go-to-checkout-box .flex-area { display: flex; justify-content: space-between;}
 .go-to-checkout-box .flex-area .increment .number { padding: 0px 10px; font-size: 18px; color: rgb(0, 0, 0); margin-top: -2px; }
-.go-to-checkout-box .info h4 { color: rgb(76, 76, 76); font-size: 17px; font-weight: 600; }
+.go-to-checkout-box .info h4 { color: rgb(76, 76, 76); font-size: 15px; font-weight: 600; }
 .go-to-checkout-box .info p { color: rgb(76, 76, 76); font-size: 14px; }
 .go-to-checkout-box .info { padding: 0px 25px; width: 150px; flex-grow: 1; }
-.go-to-checkout-box .price h5 { font-size: 15px; font-family: "open sans"; }
+.go-to-checkout-box .price h5 { font-size: 15px;font-family: 'Open Sans', sans-serif;}
 .go-to-checkout-box .people-added { padding-bottom: 26px; border-bottom: 1px solid rgb(229, 229, 229); }
-.go-to-checkout-box .people-added h3 { color: rgb(18, 40, 76); font-weight: bold; font-size: 20px; margin-top: 37px; }
-.go-to-checkout-box .people-added .cheese-box { background: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.08) 0px 10px 25px; border: 1px solid rgba(229, 229, 229, 0.42); min-width: 250px; margin-right: 15px; padding: 16px; margin-top: 23px; margin-bottom: 23px; }
+.go-to-checkout-box .people-added h3 { color: rgb(18, 40, 76); font-weight: bold; font-size: 17px; margin-top: 24px; }
+.go-to-checkout-box .people-added .cheese-box { background: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.08) 0px 10px 25px; border: 1px solid rgba(229, 229, 229, 0.42); min-width: 250px; margin-right: 15px; padding: 16px; margin-top: 8px;margin-bottom: 16px;}
 .go-to-checkout-box .people-added .grilled-cheese-grid { display: flex; overflow-x: scroll; }
 .go-to-checkout-box .people-added .grilled-cheese-grid::-webkit-scrollbar { width: 0.5em; }
 .go-to-checkout-box .people-added .grilled-cheese-grid::-webkit-scrollbar-track { background: rgb(255, 255, 255); }
 .go-to-checkout-box .people-added .grilled-cheese-grid::-webkit-scrollbar-thumb { background-color: rgb(222, 226, 230); border-radius: 10px; border: 4px solid rgb(255, 255, 255); }
 .go-to-checkout-box .people-added .cheese-box h4 { color: rgb(76, 76, 76); font-size: 15px; font-weight: 600; }
-.go-to-checkout-box .people-added .cheese-box span { color: rgb(167, 167, 167); font-weight: 500; font-size: 14px; display: inline-block; margin-top: 15px; }
+.go-to-checkout-box .people-added .cheese-box span { color: rgb(167, 167, 167); font-weight: 500; font-size: 14px; display: inline-block; margin-top: 15px; font-family: 'Open Sans', sans-serif;}
 .go-to-checkout-box .people-added .cheese-box a { display: inline-block; color: rgb(18, 40, 76); font-weight: 500; font-size: 14px; margin-left: 7px; margin-top: 19px; }
-.go-to-checkout-box .subtotal-area h5 { color: rgb(76, 76, 76); font-weight: 500; font-size: 15px; margin-top: 26px; }
+.go-to-checkout-box .subtotal-area h5 { color: rgb(76, 76, 76); font-weight: 500; font-size: 14px; margin-top: 16px; }
 .go-to-checkout-box .subtotal-area img { margin-right: 10px; }
 .go-to-checkout-box .subtotal-area span { font-size: 14px; }
 .go-to-checkout-box .subtotal-area .blue-head { color: rgb(18, 40, 76); font-size: 15px; font-weight: 500; }
-.go-to-checkout-box .subtotal-area { padding-bottom: 30px; border-bottom: 1px solid rgb(229, 229, 229); }
-.go-to-checkout-box .total-area { justify-content: space-between; display: flex; padding: 12px 0px; font-weight: 600; color: rgb(18, 40, 76); font-size: 18px; }
+.go-to-checkout-box .subtotal-area { padding-bottom: 15px; border-bottom: 1px solid rgb(229, 229, 229); }
+.go-to-checkout-box .total-area { justify-content: space-between; display: flex; padding: 12px 0px; font-weight: 600; color: rgb(18, 40, 76); font-size: 16px; }
 
 
 .checkout-wrapper-main { position: relative; padding-bottom: 205px; }
@@ -653,13 +669,17 @@ footer .footer-wrapper #footerbox.active ul { display: block; }
   .login-form .sign-in-form-content p::before { width: 100px; }
   .login-form .sign-in-form-content p::after { width: 100px; }
   .login-form .sign-in-form-content a img { width: 17px; }
-  .details-grid .details h2 { font-size: 18px; }
+  .details-grid{padding: 6px 0;}
+  .details-grid .details-grid-wrapper{padding: 16px 0;}
+  .details-grid .details-grid-wrapper .order-web h4 {font-size: 13px;}
+  .details-grid .details-grid-wrapper .order-web p {font-size: 11px;}
+  .details-grid .details h2 { font-size: 18px; padding-top: 0;}
   .details-grid .details-grid-wrapper .open a { font-size: 12px; }
   .details-grid .details .reviews .stars img { width: 70px; }
   .details-grid .details .reviews span { font-size: 12px; }
   .details-grid .details-grid-wrapper .very-good h4 { font-size: 13px; }
   .details-grid .details-grid-wrapper .very-good .picture img { width: 15px; margin-right: 6px; }
-  .details-grid .details-grid-wrapper .very-good { margin-top: 0px; }
+  .details-grid .details-grid-wrapper .very-good { margin-top: 0px; margin-bottom: 8px;}
   .details-grid .details-grid-wrapper .details .payment-option img { width: 86px; }
   .details-grid .details-grid-wrapper .details .info p { font-size: 12px; line-height: 20px; }
   .details-grid .details-grid-wrapper .details .info p br { display: none; }
@@ -758,10 +778,10 @@ footer .footer-wrapper #footerbox.active ul { display: block; }
   .listing-wrapper .product-grid-wrapper .image-wrapper .time-duration .time { font-size: 9px; }
   .listing-wrapper .product-grid-wrapper .image-wrapper .time-duration .min { font-size: 10px; }
   footer .footer-wrapper .footer-topheading h2 { font-size: 16px; line-height: 28px; }
-  .details-grid .details-grid-wrapper { padding: 20px 0px; }
   .details-grid .details-grid-wrapper .info p:nth-child(1) span:nth-child(1)::before { display: block; }
   .details-grid .details-grid-wrapper .info p:nth-child(2) span:nth-child(1)::before { display: block; }
   .main-food-section h2 { padding-top: 34px; }
   .main-food-section { padding-top: 0px; }
-  .main-food-section .detail-item { margin-bottom: 9px; }
+  .main-food-section .detail-item { margin-bottom: 9px; border-top: 1px solid #e8ebeb;border-bottom: 1px solid #e8ebeb;}
+  .main-food-section .row .col-lg-8{padding: 0;}
 }
