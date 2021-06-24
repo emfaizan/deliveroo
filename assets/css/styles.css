@@ -785,7 +785,6 @@ footer .footer-wrapper #footerbox.active ul { display: block; }
   .checkout-wrapper-main .checkout-wrapper-grid .row-main { padding-top: 54px; }
   .checkout-wrapper-main .checkout-wrapper-grid .otto-italian-box .title img { width: 18px; }
   .checkout-wrapper-main .checkout-wrapper-grid .title p { font-size: 16px; }
-  .checkout-wrapper-main .checkout-wrapper-grid .login-form { padding-left: 0px; padding-right: 0px; }
   .login-form { border: none; }
   .checkout-wrapper-main .login-form .sign-in-form-content p { width: 100%; }
   .checkout-wrapper-main .login-form .sign-in-form-content p::before { width: 90px; left: 20px; }
