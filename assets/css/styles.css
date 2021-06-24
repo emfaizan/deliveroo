@@ -10,8 +10,14 @@ html { scroll-behavior: smooth; }
 .main-menu .main-menu-content .menu-list ul li a { color: rgb(76, 76, 76); font-weight: 600; font-size: 17px; }
 .main-menu .main-menu-content .menu-list ul li a:hover { text-decoration: none; color: rgb(18, 40, 76); }
 .main-menu .main-menu-content .menu-list ul li a span { color: rgb(116, 116, 116); font-weight: normal; line-height: 26px; display: inline-block; }
-.main-menu .main-menu-content .header-bottom { position: absolute; bottom: 40px; right: 55px; left: 55px; display: flex; justify-content: space-between; border: 1px solid rgb(229, 229, 229); border-radius: 3px; padding: 19px 18px; }
-.main-menu .main-menu-content .header-bottom .text h4 { letter-spacing: 0.36px; color: rgb(76, 76, 76); font-weight: 600; font-size: 18px; margin: 0px; }
+
+.main-menu .main-menu-content .header-bottom {position: absolute;bottom:0; right:0; left:0; padding:0 40px 40px;}
+.main-menu .main-menu-content .header-bottom .country-dropdown {position:relative}
+.main-menu .main-menu-content .header-bottom .country-dropdown:after {content:'';height: 20px;width: 12px;display:block;background:url(../images/header-arrow.svg);background-repeat: no-repeat;position:absolute;top:50%;right: 15px;pointer-events: none;transform: translateY(-50%);-webkit-transform: translateY(-50%);}
+.main-menu .main-menu-content .header-bottom .country-input {width:100%; border: 1px solid rgb(229, 229, 229); cursor:pointer; border-radius: 3px; padding: 19px 18px; appearance:none; -webkit-appearance:none;}
+.main-menu .main-menu-content .header-bottom .country-input:focus {outline:0; background:#f9f9f9;}
+
+
 .main-menu .main-menu-content { background: rgb(255, 255, 255); width: 440px; min-width: 440px; position: fixed; top: 0px; right: -440px; bottom: 0px; z-index: -1; opacity: 0; transition: all 0.3s ease-in-out 0s; }
 .main-menu .back-overlay { height: 100vh; width: 100%; background-color: rgba(0, 0, 0, 0.5); display: none; position: fixed; top: 0px; right: 0px; bottom: 0px; z-index: 9; }
 #main-menu.active .back-overlay { display: block; }
