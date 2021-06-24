@@ -82,7 +82,7 @@ header .header-info-area .number { margin-left: 10px; letter-spacing: 0.2px; col
 .food-items .food-items-row li { margin-right: 25px; display: flex; align-items: center; }
 .food-items .food-items-row li a { color: rgb(18, 40, 76); font-size: 19px; display: inline-block; font-weight: 400; }
 .food-items .food-items-row li .active { font-weight: 600; border: 1px solid rgb(18, 40, 76); border-radius: 30px; padding: 8px 15px; }
-.main-food-section {background: #f3f3f3;padding-bottom: 60px;padding-top: 30px;overflow: hidden;}
+.main-food-section {background: #f3f3f3;padding-bottom: 60px;padding-top: 30px;}
 .main-food-section h2 { font-size: 28px; font-weight: bold; color: rgb(18, 40, 76); padding-top: 40px; }
 .main-food-section p { font-size: 16px; font-weight: 400; color: rgb(116, 116, 116);}
 .main-food-section .burger-top-heading p { margin-bottom: 30px; }
