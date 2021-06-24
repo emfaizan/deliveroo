@@ -188,16 +188,16 @@ footer .footer-wrapper #footerbox.active ul { display: block; }
 
 
 /* LOGIN */
-.login-form { background: rgb(253, 253, 253); padding-top: 80px; padding-bottom: 260px; border: 1px solid rgb(226, 229, 229); }
-.login-form .sign-in-form-content h2 { font-size: 32px; font-weight: bold; color: rgb(18, 40, 76); }
-.login-form .sign-in-form-content .button-fb a, .login-form .sign-in-form-content .button-google a { line-height: 63px; width: 475px; height: 63px; background-color: rgb(81, 107, 181); font-size: 16px; border-radius: 50px; color: white; display: inline-block; text-align: center; font-weight: 600; margin-top: 22px; }
+.login-form { background: rgb(253, 253, 253); padding-top: 80px; padding-bottom: 260px; border-radius: 3px; }
+.login-form .sign-in-form-content h2 { font-size: 22px; font-weight: bold; color: rgb(18, 40, 76); }
+.login-form .sign-in-form-content .button-fb a, .login-form .sign-in-form-content .button-google a { line-height:48px; width: 475px; height: 48px; background-color: rgb(81, 107, 181); font-size: 15px; border-radius: 50px; color: white; display: inline-block; text-align: center; font-weight: 600; margin-top: 16px; }
 .login-form .sign-in-form-content .button-google .btn img { margin-right: 15px; }
-.login-form .sign-in-form-content .transparent-box a { border: 2px solid rgb(244, 244, 244); border-radius: 125px; background: transparent; letter-spacing: 1.12px; color: rgb(0, 0, 0); font-size: 16px; }
-.login-form .sign-in-form-content p { position: relative; text-align: center; letter-spacing: 0.76px; color: rgb(167, 167, 167); font-weight: 500; font-size: 19px; margin: 24px 0px; }
+.login-form .sign-in-form-content .transparent-box a { border: 2px solid rgb(244, 244, 244); border-radius: 125px; background: transparent; letter-spacing: 1.12px; color: rgb(0, 0, 0); font-size: 15px; }
+.login-form .sign-in-form-content p { position: relative; text-align: center; letter-spacing: 0.76px; color: rgb(167, 167, 167); font-weight: 500; font-size: 16px; margin: 16px 0px; }
 .login-form .sign-in-form-content p::before { content: ""; position: absolute; left: 0px; top: 50%; transform: translateY(-50%); height: 1px; width: 200px; background-color: rgb(167, 167, 167); }
 .login-form .sign-in-form-content p::after { content: ""; position: absolute; right: 0px; top: 50%; transform: translateY(-50%); height: 1px; width: 200px; background-color: rgb(167, 167, 167); }
-.login-form .sign-in-form-content .button-email a { width: 475px; height: 63px; font-size: 16px; font-weight: 500; background-color: rgb(18, 40, 76); border-radius: 50px; color: rgb(255, 255, 255); display: inline-block; line-height: 63px; text-align: center; }
-.login-form .sign-in-form-content a img { margin-right: 10px; }
+.login-form .sign-in-form-content .button-email a { width: 475px; height: 48px; font-size: 15px; font-weight: 500; background-color: rgb(18, 40, 76); border-radius: 50px; color: rgb(255, 255, 255); display: inline-block; line-height: 48px; text-align: center; }
+.login-form .sign-in-form-content a img { margin-right: 10px; width: 22px;}
 
 
 /* PRODUCT LIST */
@@ -318,34 +318,35 @@ footer .footer-wrapper #footerbox.active ul { display: block; }
 
 
 .checkout-wrapper-main { position: relative; padding-bottom: 205px; }
-.checkout-wrapper-main .checkout-wrapper-grid .title h2 { letter-spacing: 0.4px; color: rgb(18, 40, 76); font-size: 40px; font-weight: bold; }
-.checkout-wrapper-main .checkout-wrapper-grid .title p { letter-spacing: 0.22px; color: rgb(76, 76, 76); font-size: 22px; font-weight: 500; margin: 0px; padding-left: 7px; }
-.checkout-wrapper-main .checkout-wrapper-grid .login-form { padding: 57px 58px; margin-top: 70px; }
+.checkout-wrapper-main .checkout-wrapper-grid .title h2 { letter-spacing: 0.4px; color: rgb(18, 40, 76); font-size: 28px; font-weight: bold; }
+.checkout-wrapper-main .checkout-wrapper-grid .title p { letter-spacing: 0.22px; color: rgb(76, 76, 76); font-size: 16px; font-weight: 500; margin: 0px; padding-left: 7px; }
+.checkout-wrapper-main .checkout-wrapper-grid .title img{width: 20px;}
+.checkout-wrapper-main .checkout-wrapper-grid .login-form { padding: 40px; margin-top: 70px; }
 .checkout-wrapper-main::before { background-image: url("../images/breakfast-banner.png"); background-position: center center; background-size: cover; content: ""; position: absolute; height: 370px; width: 100%; background-repeat: no-repeat; }
 .checkout-wrapper-main .login-form .sign-in-form-content .button-fb a, .login-form .sign-in-form-content .button-google a { width: 100%; }
 .checkout-wrapper-main .login-form .sign-in-form-content .button-email a { width: 100%; }
 .checkout-wrapper-main .login-form .sign-in-form-content p { width: 50%; }
 .checkout-wrapper-main .login-form .sign-in-form-content p::before { width: 150px; left: -30px; }
 .checkout-wrapper-main .login-form .sign-in-form-content p::after { width: 150px; right: -30px; }
-.checkout-wrapper-main .login-form .sign-in-form-content .meta { color: rgb(72, 72, 72); font-size: 17px; width: 100%; text-align: left; }
+.checkout-wrapper-main .login-form .sign-in-form-content .meta { color: rgb(72, 72, 72); font-size: 14px; width: 100%; text-align: left; }
 .checkout-wrapper-main .login-form .sign-in-form-content .meta::before, .checkout-wrapper-main .login-form .sign-in-form-content .meta::after { display: none; }
 .checkout-wrapper-main .checkout-wrapper-grid .row-main { padding-top: 128px; }
-.checkout-wrapper-main .checkout-wrapper-grid .row-main .basket-box { background: rgb(255, 255, 255); border: 1px solid rgb(229, 229, 229); padding: 57px 24px 0px; }
-.checkout-wrapper-main .checkout-wrapper-grid .basket-box h2 { color: rgb(18, 40, 76); font-weight: bold; font-size: 26px; }
+.checkout-wrapper-main .checkout-wrapper-grid .row-main .basket-box { background: rgb(255, 255, 255); padding: 8px 16px; border-radius: 3px;}
+.checkout-wrapper-main .checkout-wrapper-grid .basket-box h2 { color: rgb(18, 40, 76); font-weight: bold; font-size: 18px; }
 .checkout-wrapper-main .checkout-wrapper-grid .basket-box .flex-area { display: flex; justify-content: space-between; }
-.checkout-wrapper-main .checkout-wrapper-grid .basket-box .number h4 { font-weight: 500; color: rgb(76, 76, 76); font-size: 25px; margin-top: -3px; }
-.checkout-wrapper-main .checkout-wrapper-grid .basket-box .info h4 { font-weight: 600; color: rgb(76, 76, 76); font-size: 21px; }
-.checkout-wrapper-main .checkout-wrapper-grid .basket-box .info { margin-left: 8px; }
-.checkout-wrapper-main .checkout-wrapper-grid .basket-box .info p { font-size: 17px; color: rgb(76, 76, 76); }
-.checkout-wrapper-main .checkout-wrapper-grid .basket-box .price h5 { color: rgb(76, 76, 76); font-size: 20px; font-weight: 600; font-family: 'Open Sans'; }
-.checkout-wrapper-main .checkout-wrapper-grid .top-area .flex-area { margin-top: 35px; }
+.checkout-wrapper-main .checkout-wrapper-grid .basket-box .number h4 { font-weight: 500; color: rgb(76, 76, 76); font-size: 16px;margin: 0; }
+.checkout-wrapper-main .checkout-wrapper-grid .basket-box .info h4 { font-weight: 600; color: rgb(76, 76, 76); font-size: 16px; }
+.checkout-wrapper-main .checkout-wrapper-grid .basket-box .info p { font-size: 15px; color: rgb(76, 76, 76); margin: 0;}
+.checkout-wrapper-main .checkout-wrapper-grid .basket-box .price h5 { color: rgb(76, 76, 76); font-size: 16px; font-weight: 600; font-family: 'Open Sans'; }
+.checkout-wrapper-main .checkout-wrapper-grid .top-area .flex-area { margin-top: 16px; }
+.checkout-wrapper-main .checkout-wrapper-grid .top-area .flex-area:nth-child(2){padding-bottom: 16px;}
 .checkout-wrapper-main .checkout-wrapper-grid .basket-box .top-area { border-bottom: 1px solid rgb(229, 229, 229); }
-.checkout-wrapper-main .checkout-wrapper-grid .basket-box .subtotal-area h5 { color: rgb(76, 76, 76); font-weight: 500; font-size: 19px; margin-top: 26px; }
+.checkout-wrapper-main .checkout-wrapper-grid .basket-box .subtotal-area h5 { color: rgb(76, 76, 76); font-weight: 500; font-size: 16px; margin-top: 16px;}
 .checkout-wrapper-main .checkout-wrapper-grid .basket-box .subtotal-area img { padding-right: 7px; }
-.checkout-wrapper-main .checkout-wrapper-grid .basket-box .subtotal-area span { font-size: 17px; }
+.checkout-wrapper-main .checkout-wrapper-grid .basket-box .subtotal-area span { font-size: 15px; }
 .checkout-wrapper-main .checkout-wrapper-grid .basket-box .subtotal-area .blue-head { color: rgb(18, 40, 76); font-size: 15px; font-weight: 500; }
 .checkout-wrapper-main .checkout-wrapper-grid .basket-box .subtotal-area { padding-bottom: 30px; border-bottom: 1px solid rgb(229, 229, 229); }
-.checkout-wrapper-main .checkout-wrapper-grid .basket-box .total-area { justify-content: space-between; display: flex; padding: 12px 0px; font-weight: 600; color: rgb(18, 40, 76); font-size: 18px; }
+.checkout-wrapper-main .checkout-wrapper-grid .basket-box .total-area { justify-content: space-between; display: flex; padding: 12px 0px; font-weight: 600; color: rgb(18, 40, 76); font-size: 16px; }
 .checkout-wrapper-main .checkout-wrapper-grid .sign-in-form-content label { color: rgb(167, 167, 167); font-size: 18px; font-weight: 500; }
 .checkout-wrapper-main .checkout-wrapper-grid .sign-in-form-content .form-control { border: 1px solid rgb(229, 229, 229); border-radius: 5px; height: 50px; letter-spacing: 0.18px; color: rgb(76, 76, 76); font-weight: 500; }
 .checkout-wrapper-main .checkout-wrapper-grid .sign-in-form-content .form-group { margin-top: 45px; }
