@@ -39,8 +39,9 @@ header .header-info-area .number { margin-left: 10px; letter-spacing: 0.2px; col
 .container {max-width:2000px;padding-left:64px; padding-right:64px;}
 
 .details-grid { border-bottom: 1px solid rgb(229, 229, 229);padding: 24px 0;}
-.details-grid .breadcrumb{padding: 0;background-color: transparent;font-size: 14px;margin: 0;}
+.details-grid .breadcrumb{padding: 10px 0;background-color: transparent;font-size: 14px;margin: 0;}
 .details-grid .breadcrumb a{display: inline-block;color: #00b8a9;padding-left: 5px;font-size: 14px;}
+.details-grid .breadcrumb a:first-child{padding-left:0;}
 .details-grid .breadcrumb span{color: #828585;display: inline-block;padding-left: 5px;}
 .details-grid .details h2 { font-size: 27px; color: rgb(18, 40, 76); font-weight: bold; letter-spacing: -.02em;padding-top: 16px;}
 .details-grid .details .reviews { margin-bottom: 14px; }
@@ -85,18 +86,21 @@ header .header-info-area .number { margin-left: 10px; letter-spacing: 0.2px; col
 .main-food-section h2 { font-size: 28px; font-weight: bold; color: rgb(18, 40, 76); padding-top: 40px; }
 .main-food-section p { font-size: 16px; font-weight: 400; color: rgb(116, 116, 116);}
 .main-food-section .burger-top-heading p { margin-bottom: 30px; }
-.main-food-section .detail-item {transition: 0.2s ease-in-out; display: flex;padding: 16px; background-color: rgb(255, 255, 255); margin-bottom: 16px; align-items: center; justify-content: space-between; }
-.main-food-section .detail-item:hover{cursor: pointer;box-shadow: 0px 22px 24px 0px rgb(0 0 0 / 8%);}
-.main-food-section .detail-item .details { padding-right: 10px; }
-.main-food-section .detail-item .details h4 { font-size: 16px; color: rgb(0, 0, 0); font-weight: 600; }
-.main-food-section .detail-item .details p { padding-top:0;font-size: 14px; color: rgb(72, 72, 72); font-weight: 300; margin: 0px 0px 12px; padding-right: 15px; }
-.main-food-section .detail-item .details .price { font-size: 16px; color: #12284C; font-weight: 400; font-family: 'Open Sans', sans-serif; }
+
+.sub-product-grid .detail-item {transition: 0.2s ease-in-out; display: flex;padding: 16px; background-color: rgb(255, 255, 255); margin-bottom: 16px; align-items: center; justify-content: space-between; }
+.sub-product-grid .detail-item:hover{cursor: pointer;box-shadow: 0px 22px 24px 0px rgb(0 0 0 / 8%);}
+.sub-product-grid .detail-item .details { padding-right: 10px; }
+.sub-product-grid .detail-item .details h4 { font-size: 16px; color: rgb(0, 0, 0); font-weight: 600; }
+.sub-product-grid .detail-item .details p { padding-top:0;font-size: 14px; color: rgb(72, 72, 72); font-weight: 300; margin: 0px 0px 12px; padding-right: 15px; }
+.sub-product-grid .detail-item .details .price { font-size: 16px; color: #12284C; font-weight: 400; font-family: 'Open Sans', sans-serif; }
+
 .main-food-section .row .col-xl-6{padding-left: 10px;padding-right: 10px;}
 .main-food-section .detail-item .picture img { border-radius: 4px; height: 116px; width: 116px; object-fit: cover; object-position: center center; }
 .main-food-section .refresh img { width: 45px; }
 .main-food-section .basket-box{margin-top:-88px;background-color: #fff;border-radius: 0 0 2px 2px;box-shadow: 0px 22px 24px 0px rgb(46 51 51 / 7%);padding: 16px;position: sticky;top: 0;}
 .main-food-section .basket-box .actions a{text-align:center;display: inline-block;color: #abadad;background: #e2e5e5;min-height: 48px;padding: 17px 24px;border-radius: 4px;font-weight: 600;font-family: plex-sans,sans-serif;font-size: 16px;width: 100%;}
 .main-food-section .basket-box .detail{padding: 32px 0 64px;text-align: center;}
+
 .benefits { padding: 65px 0px; }
 .benefits .benefits-box { display: flex; align-items: center; }
 .benefits .benefits-box h4 { color: rgb(76, 76, 76); font-size: 18px; font-weight: 400; margin-left: 15px; margin-bottom: 0px; }
@@ -601,7 +605,7 @@ footer .footer-wrapper #footerbox.active ul { display: block; }
   footer .footer-wrapper .footer-box.active ul { display: block; }
   footer .footer-wrapper .copyrights { flex-direction: column; justify-content: center; text-align: center; }
   footer .footer-wrapper .copyrights p { font-size: 11px; }
-  .details-grid .details h2 { font-size: 30px; }
+  .details-grid .details h2 { font-size: 26px; }
   .details-grid .details .reviews span { font-size: 16px; }
   .details-grid .details .reviews .stars img { width: 100px; }
   .details-grid .details-grid-wrapper .info p span { font-size: 14px; }
@@ -635,11 +639,22 @@ footer .footer-wrapper #footerbox.active ul { display: block; }
 
 
 @media (max-width: 768px) {
+    .container { padding-left: 16px; padding-right: 16px;}
+    
     .listing-wrapper {flex-direction: column;}
     .listing-wrapper .sidebar {width:100%;flex:0 0 100%;margin:0;padding-top: 22px;}
     footer .footer-wrapper .footer-topheading h2 { line-height: 30px; }
     #checkout-pupup.active .credit-popup-con { width: 100%; padding: 34px 25px; }
     .checkout-pupup .account-credit-btn .btn { width: 100%; display: block; }
+
+    .sub-product-grid {overflow-x:auto;margin: 0 -15px;} 
+    .sub-product-grid > .row {display:flex;flex-wrap: nowrap;margin: 0;}
+    .sub-product-grid > .row > .col-xl-6 {max-width: 76%; padding:0}
+    .sub-product-grid .detail-item {flex-direction:column-reverse;margin: 0 15px 40px;box-shadow: 0 8px 20px 0 rgba(0,0,0,0.08) !important;}
+
+    .sub-product-grid .detail-item .picture {width:100%; padding:0 0 10px;}
+    .sub-product-grid .detail-item .picture img {width:100%;height: 130px !important;}
+    .sub-product-grid .detail-item .details .price {font-weight:bold; color:#2dbdbd;}
 }
 
 
@@ -706,7 +721,7 @@ footer .footer-wrapper #footerbox.active ul { display: block; }
   .details-grid .details-grid-wrapper{padding: 16px 0;}
   .details-grid .details-grid-wrapper .order-web h4 {font-size: 13px;}
   .details-grid .details-grid-wrapper .order-web p {font-size: 11px;}
-  .details-grid .details h2 { font-size: 18px; padding-top: 0;}
+  .details-grid .details h2 { font-size: 24px; padding-top: 0;}
   .details-grid .details-grid-wrapper .open a { font-size: 12px; }
   .details-grid .details .reviews .stars img { width: 70px; }
   .details-grid .details .reviews span { font-size: 12px; }
@@ -724,7 +739,7 @@ footer .footer-wrapper #footerbox.active ul { display: block; }
   .more-section .dropdown .btn { font-size: 13px; }
   .more-section .dropdown .dropdown-menu { width: 220px; }
   .more-section .dropdown .dropdown-menu button { font-size: 12px; }
-  .main-food-section h2 { font-size: 18px; }
+  .main-food-section h2 { font-size: 21px; }
   .main-food-section p { font-size: 13px; }
   .main-food-section h4 { font-size: 14px; }
   .main-food-section .details p { font-size: 11px; }

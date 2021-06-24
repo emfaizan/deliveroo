@@ -31,41 +31,41 @@
     </head>
 <body>
 
-      <!---  HEADER  START  -->
+    <!---  HEADER  START  -->
 
-      <header>
-        <div class="container">
-            <div class="header-wrapper">
-                <div class="logo">
-                    <a href="index.html">
-                    <img src="assets/images/logo.svg" alt="">
-                   </a>
+    <header>
+    <div class="container">
+        <div class="header-wrapper">
+            <div class="logo">
+                <a href="index.html">
+                <img src="assets/images/logo.svg" alt="">
+                </a>
+            </div>
+            <div class="header-info-area">
+                <div class="lang-wrapper">
+                    العربية
                 </div>
-                <div class="header-info-area">
-                    <div class="lang-wrapper">
-                        العربية
+                <div class="info d-flex align-items-center justify-content-center">
+                    <img src="assets/images/info.svg" alt="">
+                </div>
+                <div class="shopping-cart">
+                    <div class="picture">
+                    <img src="assets/images/shopping-cart.png" alt="">
+                    <div class="quantity">
+                        <span>34</span>
                     </div>
-                    <div class="info d-flex align-items-center justify-content-center">
-                        <img src="assets/images/info.svg" alt="">
                     </div>
-                    <div class="shopping-cart">
-                        <div class="picture">
-                        <img src="assets/images/shopping-cart.png" alt="">
-                        <div class="quantity">
-                            <span>34</span>
-                        </div>
-                        </div>
-                        <div class="number">
-                            BD 114.430
-                        </div>
+                    <div class="number">
+                        BD 114.430
                     </div>
-                    <div class="burger-menu" onclick="main()">
-                        <img src="assets/images/burger-menu.svg" alt="">
-                    </div>
+                </div>
+                <div class="burger-menu" onclick="main()">
+                    <img src="assets/images/burger-menu.svg" alt="">
                 </div>
             </div>
         </div>
-      </header>
+    </div>
+    </header>
 
     <div class="main-menu" id="main-menu">
         <div class="back-overlay"></div>
@@ -104,11 +104,16 @@
     <section class="details-grid">
         <div class="container">
             <div class="breadcrumb">
-                <a href="">Home /</a> <a href="/"> The City /</a> <span>Full Life fundraising</span>
+                <a href="">Home</a>
+                <span class="delimeter">/</span>
+                <a href="/">The City</a>
+                <span class="delimeter">/</span>
+                <span>Full Life fundraising</span>
             </div>
+
             <div class="details-grid-wrapper">
                 <div class="details">
-                     <div class="title d-flex justify-content-between">
+                     <div class="title">
                     <h2>Otto Italian Restaurants</h2>
                     <div class="open d-sm-none d-block">
                         <a href="" class="d-block">OPEN</a>
@@ -565,185 +570,189 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
-        <div class="burger-section">
-            <div class="burger-top-heading">
-                    <h2>Burgers</h2>
-                    <p>All the restaurants you like - all in one app!</p>
-            </div>
-            <div class="burger-grid">
-                    <div class="row">
-                        <div class="col-xl-6 col-md-6 col-12">
-                            <div class="detail-item" onclick="listpop()">
-                                <div class="details">
-                                    <h4>Hamburger</h4>
-                                    <p>Two fresh high-quality beef patties hot off the grill, on a sof...</p>
-                                    <span class="price">BHD 8.500</span>
-                                </div>
-                                <div class="picture">
-                                    <img src="assets/images/dish.jpeg" alt="">
-                                </div>
-                            </div>
+                    <div class="burger-section">
+                        <div class="burger-top-heading">
+                                <h2>Burgers</h2>
+                                <p>All the restaurants you like - all in one app!</p>
                         </div>
-                        <div class="col-xl-6 col-md-6 col-12">
-                            <div class="detail-item" onclick="listpop()">
-                                <div class="details">
-                                    <h4>Hamburger</h4>
-                                    <p>Two fresh high-quality beef patties hot off the grill, on a sof...</p>
-                                    <span class="price">BHD 8.500</span>
+                        <div class="burger-grid sub-product-grid">
+                            <div class="row">
+                                <div class="col-xl-6 col-md-6 col-12">
+                                    <div class="detail-item" onclick="listpop()">
+                                        <div class="details">
+                                            <h4>Hamburger</h4>
+                                            <p>Two fresh high-quality beef patties hot off the grill, on a sof...</p>
+                                            <span class="price">BHD 8.500</span>
+                                        </div>
+                                        <div class="picture">
+                                            <img src="assets/images/dish.jpeg" alt="">
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="picture">
-                                    <img src="assets/images/dish.jpeg" alt="">
+                                <div class="col-xl-6 col-md-6 col-12">
+                                    <div class="detail-item" onclick="listpop()">
+                                        <div class="details">
+                                            <h4>Hamburger</h4>
+                                            <p>Two fresh high-quality beef patties hot off the grill, on a sof...</p>
+                                            <span class="price">BHD 8.500</span>
+                                        </div>
+                                        <div class="picture">
+                                            <img src="assets/images/dish.jpeg" alt="">
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-6 col-md-6 col-12">
-                            <div class="detail-item" onclick="listpop2()">
-                                <div class="details">
-                                    <h4>Hamburger</h4>
-                                    <p>Two fresh high-quality beef patties hot off the grill, on a sof...</p>
-                                    <span class="price">BHD 8.500</span>
+                                <div class="col-xl-6 col-md-6 col-12">
+                                    <div class="detail-item" onclick="listpop2()">
+                                        <div class="details">
+                                            <h4>Hamburger</h4>
+                                            <p>Two fresh high-quality beef patties hot off the grill, on a sof...</p>
+                                            <span class="price">BHD 8.500</span>
+                                        </div>
+                                        <div class="picture">
+                                            <img src="assets/images/dish.jpeg" alt="">
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="picture">
-                                    <img src="assets/images/dish.jpeg" alt="">
+                                <div class="col-xl-6 col-md-6 col-12">
+                                    <div class="detail-item" onclick="listpop3()">
+                                        <div class="details">
+                                            <h4>Hamburger</h4>
+                                            <p>Two fresh high-quality beef patties hot off the grill, on a sof...</p>
+                                            <span class="price">BHD 8.500</span>
+                                        </div>
+                                        <div class="picture">
+                                            <img src="assets/images/dish.jpeg" alt="">
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-6 col-md-6 col-12">
-                            <div class="detail-item" onclick="listpop3()">
-                                <div class="details">
-                                    <h4>Hamburger</h4>
-                                    <p>Two fresh high-quality beef patties hot off the grill, on a sof...</p>
-                                    <span class="price">BHD 8.500</span>
+                                <div class="col-xl-6 col-md-6 col-12">
+                                    <div class="detail-item" onclick="listpop()">
+                                        <div class="details">
+                                            <h4>Hamburger</h4>
+                                            <p>Two fresh high-quality beef patties hot off the grill, on a sof...</p>
+                                            <span class="price">BHD 8.500</span>
+                                        </div>
+                                        <div class="picture">
+                                            <img src="assets/images/dish.jpeg" alt="">
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="picture">
-                                    <img src="assets/images/dish.jpeg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-6 col-md-6 col-12">
-                            <div class="detail-item" onclick="listpop()">
-                                <div class="details">
-                                    <h4>Hamburger</h4>
-                                    <p>Two fresh high-quality beef patties hot off the grill, on a sof...</p>
-                                    <span class="price">BHD 8.500</span>
-                                </div>
-                                <div class="picture">
-                                    <img src="assets/images/dish.jpeg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-6 col-md-6 col-12">
-                            <div class="detail-item" onclick="listpop()">
-                                <div class="details">
-                                    <h4>Hamburger</h4>
-                                    <p>Two fresh high-quality beef patties hot off the grill, on a sof...</p>
-                                    <span class="price">BHD 8.500</span>
-                                </div>
-                                <div class="picture">
-                                    <img src="assets/images/dish.jpeg" alt="">
+                                <div class="col-xl-6 col-md-6 col-12">
+                                    <div class="detail-item" onclick="listpop()">
+                                        <div class="details">
+                                            <h4>Hamburger</h4>
+                                            <p>Two fresh high-quality beef patties hot off the grill, on a sof...</p>
+                                            <span class="price">BHD 8.500</span>
+                                        </div>
+                                        <div class="picture">
+                                            <img src="assets/images/dish.jpeg" alt="">
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
 
-            <div class="salad-section">
-                <div class="salad-top-heading">
-                    <h2>Salad</h2>
-                    <p>All the restaurants you like - all in one app!</p>
-                </div>
-                <div class="salads-grid">
-                    <div class="row">
-                        <div class="col-xl-6 col-md-6 col-12">
-                            <div class="detail-item" onclick="listpop()">
-                                <div class="details">
-                                    <h4>Hamburger</h4>
-                                    <p>Two fresh high-quality beef patties hot off the grill, on a sof...</p>
-                                    <span class="price">BHD 8.500</span>
-                                </div>
-                                <div class="picture">
-                                    <img src="assets/images/dish.jpeg" alt="">
-                                </div>
-                            </div>
+                    <div class="salad-section">
+                        <div class="salad-top-heading">
+                            <h2>Salad</h2>
+                            <p>All the restaurants you like - all in one app!</p>
                         </div>
-                        <div class="col-xl-6 col-md-6 col-12">
-                            <div class="detail-item" onclick="listpop()">
-                                <div class="details">
-                                    <h4>Hamburger</h4>
-                                    <p>Two fresh high-quality beef patties hot off the grill, on a sof...</p>
-                                    <span class="price">BHD 8.500</span>
+                        <div class="salads-grid sub-product-grid">
+                            <div class="row">
+                                <div class="col-xl-6 col-md-6 col-12">
+                                    <div class="detail-item" onclick="listpop()">
+                                        <div class="details">
+                                            <h4>Hamburger</h4>
+                                            <p>Two fresh high-quality beef patties hot off the grill, on a sof...</p>
+                                            <span class="price">BHD 8.500</span>
+                                        </div>
+                                        <div class="picture">
+                                            <img src="assets/images/dish.jpeg" alt="">
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="picture">
-                                    <img src="assets/images/dish.jpeg" alt="">
+                                <div class="col-xl-6 col-md-6 col-12">
+                                    <div class="detail-item" onclick="listpop()">
+                                        <div class="details">
+                                            <h4>Hamburger</h4>
+                                            <p>Two fresh high-quality beef patties hot off the grill, on a sof...</p>
+                                            <span class="price">BHD 8.500</span>
+                                        </div>
+                                        <div class="picture">
+                                            <img src="assets/images/dish.jpeg" alt="">
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-6 col-md-6 col-12">
-                            <div class="detail-item" onclick="listpop()">
-                                <div class="details">
-                                    <h4>Hamburger</h4>
-                                    <p>Two fresh high-quality beef patties hot off the grill, on a sof...</p>
-                                    <span class="price">BHD 8.500</span>
-                                </div>
-                                <div class="picture">
-                                    <img src="assets/images/dish.jpeg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="drinks-section">
-                <div class="drinks-top-heading">
-                    <h2>Salad</h2>
-                    <p>All the restaurants you like - all in one app!</p>
-                </div>
-                <div class="salads-grid">
-                    <div class="row">
-                        <div class="col-xl-6 col-md-6 col-12">
-                            <div class="detail-item" onclick="listpop()">
-                                <div class="details">
-                                    <h4>Hamburger</h4>
-                                    <p>Two fresh high-quality beef patties hot off the grill, on a sof...</p>
-                                    <span class="price">BHD 8.500</span>
-                                </div>
-                                <div class="picture">
-                                    <img src="assets/images/dish.jpeg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-6 col-md-6 col-12">
-                            <div class="detail-item" onclick="listpop()">
-                                <div class="details">
-                                    <h4>Hamburger</h4>
-                                    <p>Two fresh high-quality beef patties hot off the grill, on a sof...</p>
-                                    <span class="price">BHD 8.500</span>
-                                </div>
-                                <div class="picture">
-                                    <img src="assets/images/dish.jpeg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-6 col-md-6 col-12">
-                            <div class="detail-item" onclick="listpop()">
-                                <div class="details">
-                                    <h4>Hamburger</h4>
-                                    <p>Two fresh high-quality beef patties hot off the grill, on a sof...</p>
-                                    <span class="price">BHD 8.500</span>
-                                </div>
-                                <div class="picture">
-                                    <img src="assets/images/dish.jpeg" alt="">
+                                <div class="col-xl-6 col-md-6 col-12">
+                                    <div class="detail-item" onclick="listpop()">
+                                        <div class="details">
+                                            <h4>Hamburger</h4>
+                                            <p>Two fresh high-quality beef patties hot off the grill, on a sof...</p>
+                                            <span class="price">BHD 8.500</span>
+                                        </div>
+                                        <div class="picture">
+                                            <img src="assets/images/dish.jpeg" alt="">
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="refresh d-flex justify-content-center">
-                <img src="assets/images/refresh.svg" alt="">
-            </div>
+
+                    <div class="drinks-section">
+                        <div class="drinks-top-heading">
+                            <h2>Salad</h2>
+                            <p>All the restaurants you like - all in one app!</p>
+                        </div>
+                        <div class="salads-grid sub-product-grid">
+                            <div class="row">
+                                <div class="col-xl-6 col-md-6 col-12">
+                                    <div class="detail-item" onclick="listpop()">
+                                        <div class="details">
+                                            <h4>Hamburger</h4>
+                                            <p>Two fresh high-quality beef patties hot off the grill, on a sof...</p>
+                                            <span class="price">BHD 8.500</span>
+                                        </div>
+                                        <div class="picture">
+                                            <img src="assets/images/dish.jpeg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-md-6 col-12">
+                                    <div class="detail-item" onclick="listpop()">
+                                        <div class="details">
+                                            <h4>Hamburger</h4>
+                                            <p>Two fresh high-quality beef patties hot off the grill, on a sof...</p>
+                                            <span class="price">BHD 8.500</span>
+                                        </div>
+                                        <div class="picture">
+                                            <img src="assets/images/dish.jpeg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-md-6 col-12">
+                                    <div class="detail-item" onclick="listpop()">
+                                        <div class="details">
+                                            <h4>Hamburger</h4>
+                                            <p>Two fresh high-quality beef patties hot off the grill, on a sof...</p>
+                                            <span class="price">BHD 8.500</span>
+                                        </div>
+                                        <div class="picture">
+                                            <img src="assets/images/dish.jpeg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="refresh d-flex justify-content-center">
+                        <img src="assets/images/refresh.svg" alt="">
+                    </div>
                </div>
+               
                <div class="col-lg-4 d-xl-block d-none">
                    <div class="basket-box">
                        <div class="actions">
