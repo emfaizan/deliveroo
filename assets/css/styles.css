@@ -30,7 +30,7 @@ header .header-info-area .number { margin-left: 10px; letter-spacing: 0.2px; col
 
 .hero-page-title { display: flex; align-items: center; background: url("../images/breakfast-banner.png") center center / cover no-repeat; width: 100%; height: 370px; background-blend-mode: multiply; padding: 0px 0px 60px; }
 .hero-page-title .banner-heading h2 { letter-spacing: 0.4px; color: rgb(76, 76, 76); font-size: 40px; font-weight: 800; }
-.form-control { max-width: 350px; height: 50px; border: 1px solid rgb(226, 226, 226); border-radius: 4px; }
+.form-control {font-size: 14px;max-width: 350px; height: 50px; border: 1px solid rgb(226, 226, 226); border-radius: 4px; }
 .form-control::placeholder { color: rgb(226, 226, 226); }
 .btn-submit { width: 242px; height: 56px; border: 0px; background: rgb(18, 40, 76); font-size: 15px; font-weight: 600; border-radius: 50px; display: inline-block; text-align: center; line-height: 56px; font-family: raleway; transition: all 0.4s ease 0s; color: white !important; }
 .btn-submit:hover { background-color: rgb(34, 34, 34); text-decoration: none; }
@@ -324,11 +324,11 @@ footer .footer-wrapper #footerbox.active ul { display: block; }
 .go-to-checkout-box .total-area { justify-content: space-between; display: flex; padding: 12px 0px; font-weight: 600; color: rgb(18, 40, 76); font-size: 16px; }
 
 
-.checkout-wrapper-main { position: relative; padding-bottom: 205px; }
+.checkout-wrapper-main { position: relative; padding-bottom: 105px; }
 .checkout-wrapper-main .checkout-wrapper-grid .title h2 { letter-spacing: 0.4px; color: rgb(18, 40, 76); font-size: 28px; font-weight: bold; }
 .checkout-wrapper-main .checkout-wrapper-grid .title p { letter-spacing: 0.22px; color: rgb(76, 76, 76); font-size: 16px; font-weight: 500; margin: 0px; padding-left: 7px; }
 .checkout-wrapper-main .checkout-wrapper-grid .title img{width: 20px;}
-.checkout-wrapper-main .checkout-wrapper-grid .login-form { padding: 40px; margin-top: 70px; }
+.checkout-wrapper-main .checkout-wrapper-grid .login-form { padding: 40px; margin-top: 20px; }
 .checkout-wrapper-main::before { background-image: url("../images/breakfast-banner.png"); background-position: center center; background-size: cover; content: ""; position: absolute; height: 370px; width: 100%; background-repeat: no-repeat; }
 .checkout-wrapper-main .login-form .sign-in-form-content .button-fb a, .login-form .sign-in-form-content .button-google a { width: 100%; }
 .checkout-wrapper-main .login-form .sign-in-form-content .button-email a { width: 100%; }
@@ -338,7 +338,7 @@ footer .footer-wrapper #footerbox.active ul { display: block; }
 .checkout-wrapper-main .login-form .sign-in-form-content .meta { color: rgb(72, 72, 72); font-size: 14px; width: 100%; text-align: left; }
 .checkout-wrapper-main .login-form .sign-in-form-content .meta::before, .checkout-wrapper-main .login-form .sign-in-form-content .meta::after { display: none; }
 .checkout-wrapper-main .checkout-wrapper-grid .row-main { padding-top: 128px; }
-.checkout-wrapper-main .checkout-wrapper-grid .row-main .basket-box { background: rgb(255, 255, 255); padding: 8px 16px; border-radius: 3px;}
+.checkout-wrapper-main .checkout-wrapper-grid .row-main .basket-box {box-shadow: 0 14px 14px 0 rgb(0 0 0 / 8%); background: rgb(255, 255, 255); padding: 8px 16px; border-radius: 3px;}
 .checkout-wrapper-main .checkout-wrapper-grid .basket-box h2 { color: rgb(18, 40, 76); font-weight: bold; font-size: 18px; }
 .checkout-wrapper-main .checkout-wrapper-grid .basket-box .flex-area { display: flex; justify-content: space-between; }
 .checkout-wrapper-main .checkout-wrapper-grid .basket-box .number h4 { font-weight: 500; color: rgb(76, 76, 76); font-size: 16px;margin: 0; }
@@ -354,40 +354,40 @@ footer .footer-wrapper #footerbox.active ul { display: block; }
 .checkout-wrapper-main .checkout-wrapper-grid .basket-box .subtotal-area .blue-head { color: rgb(18, 40, 76); font-size: 15px; font-weight: 500; }
 .checkout-wrapper-main .checkout-wrapper-grid .basket-box .subtotal-area { padding-bottom: 30px; border-bottom: 1px solid rgb(229, 229, 229); }
 .checkout-wrapper-main .checkout-wrapper-grid .basket-box .total-area { justify-content: space-between; display: flex; padding: 12px 0px; font-weight: 600; color: rgb(18, 40, 76); font-size: 16px; }
-.checkout-wrapper-main .checkout-wrapper-grid .sign-in-form-content label { color: rgb(167, 167, 167); font-size: 18px; font-weight: 500; }
-.checkout-wrapper-main .checkout-wrapper-grid .sign-in-form-content .form-control { border: 1px solid rgb(229, 229, 229); border-radius: 5px; height: 50px; letter-spacing: 0.18px; color: rgb(76, 76, 76); font-weight: 500; }
-.checkout-wrapper-main .checkout-wrapper-grid .sign-in-form-content .form-group { margin-top: 45px; }
-.checkout-wrapper-main .checkout-wrapper-grid .sign-in-form-content .login-button a { margin-top: 34px; background-color: rgb(18, 40, 76); width: 100%; display: block; letter-spacing: 1.12px; color: rgb(255, 255, 255); font-weight: 600; font-size: 16px; height: 63px; line-height: 63px; text-align: center; border-radius: 30px; }
-.checkout-wrapper-main .checkout-wrapper-grid .sign-in-form-content .forgot-pass a { margin-top: 34px; border: 2px solid rgb(229, 229, 229); width: 100%; display: block; letter-spacing: 1.12px; color: rgb(0, 0, 0); font-weight: 600; font-size: 16px; height: 63px; line-height: 63px; text-align: center; border-radius: 30px; }
-.checkout-wrapper-main .checkout-wrapper-grid .checkout-address-box { background-color: rgb(255, 255, 255); padding: 50px; margin-top: 80px; border: 1px solid rgb(229, 229, 229); }
-.checkout-wrapper-main .checkout-wrapper-grid .checkout-address-box .tophead h2 { color: rgb(18, 40, 76); font-weight: bold; font-size: 23px; margin: 0px 0px 15px; }
+.checkout-wrapper-main .checkout-wrapper-grid .sign-in-form-content label { color: rgb(167, 167, 167); font-size: 16px; font-weight: 500; }
+.checkout-wrapper-main .checkout-wrapper-grid .sign-in-form-content .form-control { border: 1px solid rgb(229, 229, 229); border-radius: 5px; height: 50px; letter-spacing: 0.18px; color: rgb(76, 76, 76); font-weight: 500; max-width: 100%;}
+.checkout-wrapper-main .checkout-wrapper-grid .sign-in-form-content .form-group { margin-top: 24px; }
+.checkout-wrapper-main .checkout-wrapper-grid .sign-in-form-content .login-button a { margin-top: 24px; background-color: rgb(18, 40, 76); width: 100%; display: block; letter-spacing: 1.12px; color: rgb(255, 255, 255); font-weight: 600; font-size: 14px; height: 48px; line-height: 48px; text-align: center; border-radius: 30px; }
+.checkout-wrapper-main .checkout-wrapper-grid .sign-in-form-content .forgot-pass a { margin-top: 24px; border: 2px solid rgb(229, 229, 229); width: 100%; display: block; letter-spacing: 1.12px; color: rgb(0, 0, 0); font-weight: 600; font-size: 14px; height: 48px; line-height: 48px; text-align: center; border-radius: 30px; }
+.checkout-wrapper-main .checkout-wrapper-grid .checkout-address-box { background-color: rgb(255, 255, 255); padding: 40px; margin-top: 20px;}
+.checkout-wrapper-main .checkout-wrapper-grid .checkout-address-box .tophead h2 { color: rgb(18, 40, 76); font-weight: bold; font-size: 18px; margin: 0px 0px 15px; }
 .checkout-wrapper-main .checkout-wrapper-grid .checkout-address-box .flex-area { display: flex; margin-top: 22px; }
 .checkout-wrapper-main .checkout-wrapper-grid .checkout-address-box .flex-area img { margin-right: 10px; }
 .checkout-wrapper-main .checkout-wrapper-grid .checkout-address-box .flex-area .border-b, .checkout-wrapper-main .checkout-wrapper-grid .checkout-address-box .flex-area .border-g { margin-right: 20px; }
-.checkout-wrapper-main .checkout-wrapper-grid .checkout-address-box .delivery-address, .checkout-wrapper-main .checkout-wrapper-grid .checkout-address-box .payment-method, .checkout-wrapper-main .checkout-wrapper-grid .checkout-address-box .credit-card { margin-top: 50px; }
+.checkout-wrapper-main .checkout-wrapper-grid .checkout-address-box .delivery-address, .checkout-wrapper-main .checkout-wrapper-grid .checkout-address-box .payment-method, .checkout-wrapper-main .checkout-wrapper-grid .checkout-address-box .credit-card { margin-top: 40px; }
 .checkout-wrapper-main .checkout-wrapper-grid .payment-method h2, .checkout-wrapper-main .checkout-wrapper-grid .credit-card h2 { border-bottom: 1px solid rgb(229, 229, 229); padding-bottom: 20px; }
-.checkout-wrapper-main .checkout-wrapper-grid .flex-area .text h4 { margin: 0px; color: rgb(76, 76, 76); font-size: 18px; font-weight: 500; }
-.checkout-wrapper-main .checkout-wrapper-grid .flex-area .text p { color: rgb(167, 167, 167); font-size: 17px; }
+.checkout-wrapper-main .checkout-wrapper-grid .flex-area .text h4 { margin: 0px; color: rgb(76, 76, 76); font-size: 16px; font-weight: 500; }
+.checkout-wrapper-main .checkout-wrapper-grid .flex-area .text p { margin-bottom:0;color: rgb(167, 167, 167); font-size: 17px; }
 .checkout-wrapper-main .checkout-wrapper-grid .payment-method h4 { color: rgb(76, 76, 76); font-size: 21px; font-weight: 500; margin: 0px; }
 .checkout-wrapper-main .checkout-wrapper-grid .payment-method .flex-area { margin-top: 30px; }
 .checkout-wrapper-main .checkout-wrapper-grid .credit-card .input { position: relative; }
 .checkout-wrapper-main .checkout-wrapper-grid .credit-card .form-control { width: 100%; max-width: 100%; }
 .checkout-wrapper-main .checkout-wrapper-grid .credit-card .input img { position: absolute; top: 50%; right: 13px; transform: translateY(-50%); cursor: pointer; }
 .checkout-wrapper-main .checkout-wrapper-grid .credit-card p { font-size: 10px; letter-spacing: 0.1px; color: rgb(46, 51, 51); margin: 0px; padding-right: 8px; }
-.checkout-wrapper-main .checkout-wrapper-grid .checkout-address-box .term-condition p { font-size: 17px; color: rgb(76, 76, 76); margin: 31px 0px; }
-.checkout-wrapper-main .checkout-wrapper-grid .checkout-address-box .save-btn a { display: block; width: 100%; border: 2px solid rgb(229, 229, 229); border-radius: 30px; font-weight: 600; letter-spacing: 1.12px; color: rgb(0, 0, 0); font-size: 16px; height: 61px; line-height: 61px; text-align: center; margin-bottom: 18px; }
-.checkout-wrapper-main .checkout-wrapper-grid .checkout-address-box .confirm-place-order a { display: block; width: 100%; background: rgb(18, 40, 76); border-radius: 30px; font-weight: 600; letter-spacing: 1.12px; color: rgb(255, 255, 255); font-size: 16px; height: 61px; line-height: 61px; text-align: center; margin-bottom: 18px; }
+.checkout-wrapper-main .checkout-wrapper-grid .checkout-address-box .term-condition p { font-size: 16px; color: rgb(76, 76, 76); margin: 24px 0px; }
+.checkout-wrapper-main .checkout-wrapper-grid .checkout-address-box .save-btn a { display: block; width: 100%; border: 2px solid rgb(229, 229, 229); border-radius: 30px; font-weight: 600; letter-spacing: 1.12px; color: rgb(0, 0, 0); font-size: 14px; height: 48px; line-height: 48px; text-align: center; margin-bottom: 18px; }
+.checkout-wrapper-main .checkout-wrapper-grid .checkout-address-box .confirm-place-order a { display: block; width: 100%; background: rgb(18, 40, 76); border-radius: 30px; font-weight: 600; letter-spacing: 1.12px; color: rgb(255, 255, 255); font-size: 14px; height: 48px; line-height: 48px; text-align: center; margin-bottom: 18px; }
 .checkout-wrapper-main .deliver-box .my-house-content { margin-top: 25px; border: 2px solid rgb(229, 229, 229); border-radius: 4px; margin-bottom: 30px; padding: 20px; }
-.checkout-wrapper-main .deliver-box .my-house-content .details h4 { margin-bottom: 0px; font-size: 20px; color: rgb(18, 40, 76); font-weight: 600; }
-.checkout-wrapper-main .deliver-box .my-house-content .details p { margin-bottom: 0px; font-size: 18px; color: rgb(116, 116, 116); font-weight: normal; margin-top: 8px; }
+.checkout-wrapper-main .deliver-box .my-house-content .details h4 { margin-bottom: 0px; font-size: 14px; color: rgb(18, 40, 76); font-weight: 600; }
+.checkout-wrapper-main .deliver-box .my-house-content .details p { margin-bottom: 0px; font-size: 14px; color: rgb(116, 116, 116); font-weight: normal; margin-top: 8px; }
 .checkout-wrapper-main .deliver-box .my-house-content .details { padding-left: 10px; }
-.checkout-wrapper-main .deliver-box .border-style { margin-top: 25px; border: 2px solid rgb(18, 40, 76); border-radius: 4px; margin-bottom: 30px; padding: 20px; }
+.checkout-wrapper-main .deliver-box .border-style { margin-top: 25px; border: 2px solid rgb(18, 40, 76); border-radius: 4px; margin-bottom: 25px; padding: 16px; }
 .checkout-wrapper-main .deliver-box .my-house-content .flex-area { margin-top: 0px !important; }
 .checkout-wrapper-main .deliver-box .add-addresses a::before { content: "+"; font-family: FontAwesome; position: absolute; left: 0px; }
-.checkout-wrapper-main .deliver-box .add-addresses { border: 2px solid rgb(229, 229, 229); border-radius: 4px; padding: 20px; }
-.checkout-wrapper-main .deliver-box .add-addresses a { position: relative; display: inline-block; color: rgb(18, 40, 76); font-weight: 500; font-size: 18px; padding-left: 25px; }
+.checkout-wrapper-main .deliver-box .add-addresses { border: 2px solid rgb(229, 229, 229); border-radius: 4px; padding: 16px; }
+.checkout-wrapper-main .deliver-box .add-addresses a { position: relative; display: inline-block; color: rgb(18, 40, 76); font-weight: 500; font-size: 16px; padding-left: 25px; }
 .checkout-wrapper-main .deliver-box .title h2 { font-size: 23px; padding-top: 84px; }
-.checkout-wrapper-main .checkout-wrapper-grid .credit-card .meta-1 { color: rgb(0, 0, 0); font-size: 17px; margin-top: 11px; padding-bottom: 30px; }
+.checkout-wrapper-main .checkout-wrapper-grid .credit-card .meta-1 { color: rgb(0, 0, 0); font-size: 16px; margin-top: 11px; padding-bottom: 30px; }
 
 
 
@@ -801,7 +801,7 @@ footer .footer-wrapper #footerbox.active ul { display: block; }
   .checkout-wrapper-main .checkout-wrapper-grid .sign-in-form-content .form-control { font-size: 12px; }
   .checkout-wrapper-main .checkout-wrapper-grid .sign-in-form-content .login-button a, .checkout-wrapper-main .checkout-wrapper-grid .sign-in-form-content .forgot-pass a { height: 45px; line-height: 45px; font-size: 12px; margin-top: 12px; }
   .checkout-wrapper-main .checkout-wrapper-grid .checkout-address-box .flex-area .border-b, .checkout-wrapper-main .checkout-wrapper-grid .checkout-address-box .flex-area .border-g { width: 19px; }
-  .checkout-wrapper-main .checkout-wrapper-grid .checkout-address-box .tophead h2 { font-size: 18px; padding-top: 36px; }
+  .checkout-wrapper-main .checkout-wrapper-grid .checkout-address-box .tophead h2 { font-size: 18px; }
   .checkout-wrapper-main .checkout-wrapper-grid .flex-area .text h4 { font-size: 14px; }
   .checkout-wrapper-main .checkout-wrapper-grid .flex-area .text p { font-size: 14px; }
   .checkout-wrapper-main .checkout-wrapper-grid .checkout-address-box select { height: 40px; font-size: 12px; }
@@ -811,7 +811,7 @@ footer .footer-wrapper #footerbox.active ul { display: block; }
   .checkout-wrapper-main .deliver-box .add-addresses a { font-size: 14px; }
   .checkout-wrapper-main .checkout-wrapper-grid .payment-method h4 { font-size: 14px; margin-top: 5px; }
   .checkout-wrapper-main .checkout-wrapper-grid .checkout-address-box .term-condition p { font-size: 12px; }
-  .checkout-wrapper-main .checkout-wrapper-grid .checkout-address-box .form-control { height: 40px; }
+  .checkout-wrapper-main .checkout-wrapper-grid .checkout-address-box .form-control { height: 40px; margin-bottom: 20px;}
   .checkout-wrapper-main .checkout-wrapper-grid .credit-card .meta-1 { font-size: 12px; }
   .checkout-wrapper-main .checkout-wrapper-grid .payment-method .flex-area { margin-top: 18px; }
   .checkout-wrapper-main .checkout-wrapper-grid .checkout-address-box .confirm-place-order a { height: 45px; line-height: 45px; font-size: 12px; }
