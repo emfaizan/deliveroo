@@ -552,8 +552,8 @@ footer .footer-wrapper #footerbox.active ul { display: block; }
 
   .filter-checkbox {margin: 0;border-bottom:1px solid #dee2e6;padding: 0 16px;}
   .filter-checkbox label {padding: 12px 30px 12px 0px;position: relative;font-size: 16px;color: #2e3333;}
-  .filter-checkbox label::before {left: auto; right:0;}
-  .filter-checkbox input:checked + label::after {left: auto; right:5px; }
+  .filter-checkbox label::before {left: auto;right:0;border-width: 2px;}
+  .filter-checkbox input:checked + label::after {left: auto;right:5px;border-width: 2px;border-radius: 0;}
 
 
   .listing-wrapper .listing-categories #accordion .card.opened { position: absolute; top: 0px; right: 0px; left: 0px; padding: 0px; }
