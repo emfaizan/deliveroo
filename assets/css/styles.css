@@ -563,7 +563,7 @@ footer .footer-wrapper #footerbox.active ul { display: block; }
   .listing-wrapper .listing-categories #accordion .card.opened h2 svg {display:none;}
   .listing-wrapper .listing-categories #accordion .card.opened .collapse { display: block !important; }
   .listing-wrapper .listing-categories .card-body a { margin: 0px; }
-  .listing-wrapper .listing-categories #accordion .card.opened ul li {border-bottom: 1px solid rgb(238, 238, 238);margin: 0px;padding: 6px 16px;}
+  .listing-wrapper .listing-categories #accordion .card.opened ul li {border-bottom: 1px solid rgb(238, 238, 238);margin: 0px;padding: 2px 16px;}
   .listing-wrapper .listing-categories .tabs-area { display: none; }
   .listing-wrapper .top-area-head .picture-head .span-blue img { display: block; }
   .listing-wrapper .top-area-head { border-bottom: none; }
