@@ -528,7 +528,8 @@ footer .footer-wrapper #footerbox.active ul { display: block; }
   .main-listing .nav-tabs li a.active { background-color: rgb(18, 40, 76); color: rgb(255, 255, 255); }
   .main-listing .nav-tabs li a.active:hover { text-decoration: none; }
   
-  
+  #open-filter {width: 46px;height: 46px;border-radius: 3px;border: 2px solid #eee;display: block;line-height: 40px;text-align:center;}
+  #open-filter img {display:inline-block;height: 18px;}
   
   .listing-wrapper .listing-categories #accordion {opacity: 0;display: none;position: fixed;top:0;bottom:0; right:0; left:0; padding: 0;z-index: 99;background: rgb(255, 255, 255);}
   .listing-wrapper .listing-categories #accordion.active {transition: all 0.4s ease-in-out 0s;display: block;opacity: 1;z-index: 9999;background: #fff;padding: 75px 0 80px;}
