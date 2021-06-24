@@ -557,7 +557,7 @@ footer .footer-wrapper #footerbox.active ul { display: block; }
   .filter-checkbox input:checked + label::after {left: auto;right:5px;border-width: 2px;border-radius: 0;}
 
 
-  .listing-wrapper .listing-categories #accordion .card.opened { position: absolute; top: 0px; right: 0px; left: 0px; padding: 0px; }
+  .listing-wrapper .listing-categories #accordion .card.opened {position: absolute;top: 0px;right: 0px;left: 0px;padding: 0px;z-index: 9999;}
   .listing-wrapper .listing-categories #accordion .card.opened h2 {padding: 28px 15px 28px 65px;border-bottom: 1px solid rgb(222, 226, 230);background: url("../images/icon-back.svg") left 18px center no-repeat;margin: auto;}
   .listing-wrapper .listing-categories #accordion .card.opened h2::after { display: none; }
   .listing-wrapper .listing-categories #accordion .card.opened h2 svg {display:none;}
