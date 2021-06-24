@@ -541,7 +541,7 @@ footer .footer-wrapper #footerbox.active ul { display: block; }
   .listing-wrapper .listing-categories #accordion::before {content: "";background-color: rgba(0, 0, 0, 0.5);height: 100vh;width: 100%;position: fixed;inset: 0px;display: none;z-index: -3;}
   .listing-wrapper .listing-categories .card-header h2::after { right: 15px; }
   .listing-wrapper .listing-categories #accordion .card {padding: 0px 0;}
-  .listing-wrapper .listing-categories #accordion .card:last-child {border-bottom:0;}
+  .listing-wrapper .listing-categories #accordion .card.open {border-bottom:0;}
 
   .listing-wrapper .listing-categories #accordion .card.active .collapse {display:none !important;}
   .listing-wrapper .listing-categories #accordion .card.active .collapse.show,
