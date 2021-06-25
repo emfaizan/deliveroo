@@ -28,6 +28,15 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     
     <title>Detail page</title>
+
+     <style>
+         .input-field label{position: relative;}
+         .input-field input{position: absolute;visibility: hidden;left: -1000px;top: -1000px;}
+         .input-field label{background-image: url(assets/images/border-grey.svg);height: 25px;width:25px;background-repeat: no-repeat;background-position: center;background-size: cover;}
+         .input-field input:checked + label::after{content:"";background-image: url(assets/images/border-blue.svg);height: 25px;width:25px;background-repeat: no-repeat;background-position: center;background-size: cover;position: absolute;left: 0;}
+     </style>
+
+
 </head>
 <body>
 
@@ -137,8 +146,9 @@
                         </div>
                         <div class="my-house-content border-style">
                             <div class="flex-area d-flex">
-                                <div class="input">
-                                    <input type="radio" id="male" name="gender" value="male">
+                                <div class="input-field">
+                                    <input type="radio" id="chk1" name="gender" value="male">
+                                    <label for="chk1"></label>
                                 </div>
                                 <div class="details">
                                     <h4>My House</h4>
@@ -151,8 +161,9 @@
                         </div>
                         <div class="my-house-content">
                             <div class="flex-area d-flex">
-                                <div class="input">
-                                    <input type="radio" id="male" name="gender" value="male">
+                                <div class="input-field">
+                                    <input type="radio" id="chk2" name="gender" value="male">
+                                    <label for="chk2"></label>
                                 </div>
                                 <div class="details">
                                     <h4>My House</h4>

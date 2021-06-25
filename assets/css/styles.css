@@ -35,10 +35,10 @@ header .header-info-area .number { margin-left: 10px; letter-spacing: 0.2px; col
 
 
 .hero-page-title { display: flex; align-items: center; background: url("../images/breakfast-banner.png") center center / cover no-repeat; width: 100%; height: 370px; background-blend-mode: multiply; padding: 0px 0px 60px; }
-.hero-page-title .banner-heading h2 { letter-spacing: 0.4px; color: rgb(76, 76, 76); font-size: 40px; font-weight: 800; }
+.hero-page-title .banner-heading h2 { letter-spacing: 0.4px; color: rgb(76, 76, 76); font-size: 30px; font-weight: 800; }
 .form-control {font-size: 14px;max-width: 350px; height: 50px; border: 1px solid rgb(226, 226, 226); border-radius: 4px; }
 .form-control::placeholder { color: rgb(226, 226, 226); }
-.btn-submit { width: 242px; height: 56px; border: 0px; background: rgb(18, 40, 76); font-size: 15px; font-weight: 600; border-radius: 50px; display: inline-block; text-align: center; line-height: 56px; font-family: raleway; transition: all 0.4s ease 0s; color: white !important; }
+.btn-submit { width: 242px; height: 50px; border: 0px; background: rgb(18, 40, 76); font-size: 14px; font-weight: 600; border-radius: 50px; display: inline-block; text-align: center; line-height: 50px; font-family: raleway; transition: all 0.4s ease 0s; color: white !important; }
 .btn-submit:hover { background-color: rgb(34, 34, 34); text-decoration: none; }
 
 
@@ -126,13 +126,13 @@ footer .footer-wrapper .copyrights p { color: rgb(255, 255, 255); opacity: 0.99;
 footer .footer-wrapper #gototop { height: 40px; width: 43px; border: 1px solid white; display: flex; align-items: center; justify-content: center; background-color: transparent; margin: 32px auto; box-shadow: none !important; outline: none !important; }
 footer .footer-wrapper .gototop-btn { border-bottom: 1px solid rgb(39, 61, 80); }
 
-.main-acoount-tabs .col-lg-9 h2 { color: rgb(18, 40, 76); font-size: 30px; font-weight: bold; margin-bottom: 25px; }
-.main-acoount-tabs .account-tabs-nav { background-color: rgb(255, 255, 255); padding: 25px 22px; }
-.main-acoount-tabs { margin-top: -100px; padding-bottom: 220px; }
+.main-acoount-tabs .col-lg-9 h2 { color: rgb(18, 40, 76); font-size: 24px; font-weight: bold; margin-bottom: 25px; }
+.main-acoount-tabs .account-tabs-nav { background-color: rgb(255, 255, 255); padding:20px 16px; box-shadow: 0px 22px 24px 0px rgb(46 51 51 / 7%); }
+.main-acoount-tabs { margin-top: -100px; padding-bottom: 220px;}
 .main-acoount-tabs .account-tabs-nav ul li { position: relative; border: 3px solid transparent; margin-bottom: 5px; }
 .main-acoount-tabs .account-tabs-nav li:hover { background: rgb(249, 249, 249); }
 .main-acoount-tabs .account-tabs-nav li.active { border-color: rgb(18, 40, 76); }
-.main-acoount-tabs .account-tabs-nav li a { color: rgb(29, 29, 29); letter-spacing: 0.4px; display: block; font-size: 20px; font-weight: 600; padding: 20px 15px; }
+.main-acoount-tabs .account-tabs-nav li a { color: rgb(29, 29, 29); letter-spacing: 0.4px; display: block; font-size: 16px; font-weight: 600; padding: 10px 15px; }
 .main-acoount-tabs .account-tabs-nav li a:hover { text-decoration: none; }
 .main-acoount-tabs .account-tabs-nav ul li a::after { content: ""; font-family: FontAwesome; position: absolute; right: 0px; top: 50%; transform: translateY(-50%); font-size: 24px; padding-right: 15px; font-weight: normal; }
 .main-acoount-tabs .account-tabs-nav li.active a { font-weight: bold; }
@@ -150,55 +150,55 @@ footer .footer-wrapper .gototop-btn { border-bottom: 1px solid rgb(39, 61, 80); 
 .main-acoount-tabs .my-order-box .details-box .list ul:nth-child(6) { border-right: none !important; }
 .main-acoount-tabs .my-order-box .order-details-row .col-lg-6:nth-child(2) .col-lg-4:nth-child(3) .list ul { border: none !important; }
 .main-acoount-tabs .my-order-box .order-details-row .col-lg-6:nth-child(2) .col-lg-4:nth-child(3) .list ul { border: none !important; }
-.main-acoount-tabs .my-addresses-box .my-house-content { border: 2px solid rgb(229, 229, 229); border-radius: 4px; margin-bottom: 30px; padding: 20px; }
-.main-acoount-tabs .my-addresses-box .my-house-content .details h4 { margin-bottom: 0px; font-size: 20px; color: rgb(18, 40, 76); font-weight: 600; }
-.main-acoount-tabs .my-addresses-box .my-house-content .details p { margin-bottom: 0px; font-size: 18px; color: rgb(116, 116, 116); font-weight: normal; margin-top: 8px; }
+.main-acoount-tabs .my-addresses-box .my-house-content { border: 2px solid rgb(229, 229, 229); border-radius: 4px; margin-bottom: 30px; padding: 16px; }
+.main-acoount-tabs .my-addresses-box .my-house-content .details h4 { margin-bottom: 0px; font-size: 16px; color: rgb(18, 40, 76); font-weight: 600; }
+.main-acoount-tabs .my-addresses-box .my-house-content .details p { margin-bottom: 0px; font-size: 16px; color: rgb(116, 116, 116); font-weight: normal; margin-top: 8px; }
 .main-acoount-tabs .my-addresses-box .my-house-content .details { padding-left: 10px; }
 .main-acoount-tabs .my-addresses-box .border-style { border: 2px solid rgb(18, 40, 76); border-radius: 4px; margin-bottom: 30px; padding: 20px; }
 .main-acoount-tabs .my-addresses-box .edit-btn a { color: rgb(18, 40, 76); font-weight: 500; }
-.main-acoount-tabs .my-addresses-box .add-addresses { border: 2px solid rgb(229, 229, 229); border-radius: 4px; padding: 20px; }
-.main-acoount-tabs .my-addresses-box .add-addresses a { position: relative; display: inline-block; color: rgb(18, 40, 76); font-weight: 500; font-size: 18px; padding-left: 25px; }
+.main-acoount-tabs .my-addresses-box .add-addresses { border: 2px solid rgb(229, 229, 229); border-radius: 4px; padding: 16px; }
+.main-acoount-tabs .my-addresses-box .add-addresses a { position: relative; display: inline-block; color: rgb(18, 40, 76); font-weight: 500; font-size: 16px; padding-left: 25px; }
 .main-acoount-tabs .my-addresses-box .add-addresses a::before { content: "+"; font-family: FontAwesome; position: absolute; left: 0px; }
 .main-acoount-tabs .my-addresses-box .border-style .flex-area .input { border: 6px solid rgb(18, 40, 76); height: 18px; width: 18px; display: flex; border-radius: 50%; justify-content: center; align-items: center; }
 .main-acoount-tabs .my-addresses-box .border-style .flex-area input { width: 15px; }
 .main-acoount-tabs .my-addresses-box .border-style .flex-area input[type="radio"] { transform: scale(1.5); }
-.main-acoount-tabs .dinein-verification-box .details h4 { color: rgb(76, 76, 76); font-size: 17px; font-weight: 600; }
-.main-acoount-tabs .dinein-verification-box .pin-box .box { border: 1px solid rgb(226, 226, 226); border-radius: 4px; width: 74px; height: 63px; margin-right: 18px; text-align: center; line-height: 63px; font-weight: bold; }
+.main-acoount-tabs .dinein-verification-box .details h4 { color: rgb(76, 76, 76); font-size: 15px; font-weight: 600; }
+.main-acoount-tabs .dinein-verification-box .pin-box .box { border: 1px solid rgb(226, 226, 226); border-radius: 4px; width: 65px; height: 55px; margin-right: 18px; text-align: center; line-height: 63px; font-weight: bold; }
 footer .footer-wrapper #footerbox.active ul { display: block; }
-.main-acoount-tabs .dinein-success-box p { color: rgb(76, 76, 76); font-size: 20px; margin-top: -20px; }
-.main-acoount-tabs .dinein-success-box .details h4 { color: rgb(76, 76, 76); font-size: 20px; font-weight: 600; }
-.main-acoount-tabs .dinein-success-box .details span { color: rgb(116, 116, 116); font-size: 18px; }
-.main-acoount-tabs .dinein-success-box .details .meta { margin-bottom: 33px; }
+.main-acoount-tabs .dinein-success-box p { color: rgb(76, 76, 76); font-size: 16px; margin-top: -20px; }
+.main-acoount-tabs .dinein-success-box .details h4 { color: rgb(76, 76, 76); font-size: 16px; font-weight: 600; }
+.main-acoount-tabs .dinein-success-box .details span { color: rgb(116, 116, 116); font-size: 16px; }
+.main-acoount-tabs .dinein-success-box .details .meta { margin-bottom: 20px; }
 .main-acoount-tabs .dinein-success-box .details .row-1 { display: flex; flex-direction: row !important; }
 .main-acoount-tabs .grab-the-offer-box { background-color: rgb(255, 255, 255); border: 1px solid rgb(229, 229, 229); padding: 30px 20px; height: 100%; }
 .main-acoount-tabs .grab-the-offer-box .back-img { background: rgb(219, 219, 219); position: relative; height: 262px; }
-.main-acoount-tabs .grab-the-offer-box .box-info { margin-bottom: 60px; }
+.main-acoount-tabs .grab-the-offer-box .box-info { margin-bottom: 40px; }
 .main-acoount-tabs .grab-the-offer-box .back-img .unlimited { position: absolute; top: 15px; left: 19px; background: rgb(18, 40, 76); width: 106px; height: 33px; display: flex; justify-content: center; align-items: center; }
 .main-acoount-tabs .grab-the-offer-box .back-img .unlimited span { font-size: 12px; letter-spacing: 0.6px; color: rgb(255, 255, 255); text-transform: uppercase; }
-.main-acoount-tabs .grab-the-offer-box .details .meta h3 { margin-top: 26px; font-size: 24px; color: rgb(34, 34, 34); line-height: 30px; font-weight: bold; }
-.main-acoount-tabs .grab-the-offer-box .details .meta p { margin-top: 26px; font-size: 19px; color: rgb(130, 132, 132); line-height: 29px; letter-spacing: 0.19px; }
-.main-acoount-tabs .grab-the-offer-box .details .meta span { margin-top: 14px; font-size: 16px; color: rgb(18, 40, 76); }
+.main-acoount-tabs .grab-the-offer-box .details .meta h3 { margin-bottom:0;margin-top: 16px; font-size: 20px; color: rgb(34, 34, 34); line-height: 30px; font-weight: bold; }
+.main-acoount-tabs .grab-the-offer-box .details .meta p { margin-top: 6px; font-size: 15px; color: rgb(130, 132, 132); line-height: 23px; letter-spacing: 0.19px; }
+.main-acoount-tabs .grab-the-offer-box .details .meta span { margin-top: 14px; font-size: 14px; color: rgb(18, 40, 76); }
 .main-acoount-tabs .grab-the-offer-box .details .meta .flex-area { padding-right: 35px; }
-.main-acoount-tabs .account-content { background-color: rgb(255, 255, 255); border: 1px solid rgb(229, 229, 229); padding: 50px; height: 100%; }
+.main-acoount-tabs .account-content { background-color: rgb(255, 255, 255); border: 1px solid rgb(229, 229, 229); padding: 30px; height: 100%; }
 .account-header h2 { padding-bottom: 12px; border-bottom: 2px solid rgb(228, 228, 228); font-size: 26px; font-weight: 700; color: rgb(18, 40, 76); }
 .main-acoount-tabs .account-content .sub-actions { display: flex; align-items: center; padding-top: 15px; flex-wrap: wrap; }
-.main-acoount-tabs .account-content .sub-actions a { color: rgb(18, 40, 76); font-size: 17px; font-weight: 600; margin-right: 15px; text-decoration: underline; }
+.main-acoount-tabs .account-content .sub-actions a { color: rgb(18, 40, 76); font-size: 15px; font-weight: 600; margin-right: 15px; text-decoration: underline; }
 .main-acoount-tabs .account-content .contact-info { margin-bottom: 40px; }
-.main-acoount-tabs .account-content .contact-info h3 { font-size: 20px; color: rgb(76, 76, 76); font-weight: 600; }
-.main-acoount-tabs .account-content .contact-info p { padding-top: 10px; font-size: 18px; color: rgb(126, 126, 126); }
+.main-acoount-tabs .account-content .contact-info h3 { font-size: 16px; color: rgb(76, 76, 76); font-weight: 600; }
+.main-acoount-tabs .account-content .contact-info p { padding-top: 10px; font-size: 16px; color: rgb(126, 126, 126); }
 
 
-.reset-your-password { background: rgb(253, 253, 253); padding-top: 80px; padding-bottom: 260px; border: 1px solid rgb(226, 229, 229); }
-.reset-your-password .reset-pw-content .title-heading h2 { font-size: 27px; font-weight: bold; color: rgb(76, 76, 76); }
-.reset-your-password .reset-pw-content .title-heading p { font-size: 18px; color: rgb(72, 72, 72); line-height: 32px; }
-.reset-your-password .reset-pw-content .form-group label { color: rgb(167, 167, 167); margin-top: 20px; }
+.reset-your-password { background: rgb(253, 253, 253); padding-top: 80px; padding-bottom: 100px; border: 1px solid rgb(226, 229, 229); }
+.reset-your-password .reset-pw-content .title-heading h2 { font-size: 22px; font-weight: bold; color: rgb(76, 76, 76); }
+.reset-your-password .reset-pw-content .title-heading p { font-size: 16px; color: rgb(72, 72, 72); line-height: 32px; }
+.reset-your-password .reset-pw-content .form-group label { color: rgb(167, 167, 167); margin-top: 12px; }
 .reset-your-password .reset-pw-content .form-group .form-control { width: 351px; height: 49px; border: 1px solid rgb(229, 229, 229); border-radius: 5px; }
-.reset-your-password .reset-pw-content .button-email a { border-radius: 125px; background: rgb(18, 40, 76); display: inline-block; height: 62px; width: 341px; line-height: 52px; letter-spacing: 2.03px; font-size: 18px; color: rgb(255, 255, 255); font-weight: 600; }
+.reset-your-password .reset-pw-content .button-email a { border-radius: 125px; background: rgb(18, 40, 76); display: inline-block; height: 50px; width: 341px; line-height: 40px; letter-spacing: 2.03px; font-size: 14px; color: rgb(255, 255, 255); font-weight: 600; }
 .reset-your-password .reset-pw-content .button-email { margin-top: 30px; }
 
 
 /* LOGIN */
-.login-form { background: rgb(253, 253, 253); padding-top: 80px; padding-bottom: 260px; border-radius: 3px; }
+.login-form { background: rgb(253, 253, 253); padding-top: 80px; padding-bottom: 100px; border-radius: 3px; }
 .login-form .sign-in-form-content h2 { font-size: 22px; font-weight: bold; color: rgb(18, 40, 76); }
 .login-form .sign-in-form-content .button-fb a, .login-form .sign-in-form-content .button-google a { line-height:48px; width: 475px; height: 48px; background-color: rgb(81, 107, 181); font-size: 15px; border-radius: 50px; color: white; display: inline-block; text-align: center; font-weight: 600; margin-top: 16px; }
 .login-form .sign-in-form-content .button-google .btn img { margin-right: 15px; }
@@ -678,7 +678,7 @@ footer .footer-wrapper #footerbox.active ul { display: block; }
     .hero-page-title .banner-heading h2 { font-size: 23px; }
 
   .main-acoount-tabs .account-tabs-nav li a { font-size: 16px; }
-  .main-acoount-tabs .account-tabs-nav { border: 1px solid rgb(229, 229, 229); margin-top: 110px; padding: 18px; }
+  .main-acoount-tabs .account-tabs-nav { border: 1px solid rgb(229, 229, 229); margin-top: 20px; padding: 18px; }
   .main-acoount-tabs { margin-top: 46px; }
   .main-acoount-tabs .grab-the-offer-box, .main-acoount-tabs .dinein-verification-box, .main-acoount-tabs .dinein-success-box, .main-acoount-tabs .account-content, .main-acoount-tabs .edit-profile-box, .main-acoount-tabs .Change-Password-box { background-color: rgb(255, 255, 255); border: none; padding: 0px; }
   .main-acoount-tabs .col-lg-9 h2 { color: rgb(18, 40, 76); border-bottom: 1px solid rgb(229, 229, 229); padding-bottom: 8px; font-size: 18px; }
