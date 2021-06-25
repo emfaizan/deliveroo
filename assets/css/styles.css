@@ -137,6 +137,7 @@ footer .footer-wrapper .gototop-btn { border-bottom: 1px solid rgb(39, 61, 80); 
 .main-acoount-tabs .account-tabs-nav ul li { position: relative; border: 3px solid transparent; margin-bottom: 5px; }
 .main-acoount-tabs .account-tabs-nav li:hover { background: rgb(249, 249, 249); }
 .main-acoount-tabs .account-tabs-nav li.active { border-color: rgb(18, 40, 76); }
+.main-acoount-tabs .account-tabs-nav li a:hover{background-color: lavenderblush;}
 .main-acoount-tabs .account-tabs-nav li a { color: rgb(29, 29, 29); letter-spacing: 0.4px; display: block; font-size: 16px; font-weight: 600; padding: 10px 15px; }
 .main-acoount-tabs .account-tabs-nav li a:hover { text-decoration: none; }
 .main-acoount-tabs .account-tabs-nav ul li a::after { content: ""; font-family: FontAwesome; position: absolute; right: 0px; top: 50%; transform: translateY(-50%); font-size: 24px; padding-right: 15px; font-weight: normal; }
