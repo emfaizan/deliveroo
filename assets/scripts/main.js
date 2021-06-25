@@ -18,9 +18,9 @@ function checkout(){
     document.getElementById('basket-overview-panel').classList.toggle('active');
 };
 
-function listpop(){
-    document.getElementById('listing-popup1').classList.toggle('active');
-};
+// function listpop(){
+//     document.getElementById('listing-popup1').classList.toggle('active');
+// };
 
 function listpop2(){
     document.getElementById('listing-popup2').classList.toggle('active');
@@ -84,7 +84,39 @@ $(document).ready(function(){
         }
     });
 });
-    
+
+
+
+$(document).on('click', '[popup]', function(){
+    var id = $(this).attr("popup")
+    $(id).addClass("active")
+})
+
+
+$(document).on('click', '[popup-close]', function(){
+    var id = $(this).attr("popup-close")
+    $(id).removeClass("active")
+})
+  
+$(document).on('click', '.close-popup', function(){
+    $(this).parents('.custom-modal-wrapper').removeClass("active")
+})
+
+
+$(document).on('click', '.input-spinner .increment', function(){
+    var a = $(this).parent('.input-spinner').find('input').val();
+    a = parseInt(a);
+
+    $(this).parent('.input-spinner').find('input').val(a+1);
+})
+
+$(document).on('click', '.input-spinner .decrement', function(){
+    var a = $(this).parent('.input-spinner').find('input').val();
+    a = parseInt(a);
+
+    $(this).parent('.input-spinner').find('input').val(a == 0 ? 0 : a-1);
+})
+
 var data=1;
 document.getElementById("number").innerText=data;
 function decrement(){
@@ -95,6 +127,3 @@ function increment(){
     data=data+1;
     document.getElementById("number").innerText=data;
 }
-
-
-
