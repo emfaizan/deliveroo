@@ -228,7 +228,7 @@
                     <h2>Burgers</h2>
                     <p>All the restaurants you like - all in one app!</p>
             </div>
-            <div class="burger-grid">
+            <div class="burger-grid sub-product-grid">
                     <div class="row">
                         <div class="col-xl-6 col-md-6 col-12">
                             <div class="detail-item" onclick="listpop()">
@@ -311,7 +311,7 @@
                     <h2>Salad</h2>
                     <p>All the restaurants you like - all in one app!</p>
                 </div>
-                <div class="salads-grid">
+                <div class="salads-grid sub-product-grid">
                     <div class="row">
                         <div class="col-xl-6 col-md-6 col-12">
                             <div class="detail-item" onclick="listpop()">
@@ -357,7 +357,7 @@
                     <h2>Salad</h2>
                     <p>All the restaurants you like - all in one app!</p>
                 </div>
-                <div class="salads-grid">
+                <div class="salads-grid sub-product-grid">
                     <div class="row">
                         <div class="col-xl-6 col-md-6 col-12">
                             <div class="detail-item" onclick="listpop()">
@@ -416,7 +416,7 @@
                     </div>
                 </div>
                     <div class="actions">
-                        <a href="checkout-2.html">Go To Checkout</a>
+                        <a href="checkout-2.html">GO TO CHECKOUT</a>
                     </div>
                    <div class="flex-area border-area">
                     <div class="increment d-flex">
@@ -526,32 +526,14 @@
                         <h3>My Basket</h3>
                         <img src="assets/images/cancel.svg" onclick="checkout()" alt="">
                     </div>
-                    <div class="flex-area">
-                    <div class="increment d-flex">
-                        <div>
-                       <img src="assets/images/minus.svg" alt="">
-                       </div>
-                        <span class="number">1</span>
-                        <div>
-                        <img src="assets/images/minus.svg" alt="">
-                      </div>
-                    </div>
-                    <div class="info">
-                        <h4>Cheesburger</h4>
-                        <p>Diet Coke Glaceau Smart Water Coca-Cola Zero Sugar</p>
-                    </div>
-                    <div class="price">
-                        <h5>BD 35.200</h5>
-                    </div>
-                   </div>
                    <div class="flex-area">
                     <div class="increment d-flex">
-                        <div>
+                        <div onclick="decrement()">
                        <img src="assets/images/minus.svg" alt="">
                        </div>
-                        <span class="number">1</span>
-                        <div>
-                        <img src="assets/images/minus.svg" alt="">
+                        <span class="number" id="quantity">1</span>
+                        <div onclick="increment()">
+                        <img src="assets/images/positive.svg" alt="">
                       </div>
                     </div>
                     <div class="info">
@@ -620,7 +602,7 @@
                        
                    </div>  
                    <div class="go-to-check">
-                       <a href="/" class="go-check">GO TO CHECKOUT</a>
+                       <a href="checkout-2.html" class="go-check">GO TO CHECKOUT</a>
                    </div>
                    <div class="back-menu">
                     <a href="javascript:void(0)"  class="back" onclick="checkout()">BACK TO MENU</a>

@@ -127,3 +127,16 @@ function increment(){
     data=data+1;
     document.getElementById("number").innerText=data;
 }
+
+var data=1;
+document.getElementById("quantity").innerText=data;
+function decrement(){
+    data=data-1;
+    document.getElementById("quantity").innerText=data;
+}
+function increment(){
+    data=data+1;
+    document.getElementById("quantity").innerText=data;
+}
+
+
