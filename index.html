@@ -118,7 +118,7 @@
                         </div>
 
                         <div class="change">
-                            <h4 onclick="changepopup()">Change</h4>
+                            <h4 popup="#changeFilters">Change</h4>
 
                             <a href="javascript:void(0)" id="open-filter">
                                 <img src="assets/images/toggle.svg" alt="">
@@ -359,10 +359,10 @@
                         <div class="apply-filters">
                             <div class="wrapper">
                                 <div class="option">
-                                    <button type="button" class="primary-btn" tabindex="0"><span class="ccl-cce251427bbe4ec4">Apply</span></button>
+                                    <button type="button" class="primary-btn" tabindex="0" popup-close="#accordion" ><span>Apply</span></button>
                                 </div>
                                 <div class="option">
-                                    <button type="button" class="default-btn" tabindex="0"><span class="ccl-cce251427bbe4ec4">Clear all</span></button>
+                                    <button type="button" class="default-btn" tabindex="0"><span>Clear all</span></button>
                                 </div>
                             </div>
                         </div>
@@ -711,6 +711,47 @@
     <!-- MAIN ISTING PAGE  --->
 
     <!--  CHANGE BUTTON POPUP  --->
+
+    <div class="custom-modal-wrapper" id="changeFilters">
+        <div class="custom-modal" style="max-width:500px;">
+            <div class="c-modal-header justify-content-center">
+                <h2>Where and when</h2>
+
+                <div class="close-popup">
+                    <button>Close</button>
+                </div>
+            </div>
+
+            <div class="c-modal-content">
+                <!-- CONTENT -->
+
+                <div class="change-popup">
+                    <div class="address-content">
+                        <div class="address-area">
+                            <div class="address-icon"><img src="assets/images/pin-1.svg" alt=""></div>
+                            <div class="address"><p>Building 123, Suleman Road <br>Manama, Bahrain</p></div>
+                        </div>
+                        <div class="change"><p>Change</p></div>
+                    </div>
+                    <div class="address-content">
+                        <div class="address-area">
+                            <div class="address-icon"><img src="assets/images/clock-silver.svg" alt=""></div>
+                            <div class="address"><p>Now</p></div>
+                        </div>
+                        <div class="change"><p>Change</p></div>
+                    </div> 
+                </div>
+            </div>
+
+            <div class="c-modal-footer">
+                <div class="actions">
+                    <div class="option">
+                        <button type="button" class="primary-btn" popup-close="#changeFilters">CONFIRM</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div class="change-popup" id="change-popup">
         <div class="back-overlay">
