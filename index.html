@@ -118,7 +118,7 @@
                         </div>
 
                         <div class="change">
-                            <h4>Change</h4>
+                            <h4 onclick="changepopup()">Change</h4>
 
                             <a href="javascript:void(0)" id="open-filter">
                                 <img src="assets/images/toggle.svg" alt="">
@@ -709,6 +709,43 @@
     </section>
 
     <!-- MAIN ISTING PAGE  --->
+
+    <!--  CHANGE BUTTON POPUP  --->
+
+    <div class="change-popup" id="change-popup">
+        <div class="back-overlay">
+
+        </div>
+        <div class="change-popup-wrapper">
+            <div class="change-popup-header">
+                <div class="cross-icon">
+                    <img src="assets/images/popup-close.svg" onclick="changepopup()" alt="">
+                </div>
+                <h2>Where and when</h2>
+            </div>    
+                <div class="address-content">
+                    <div class="address-area">
+                        <div class="address-icon"><img src="assets/images/pin-1.svg" alt=""></div>
+                        <div class="address"><p>Building 123, Suleman Road <br>Manama, Bahrain</p></div>
+                    </div>
+                    <div class="change"><p>Change</p></div>
+                </div>
+                <div class="address-content">
+                    <div class="address-area">
+                        <div class="address-icon"><img src="assets/images/clock-silver.svg" alt=""></div>
+                        <div class="address"><p>Now</p></div>
+                    </div>
+                    <div class="change"><p>Change</p></div>
+                </div>   
+                    <div class="button-address">
+                        <button type="submit" class="btn">CONFIRM</button>
+                    </div>
+                      
+        </div>
+    
+</div>
+
+    <!--  CHANGE BUTTON POPUP  --->
 
 
     <!--- PAYMENT SECTION  --->

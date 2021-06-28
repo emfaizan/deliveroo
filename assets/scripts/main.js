@@ -139,4 +139,8 @@ function increment(){
     document.getElementById("quantity").innerText=data;
 }
 
+function changepopup(){
+    document.getElementById('change-popup').classList.toggle('active');
+};
+
 
