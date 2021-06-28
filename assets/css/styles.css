@@ -131,7 +131,8 @@ footer .footer-wrapper .footer-box .social-icons { margin-bottom: 43px; }
 footer .footer-wrapper .footer-box h5 { color: rgb(255, 255, 255); letter-spacing: 0.64px; font-size: 16px; }
 footer .footer-wrapper .copyrights { display: flex; justify-content: space-between; margin-top: 70px; }
 footer .footer-wrapper .copyrights p { color: rgb(255, 255, 255); opacity: 0.99; font-size: 14px; }
-footer .footer-wrapper #gototop { height: 40px; width: 43px; border: 1px solid white; display: flex; align-items: center; justify-content: center; background-color: transparent; margin: 32px auto; box-shadow: none !important; outline: none !important; }
+footer .footer-wrapper #gototop { height: 40px; width: 43px; text-align: center; border: 1px solid white; display: flex; align-items: center; justify-content: center; background-color: transparent; margin: 32px auto; box-shadow: none !important; outline: none !important; }
+footer .footer-wrapper #gototop img {display:inline-block;}
 footer .footer-wrapper .gototop-btn { border-bottom: 1px solid rgb(39, 61, 80); }
 
 .main-acoount-tabs .col-lg-9 h2 { color: rgb(18, 40, 76); font-size: 24px; font-weight: bold; margin-bottom: 25px; }
