@@ -69,6 +69,7 @@ header .header-info-area .number { margin-left: 10px; letter-spacing: 0.2px; col
 .details-grid .details-grid-wrapper .stars img{width: 80px;}
 .details-grid .details-grid-wrapper .order-web {margin: 15px 15px 0 0;width: 100%;padding: 10px 16px;border-radius: 4px;background-color: #9c006d;color: white;}
 .details-grid .details-grid-wrapper .order-web .flex-area{display: flex;align-items: center;}
+.details-grid .details-grid-wrapper .order-web .flex-area .picture{min-width:100%;}
 .details-grid .details-grid-wrapper .order-web h4{font-size: 16px;font-weight: 800;margin: 0;padding-left: 14px;}
 .details-grid .details-grid-wrapper .order-web p{font-size: 14px;margin: 0;padding-left: 14px;}
 .details-grid .details-grid-wrapper .order-web img{width: 62px;}
